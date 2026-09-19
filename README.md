@@ -1,1 +1,0 @@
-# dev-nova-solutions.org
