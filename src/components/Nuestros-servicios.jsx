@@ -12,28 +12,16 @@ function Servicios() {
             <Container maxWidth='lg'>
                 <Box sx={{display: 'flex', alignItems: 'center', gap: 6}}>
                     
-                    <Box sx={{ width: '50%' }}>
-                        <Typography
-                            variant='overline'
-                            sx={{
-                                color: '#7c4dff',
-                                fontWeight: 'bold',
-                                letterSpacing: 2
-                            }}>
-
-                            IDEAS · TECNOLOGIA · RESULTADOS
-
+                    <Box sx={{width:"32%"}}>
+                        <Typography sx={{color:"#171b35", fontWeight:"bold", fontSize: '1.1rem', letterSpacing:2}}>
+                            Desarrollo web
                         </Typography>
-
-                        <Typography
-                            variant='h2'
-                            sx={{ fontWeight: 'bold', color: '#171b35', mt: 1, mb: 2 }}
-                        >Transformamos ideas en soluciones digitales</Typography>
-
-                        <Typography
-                        sx={{color: '#666', fontSize: '1.1rem', mb:3}}
-                        >Desarrollamos software a la medida para impulsar el crecimiento de tu negocio. Combinamos tecnología, creatividad y experiencia para convertir tus ideas en productos reales</Typography>
+                        <Typography sx={{color: '#666', mb:1}}>
+                            Sitios y plataformas web modernas, seguras y escalables.
+                        </Typography>
+                        <Button sx={{color: '#7c4dff', fontWeight:"bold"}}>Ver mas →</Button>
                     </Box>
+
                 </Box>
 
             </Container>
