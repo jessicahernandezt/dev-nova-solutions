@@ -1,16 +1,31 @@
+<<<<<<< HEAD
 *{
+=======
+* {
+>>>>>>> 1dc2094183f822013d451edbb9cfd01700f4a001
   box-sizing: border-box;
 
 }
 
+<<<<<<< HEAD
 html, body, #root {
   margin: 0;
   padding: 0;
   min-height: 100%;
 
+=======
+html,body, #root {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+>>>>>>> 1dc2094183f822013d451edbb9cfd01700f4a001
 }
 
 body{
   font-family: Arial, Helvetica, sans-serif;
+<<<<<<< HEAD
   
 }
+=======
+}
+>>>>>>> 1dc2094183f822013d451edbb9cfd01700f4a001
