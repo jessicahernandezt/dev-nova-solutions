@@ -20,7 +20,7 @@ function Hero() {
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'center',
-            
+            maxWidth: '1200px',
         }}>
             <Box
             sx={{
@@ -104,7 +104,7 @@ function Hero() {
                 </Typography>
 
                 <Box sx={{
-                    width: '100%',
+                    width: '50%',
                     display: 'flex',
                     justifyContent: 'space-between',
                     marginTop: '-10px',
@@ -154,15 +154,18 @@ function Hero() {
 
             </Box> 
 
-            <Box
-            sx={{
-                width: '70%',
+            
+            
+        <img src='public/img (8).png' alt='Hero image' 
+                sx={{
+                width: '10%',
                 height: 'auto',
                 marginLeft: '100px',
             }}>
-                <img src='src/assets/Hero.png' alt='Hero image' />
 
-            </Box>       
+            </img>
+
+                   
 
         </Container>
         </Box>
