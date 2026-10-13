@@ -54,19 +54,19 @@ function Servicios() {
                     </Box>
                     <Box sx={{width:"32%"}}>
                         <Typography sx={{color:"#171b35", fontWeight:"bold", fontSize: '1.1rem', letterSpacing:2}}>
-                            Desarrollo web
+                            Integracion de sistemas
                         </Typography>
                         <Typography sx={{color: '#666', mb:1}}>
-                            Sitios y plataformas web modernas, seguras y escalables.
+                            Conectamos tus herramientas y optimizamos procesos.
                         </Typography>
                         <Button sx={{color: '#7c4dff', fontWeight:"bold"}}>Ver mas →</Button>
                     </Box>
                     <Box sx={{width:"32%"}}>
                         <Typography sx={{color:"#171b35", fontWeight:"bold", fontSize: '1.1rem', letterSpacing:2}}>
-                            Desarrollo web
+                            Soporte y mantenimiento
                         </Typography>
                         <Typography sx={{color: '#666', mb:1}}>
-                            Sitios y plataformas web modernas, seguras y escalables.
+                            Tu operacion siempre en funcionamiento.
                         </Typography>
                         <Button sx={{color: '#7c4dff', fontWeight:"bold"}}>Ver mas →</Button>
                     </Box>
