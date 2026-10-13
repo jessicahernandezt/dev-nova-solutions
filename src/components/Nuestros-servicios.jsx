@@ -12,7 +12,7 @@ function Servicios() {
             <Container maxWidth='lg' sx={{backgroundColor: '#fff', padding: '1rem', borderRadius: 2}}>
                 <Box sx={{display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: 6}}>
                     
-                    <Box sx={{width:"20%", gridTemplateColumns: 'repeat(2,1fr)'}}>
+                    <Box sx={{width:"20%"}}>
                         <img src="../public/img (11).png" alt="asda" style={{width:'100%',height:'100%'}} />
                         <Typography sx={{color:"#171b35", fontWeight:"bold", fontSize: '1.1rem', letterSpacing:2}}>
                             Desarrollo web
@@ -69,6 +69,7 @@ function Servicios() {
                         <Button sx={{color: '#7c4dff', fontWeight:"bold"}}>Ver mas →</Button>
                     </Box>
                 </Box>
+                
             </Container>
             
         </Box>
