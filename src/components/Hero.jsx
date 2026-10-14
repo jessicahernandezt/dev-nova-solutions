@@ -1,9 +1,11 @@
-import { ArrowForward } from '@mui/icons-material'
+import { ArrowForward, Bolt, PeopleAltRounded } from '@mui/icons-material'
 import { StarPurple500 } from '@mui/icons-material'
+
 import {
     Box,
     Button,
     Container,
+    ImageListItem,
     Typography
 } from '@mui/material'
 
@@ -18,14 +20,17 @@ function Hero() {
                 py: 6
             }}
         >
+            
 
             <Container maxWidth='lg'>
+                
                 <Box
                     sx={{
                         display: 'flex',
                         alignItems: 'center',
                         gap: 6
                     }}>
+
 
                     <Box sx={{ width: '50%' }}>
                         <Typography
@@ -76,22 +81,97 @@ function Hero() {
                         </Box>
                         <Box
                         sx={{
-                            display:'flex'
+                            display:'flex',
+                            gap: 2,
+                            marginTop:'10px'
                         }}>
-                            <StarPurple500
+                            <Box 
                             sx={{
-                                color:'#7c4dff',
-                                marginTop:'10px'
-                            }}></StarPurple500>
-                            <Typography
+                                borderRadius:'50%',
+                                gap: 0.9 ,
+                                borderColor:'#7c4dff',
+                                display:'inline-flex'
+                            }}>
+                                <StarPurple500 
+                                sx={{
+                                    color:'#7c4dff',
+                                    
+                                    width: '30px',
+                                    height: '60px'
+                                }}></StarPurple500>
+                                <Typography
+                                sx={{
+                                    color:'#7c4dff',
+                                    fontWeight: 'bold',
+                                    mt: 1, mb: 1,
+                                    
+                                }}>100%<br/> <Typography 
+                                sx={{
+                                    color:'#7c4dff'
+                                }}>Comprometidos</Typography> </Typography>
+                                
+
+                               
+                            </Box>
+
+                            <Box 
                             sx={{
-                                color:'#7c4dff'
-                            }}>100%
-                            <Typography>Comprometidos</Typography></Typography>
+                                borderRadius:'50%',
+                                gap: 0.9 ,
+                                borderColor:'#7c4dff',
+                                display:'inline-flex'
+                            }}>
+                                <Bolt 
+                                sx={{
+                                    color:'#7c4dff',
+                                    width:'30px',
+                                    height:'60px'
+                                }}></Bolt>
+                                <Typography
+                                sx={{
+                                    color:'#7c4dff',
+                                    fontWeight: 'bold',
+                                    mt: 1, mb: 1
+                                }}>+50 <br/> 
+                                    <Typography
+                                    sx={{
+                                        color: '#7c4dff'
+                                    }}>Entegrados</Typography> 
+                                </Typography>
+
+                            </Box>
+                            <Box sx={{
+                                borderRadius:'50%',
+                                gap: 0.9 ,
+                                borderColor:'#7c4dff',
+                                display:'inline-flex'
+                            }}>
+                                <PeopleAltRounded
+                                sx={{
+                                    color:'#7c4dff',
+                                    width:'30px',
+                                    height:'60px'
+
+                                }}></PeopleAltRounded>
+
+                                <Typography 
+                                sx={{
+                                    color:'#7c4dff',
+                                    fontWeight: 'bold',
+                                    mt: 1, mb: 1 
+                                }}>98% <br/>
+                                <Typography 
+                                sx={{
+                                    color: '#7c4ddf'
+                                }}>Clientes satisfechos</Typography> 
+                                </Typography>
+                            </Box>
+                            
 
                         </Box>
                         
                     </Box>
+                    
                 </Box>
 
             </Container>
