@@ -82,7 +82,7 @@ function Hero() {
                         <Box
                         sx={{
                             display:'flex',
-                            gap: 2,
+                            gap: 2.5,
                             marginTop:'10px'
                         }}>
                             <Box 
@@ -167,10 +167,11 @@ function Hero() {
                                 </Typography>
                             </Box>
                             
-
+                                //mensaje de comprobacion de cambios XD, este mensaje debe aparecer en mi pc.
                         </Box>
                         
                     </Box>
+                   
                     
                 </Box>
 
