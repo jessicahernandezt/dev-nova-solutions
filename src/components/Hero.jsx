@@ -91,8 +91,9 @@ function Hero() {
 
 
                 </Box>
-                <Box>
-                    <Box component='img' src='' >
+                <Box sx={{width:"50%",height:"50%", }}>
+                    <Box component="Img" sx={{width:"130%",height:"130%", }}
+                    src="public/img (8).png">
 
                     </Box>
                 </Box>
