@@ -1,4 +1,4 @@
-import { ArrowForward, Bolt, PeopleAltRounded } from '@mui/icons-material'
+import { ArrowForward, Bolt, Opacity, PeopleAltRounded } from '@mui/icons-material'
 import { StarPurple500 } from '@mui/icons-material'
 
 import {
@@ -32,13 +32,14 @@ function Hero() {
                     }}>
 
 
-                    <Box sx={{ width: '50%' }}>
+                    <Box sx={{ width: '50%',  }}>
                         <Typography
                             variant='overline'
                             sx={{
                                 color: '#7c4dff',
                                 fontWeight: 'bold',
                                 letterSpacing: 2,
+                                
                                 
                             }}>
 
@@ -82,7 +83,7 @@ function Hero() {
                         <Box
                         sx={{
                             display:'flex',
-                            gap: 2.5,
+                            gap: 2.8,
                             marginTop:'10px'
                         }}>
                             <Box 
@@ -90,8 +91,11 @@ function Hero() {
                                 borderRadius:'50%',
                                 gap: 0.9 ,
                                 borderColor:'#7c4dff',
-                                display:'inline-flex'
-                            }}>
+                                display:'inline-flex',
+                                
+                                
+                                
+                            }}  >
                                 <StarPurple500 
                                 sx={{
                                     color:'#7c4dff',
@@ -119,7 +123,9 @@ function Hero() {
                                 borderRadius:'50%',
                                 gap: 0.9 ,
                                 borderColor:'#7c4dff',
-                                display:'inline-flex'
+                                display:'inline-flex',
+                                
+                                
                             }}>
                                 <Bolt 
                                 sx={{
@@ -167,9 +173,26 @@ function Hero() {
                                 </Typography>
                             </Box>
                             
-                                //mensaje de comprobacion de cambios XD, este mensaje debe aparecer en mi pc.
+                                
                         </Box>
                         
+                    </Box>
+                    <Box alt='imagen'
+                    sx={{
+                        alignItems:'end',
+                        width:'40%',
+                        height:'40%'
+                    }}>
+                        <Box component="img"
+                        src='public/img (8).png'
+                        sx={{
+                            width:'160%',
+                            height:'120%'
+                        }}
+                        >
+                        
+
+                        </Box>
                     </Box>
                    
                     
