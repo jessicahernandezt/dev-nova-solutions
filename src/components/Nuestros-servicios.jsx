@@ -2,7 +2,7 @@ import {Box, Button, Container, Typography} from '@mui/material'
 
 function Servicios() {
     return (
-        <Box sx={{display: 'flex', alignItems: 'center', backgroundColor: '#f7f7ff', padding: 3}}>
+        <Box sx={{display: 'flex', alignItems: 'center', backgroundColor: '#f7f7ff', paddingBottom: 1}}>
 
             <Container maxWidth='lg' sx={{backgroundColor: '#fff', padding: '1rem', borderRadius: 2}}>
                 <Box sx={{display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: 6}}>

@@ -56,8 +56,8 @@ function Hero() {
                             </Box>
                         </Box>
                     </Box>
-                    <Box sx={{display: 'flex', alignItems: 'center', gap: 6, backgroundColor: 'white', borderRadius: 2, padding: 3, py: 2, maxWidth: '45%', width: '100%', height: '100%'}}>
-                        <Box component='img' src='/img (21).png' alt='' sx={{width: '100%', height: '100%', objectFit:'contain'}}></Box>
+                    <Box sx={{display: 'flex', alignItems: 'center', gap: 6, backgroundColor: 'white', borderRadius: 2, padding: 1, py: 2, maxWidth: '45%', width: '100%', height: '100%'}}>
+                        <Box component='img' src='/img (8).png' alt='' sx={{width: '500px', height: '100%', objectFit:'contain'}}></Box>
                     </Box>
                 </Box>
             </Container>
