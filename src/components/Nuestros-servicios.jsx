@@ -7,7 +7,7 @@ import {
 
 function Servicios() {
     return (
-        <Box sx={{minHeight: '520px', display: 'flex', alignItems: 'center', backgroundColor: '#f7f7ff', py: 6}}>
+        <Box sx={{ display: 'flex', alignItems: 'center', backgroundColor: '#f7f7ff', padding: 3}}>
 
             <Container maxWidth='lg' sx={{backgroundColor: '#fff', padding: '1rem', borderRadius: 2}}>
                 <Box sx={{display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: 6}}>
