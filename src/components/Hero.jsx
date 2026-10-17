@@ -5,7 +5,7 @@ function Hero() {
         <Box sx={{minHeight: '520px', display: 'flex', alignItems: 'center', backgroundColor: '#f7f7ff', py: 1}}>
             <Container maxWidth='lg'>
                 <Box sx={{display: 'flex', alignItems: 'center', gap: 3}}>
-                    <Box sx={{display: 'flex', flexDirection: 'column', backgroundColor: 'white', borderRadius: 2, gap: 2, padding: 2, maxWidth: '55%', width: '100%', py:8}}>
+                    <Box sx={{display: 'flex', flexDirection: 'column', backgroundColor: 'white', borderRadius: 2, gap: 2, padding: 2, maxWidth: '55%', width: '100%', py:7}}>
                         <Typography sx={{color: '#7c4dff', fontWeight: 'bold', letterSpacing: 2}}>
                             IDEAS · TECNOLOGIA · RESULTADOS
                         </Typography>
