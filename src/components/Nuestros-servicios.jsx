@@ -12,17 +12,20 @@ function Servicios() {
             <Container maxWidth='lg' sx={{backgroundColor: '#fff', padding: '1rem', borderRadius: 2}}>
                 <Box sx={{display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: 6}}>
                     
-                    <Box sx={{width:"20%"}}>
-                        <img src="../public/img (11).png" alt="asda" style={{width:'100%',height:'100%'}} />
-                        <Typography sx={{color:"#171b35", fontWeight:"bold", fontSize: '1.1rem', letterSpacing:2}}>
-                            Desarrollo web
-                        </Typography>
-                        <Typography sx={{color: '#666', mb:1}}>
-                            Sitios y plataformas web modernas, seguras y escalables.
-                        </Typography>
-                        <Button sx={{color: '#7c4dff', fontWeight:"bold"}}>Ver mas →</Button>
+                    <Box sx={{width:"30%", display: 'flex', alignItems: 'flex-start', gap: 2}}>
+                        <Box component='img' src='/img (11).png' alt='' sx={{width:'120px', height: '120px', objectFit: 'contain', flexShrink: 0}}></Box>
+                        <Box sx={{flex: 1, minWidth: 0}}>
+                            <Typography sx={{color:"#171b35", fontWeight:"bold", fontSize: '1.1rem', letterSpacing:2}}>
+                                Desarrollo web
+                            </Typography>
+                            <Typography sx={{color: '#666', mb:1}}>
+                                Sitios y plataformas web modernas, seguras y escalables.
+                            </Typography>
+                            <Button sx={{color: '#7c4dff', fontWeight:"bold"}}>Ver mas →</Button>
+                        </Box>
                     </Box>
-                    <Box sx={{width:"20%"}}>
+                    <Box sx={{width:"30%", display: 'flex', alignItems: 'flex-start', gap: 2}}>
+                        <Box component='img' src='/img (11).png' alt='' sx={{width:'120px', height: '120px', objectFit: 'contain', flexShrink: 0}}></Box>
                         <Typography sx={{color:"#171b35", fontWeight:"bold", fontSize: '1.1rem', letterSpacing:2}}>
                             Aplicaciones mobiles
                         </Typography>
@@ -31,7 +34,8 @@ function Servicios() {
                         </Typography>
                         <Button sx={{color: '#7c4dff', fontWeight:"bold"}}>Ver mas →</Button>
                     </Box>
-                    <Box sx={{width:"20%"}}>
+                    <Box sx={{width:"30%", display: 'flex', alignItems: 'flex-start', gap: 2}}>
+                        <Box component='img' src='/img (11).png' alt='' sx={{width:'120px', height: '120px', objectFit: 'contain', flexShrink: 0}}></Box>
                         <Typography sx={{color:"#171b35", fontWeight:"bold", fontSize: '1.1rem', letterSpacing:2}}>
                             Desarrollo de software
                         </Typography>
@@ -41,7 +45,8 @@ function Servicios() {
                         <Button sx={{color: '#7c4dff', fontWeight:"bold"}}>Ver mas →</Button>
                     </Box>
 
-                    <Box sx={{width:"20%"}}>
+                    <Box sx={{width:"30%", display: 'flex', alignItems: 'flex-start', gap: 2}}>
+                        <Box component='img' src='/img (11).png' alt='' sx={{width:'120px', height: '120px', objectFit: 'contain', flexShrink: 0}}></Box>
                         <Typography sx={{color:"#171b35", fontWeight:"bold", fontSize: '1.1rem', letterSpacing:2}}>
                             Consultoria tecnologica
                         </Typography>
@@ -50,7 +55,8 @@ function Servicios() {
                         </Typography>
                         <Button sx={{color: '#7c4dff', fontWeight:"bold"}}>Ver mas →</Button>
                     </Box>
-                    <Box sx={{width:"20%"}}>
+                    <Box sx={{width:"30%", display: 'flex', alignItems: 'flex-start', gap: 2}}>
+                        <Box component='img' src='/img (11).png' alt='' sx={{width:'120px', height: '120px', objectFit: 'contain', flexShrink: 0}}></Box>
                         <Typography sx={{color:"#171b35", fontWeight:"bold", fontSize: '1.1rem', letterSpacing:2}}>
                             Integracion de sistemas
                         </Typography>
@@ -59,7 +65,8 @@ function Servicios() {
                         </Typography>
                         <Button sx={{color: '#7c4dff', fontWeight:"bold"}}>Ver mas →</Button>
                     </Box>
-                    <Box sx={{width:"20%"}}>
+                    <Box sx={{width:"30%", display: 'flex', alignItems: 'flex-start', gap: 2}}>
+                        <Box component='img' src='/img (11).png' alt='' sx={{width:'120px', height: '120px', objectFit: 'contain', flexShrink: 0}}></Box>
                         <Typography sx={{color:"#171b35", fontWeight:"bold", fontSize: '1.1rem', letterSpacing:2}}>
                             Soporte y mantenimiento
                         </Typography>
