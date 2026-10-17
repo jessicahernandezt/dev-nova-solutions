@@ -50,16 +50,22 @@ function Servicios() {
             </Box>
 
             <Box sx={{
-                width: '33%',
+                alignItems: 'center',
                 display: 'flex',
             }}>
 
-            <img src='' alt='icon-pc'
+            <Box sx={{
+                width: '33%',
+                display: 'flex',
+                alignItems: 'center',
+            }}>
+
+            <img src='public/pc.jpg' alt='icon-pc'
 
                  style={{ 
-                    width: '55px', 
-                    height: '55px', 
-                    marginTop: '10px',
+                    width: '60px', 
+                    height: '60px', 
+                    marginRight: '20px',
                  }}>
                  </img>
 
@@ -77,6 +83,170 @@ function Servicios() {
                     </Box>
 
             </Box>
+
+            <Box sx={{
+                width: '33%',
+                display: 'flex',
+                alignItems: 'center',
+            }}>
+
+            <img src='public/pc.jpg' alt='icon-pc'
+
+                 style={{ 
+                    width: '60px', 
+                    height: '60px', 
+                    marginRight: '20px',
+                 }}>
+                 </img>
+
+                    <Box sx={{
+                        marginBottom: '15px',
+                    }}>
+                       <h3>Desarrollo Web</h3>
+
+                    <Typography sx={{
+                        color: '#888691',
+                        marginTop: '-10px',
+                    }}>
+
+                        Sitios y plataformas web modernas, seguras y esstables</Typography>
+                    </Box>
+
+            </Box>
+
+            <Box sx={{
+                width: '33%',
+                display: 'flex',
+                alignItems: 'center',
+            }}>
+
+            <img src='public/pc.jpg' alt='icon-pc'
+
+                 style={{ 
+                    width: '60px', 
+                    height: '60px', 
+                    marginRight: '20px',
+                 }}>
+                 </img>
+
+                    <Box sx={{
+                        marginBottom: '15px',
+                    }}>
+                       <h3>Desarrollo Web</h3>
+
+                    <Typography sx={{
+                        color: '#888691',
+                        marginTop: '-10px',
+                    }}>
+
+                        Sitios y plataformas web modernas, seguras y esstables</Typography>
+                    </Box>
+
+            </Box>      
+
+            </Box>
+
+
+            <Box sx={{
+                alignItems: 'center',
+                display: 'flex',
+            }}>
+
+            <Box sx={{
+                width: '33%',
+                display: 'flex',
+                alignItems: 'center',
+            }}>
+
+            <img src='public/pc.jpg' alt='icon-pc'
+
+                 style={{ 
+                    width: '60px', 
+                    height: '60px', 
+                    marginRight: '20px',
+                 }}>
+                 </img>
+
+                    <Box sx={{
+                        marginBottom: '15px',
+                    }}>
+                       <h3>Desarrollo Web</h3>
+
+                    <Typography sx={{
+                        color: '#888691',
+                        marginTop: '-10px',
+                    }}>
+
+                        Sitios y plataformas web modernas, seguras y esstables</Typography>
+                    </Box>
+
+            </Box>
+
+            <Box sx={{
+                width: '33%',
+                display: 'flex',
+                alignItems: 'center',
+            }}>
+
+            <img src='public/pc.jpg' alt='icon-pc'
+
+                 style={{ 
+                    width: '60px', 
+                    height: '60px', 
+                    marginRight: '20px',
+                 }}>
+                 </img>
+
+                    <Box sx={{
+                        marginBottom: '15px',
+                    }}>
+                       <h3>Desarrollo Web</h3>
+
+                    <Typography sx={{
+                        color: '#888691',
+                        marginTop: '-10px',
+                    }}>
+
+                        Sitios y plataformas web modernas, seguras y esstables</Typography>
+                    </Box>
+
+            </Box>
+
+            <Box sx={{
+                width: '33%',
+                display: 'flex',
+                alignItems: 'center',
+            }}>
+
+            <img src='public/pc.jpg' alt='icon-pc'
+
+                 style={{ 
+                    width: '60px', 
+                    height: '60px', 
+                    marginRight: '20px',
+                 }}>
+                 </img>
+
+                    <Box sx={{
+                        marginBottom: '15px',
+                    }}>
+                       <h3>Desarrollo Web</h3>
+
+                    <Typography sx={{
+                        color: '#888691',
+                        marginTop: '-10px',
+                    }}>
+
+                        Sitios y plataformas web modernas, seguras y esstables</Typography>
+                    </Box>
+
+            </Box>      
+
+            </Box>
+
+            
+
+            
 
                 
             </Container>
