@@ -38,34 +38,51 @@ function Hero() {
             </Box>
 
          <Box>
-                <Typography sx={{
-                             fontWeight:'extra bold',
+                          <Typography
+                    sx={{
+                           fontWeight: 'bold',
                              justifyContent: 'left',
-                             fontSize:'40px'}}>
-                                
-                          Transformando ideas en soluciones digitales   
-                         
-                </Typography>
-             
-                              <br/> Desarrollamos Foftware a la medida, 
-                              para poder impulsar el crecimiento de tu negocio
-                              combinando tu negocio con la tecnologia, creatividad y experiencia para poder 
-                              convertir tus ideas en productos reales.
-         </Box>
+                               fontSize: '40px',
+                                marginBottom: '20px'
+                             }}>
+                                    Transformando ideas en soluciones digitales
+                                                                                </Typography>
 
-<button> {"->comenzar el Proyecto"}   
-    
+    <Typography
+                           sx= {{ 
+                             fontWeight: 'arial',
+                             justifyContent: ' right',
+                               fontSize: '20px',
+                               marginBottom: '20px' }}>
+      Desarrollamos software a la medida,
+      para poder impulsar el crecimiento de tu negocio,
+      combinando tu negocio con la tecnología, creatividad y experiencia
+      para convertir tus ideas en productos reales.
+                                                                 </Typography>
 
+</Box>
+            <div style={{ display: "flex", gap: "20px" }}>
+                <button
+                    style={{
+                            backgroundColor: "#8B5CF6",
+                            color: "white",
+                            padding: "12px 24px",
+                            border: "none",
+                            borderRadius: "8px",
+                             cursor: "pointer"
+                                             }}
+                         > Comenzar el Proyecto   </button>     
+
+<button>
+Conoce nuestro servicio
 </button>
 
 
-<button>{"Conoce nuestro servicio"}</button>
 
-
-
-
+</div>
+    
         </Container>
-        </Box>
+</Box>
     )
 }
 export default Hero
