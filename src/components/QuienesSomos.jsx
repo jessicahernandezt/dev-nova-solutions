@@ -11,43 +11,62 @@ function QuienesSomos() {
         <Box sx={{
             marginTop: '40px',
             maxWidth: '100%',
-            height: '500px',
             display: 'flex',
             backgroundColor: '#f7f7ff',
             paddingTop: '40px',
+            paddingBottom: '30px',
         }}>
 
             <Box sx={{
                 maxWidth: '40%',
                 marginLeft: '5%',
-                marginRight: '20px',
+                height: 'auto',
+                paddingTop: '30px',
             }}>
-                <Typography>
+                <Typography sx={{
+                    fontWeight: 'bold',
+                }}>
                     Quienes somos
                 </Typography>
 
-                <h2>
+                <Typography sx={{
+                    fontSize: '35px',
+                    fontWeight: 'bold',
+                }}>
                     Un equipo que convierte ideas en impacto
-                </h2>
+                </Typography>
 
-                <p>
+                <Typography sx={{
+                    color: '#888691',
+                    paddingBottom: '40px',
+                    marginTop: '10px',
+                }}>
                     En Dev Nova Solutions somos un equipo de profesionales apasionados por la tecnologia y la innovacion, Ayudamos a empresas y emprendedores a transformar sus ideas en soluciones digitales que generan valor real
-                </p>
+                </Typography>
 
-                <button>
+                <Button sx={{
+                    padding: '15px 20px',
+                    color: '#fff',
+                    backgroundColor: '#7c4dff',
+                    borderRadius: '10px',
+                }}>
                     Conoce mas sobre nosotros ➜
-                </button>
+                </Button>
 
             </Box>
 
             <Box sx={{
                 width: '35%',
-                height: '100%',
+                height: 'auto',
+                marginLeft: '5%',
             }}>
-                <img src='public/pc.jpg' alt='icon-pc'
+                <img src='public/img (1).png' alt='img-equipo'
 
                  style={{
-                    width: '100%',
+                    width: '450px',
+                    height: 'auto',
+                    borderRadius: '10px',
+                    boxShadow: '0px 10px 20px rgba(0,0,0,0.3)'
                  }}>
 
                  </img>
@@ -55,6 +74,8 @@ function QuienesSomos() {
 
             <Box sx={{
                 width: '25%',
+                marginLeft: '5%',
+                height: 'auto',
             }}>
 
                 <Box sx={{
@@ -69,12 +90,12 @@ function QuienesSomos() {
                             <Box sx={{
                                 marginBottom: '15px',
                             }}>
-                                <h3>100%</h3>
+                                <h3>5+</h3>
                                 <Typography sx={{
                                     color: '#888691',
                                     marginTop: '-10px',
                                 }}>
-                                    comprometidos</Typography>
+                                    Años de experiencia</Typography>
                             </Box>
 
                         </Box>
@@ -92,12 +113,12 @@ function QuienesSomos() {
                             <Box sx={{
                                 marginBottom: '15px',
                             }}>
-                                <h3>100%</h3>
+                                <h3>50+</h3>
                                 <Typography sx={{
                                     color: '#888691',
                                     marginTop: '-10px',
                                 }}>
-                                    comprometidos</Typography>
+                                    Proyectos completados</Typography>
                             </Box>
 
                         </Box>
@@ -114,12 +135,12 @@ function QuienesSomos() {
                             <Box sx={{
                                 marginBottom: '15px',
                             }}>
-                                <h3>100%</h3>
+                                <h3>30+</h3>
                                 <Typography sx={{
                                     color: '#888691',
                                     marginTop: '-10px',
                                 }}>
-                                    comprometidos</Typography>
+                                    Clientes satisfechos</Typography>
                             </Box>
 
                         </Box>
@@ -136,12 +157,12 @@ function QuienesSomos() {
                             <Box sx={{
                                 marginBottom: '15px',
                             }}>
-                                <h3>100%</h3>
+                                <h3>Talento multidiciplinario</h3>
                                 <Typography sx={{
                                     color: '#888691',
                                     marginTop: '-10px',
                                 }}>
-                                    comprometidos</Typography>
+                                    Desarrolladores, diseñadores y estrategas</Typography>
                             </Box>
 
                         </Box>  
