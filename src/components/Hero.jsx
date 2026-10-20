@@ -17,7 +17,7 @@ function Hero() {
                             </Box>
                         </Typography>
 
-                        <Typography sx={{color: '#a1a1a1', fontWeight: 'bold', letterSpacing: 2}}>
+                        <Typography sx={{color: '#666', fontWeight: 'bold', letterSpacing: 2}}>
                             Desarrollamos software a la medida para impulsar el crecimiento de tu negocio. Combinamos tecnologia, creatividad y experiencia para convertir tus ideas en productos reales
                         </Typography>
                         
@@ -31,7 +31,7 @@ function Hero() {
                                 <Box component='img' src='/img (11).png' alt='' sx={{width:50, height:50, objectFit:'contain'}}></Box>
                                 <Typography sx={{color: 'black', fontWeight: 'bold', letterSpacing: 2}}>
                                     100%{' '}
-                                    <Box component='span' sx={{color: '#a1a1a1'}}>
+                                    <Box component='span' sx={{color: '#666'}}>
                                         Comprometidos
                                     </Box>
                                 </Typography>
@@ -40,7 +40,7 @@ function Hero() {
                                 <Box component='img' src='/img (11).png' alt='' sx={{width:50, height:50, objectFit:'contain'}}></Box>
                                 <Typography sx={{color: 'black', fontWeight: 'bold', letterSpacing: 2}}>
                                     +50{' '}
-                                    <Box component='span' sx={{color: '#a1a1a1'}}>
+                                    <Box component='span' sx={{color: '#666'}}>
                                         Proyectos entregados
                                     </Box>
                                 </Typography>
@@ -49,7 +49,7 @@ function Hero() {
                                 <Box component='img' src='/img (11).png' alt='' sx={{width:50, height:50, objectFit:'contain'}}></Box>
                                 <Typography sx={{color: 'black', fontWeight: 'bold', letterSpacing: 2}}>
                                     98%{' '}
-                                    <Box component='span' sx={{color: '#a1a1a1'}}>
+                                    <Box component='span' sx={{color: '#666'}}>
                                         Clientes satisfechos
                                     </Box>
                                 </Typography>

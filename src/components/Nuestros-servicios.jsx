@@ -4,8 +4,8 @@ function Servicios() {
     return (
         <Box sx={{display: 'flex', alignItems: 'center', backgroundColor: '#f7f7ff', paddingBottom: 1}}>
 
-            <Container maxWidth='lg' sx={{backgroundColor: '#fff', padding: '1rem', borderRadius: 2}}>
-                <Box sx={{display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: 6}}>
+            <Container maxWidth='lg' sx={{ }}>
+                <Box sx={{display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: 6, backgroundColor: '#fff', padding: '1rem', borderRadius: 2}}>
                     
                     <Box sx={{width:"30%", display: 'flex', alignItems: 'flex-start', gap: 2}}>
                         <Box component='img' src='/img (11).png' alt='' sx={{width:'120px', height: '120px', objectFit: 'contain', flexShrink: 0}}></Box>
