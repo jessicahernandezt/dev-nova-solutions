@@ -54,7 +54,7 @@ function Servicios() {
             }}>
 
             <Box sx={{
-                margin: '10px 10px',
+                margin: '20px 10px',
                 width: '33%',
                 display: 'flex',
                 alignItems: 'center',
@@ -233,7 +233,7 @@ function Servicios() {
             </Box>
 
             <Box sx={{
-                margin: '10px 10px',
+                margin: '30px 10px',
                 width: '33%',
                 display: 'flex',
                 alignItems: 'center',
