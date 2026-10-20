@@ -1,5 +1,5 @@
 
-import { BorderColor, StarPurple500 } from '@mui/icons-material'
+import { Bolt, BorderColor, StarPurple500, People } from '@mui/icons-material'
 import {
     Box,
     Button,
@@ -24,10 +24,10 @@ function Hero() {
                     sx={{
                         display: 'flex',
                         alignItems: 'center',
-                        gap: 6
+                        gap: 10
                     }}>
 
-                    <Box alt="Aca debes poner los botones" sx={{ width: '50%' }}>
+                    <Box alt="Aca debes poner los botones" sx={{ width: '60%' }}>
                         <Typography
                             variant='overline'
                             sx={{
@@ -78,51 +78,86 @@ function Hero() {
 
                         </Box>
 
-                        <box
+                        <Box
                         sx={{
                             display: 'flex',
-                            gap: 2.5,
+                            gap: 2, mt: 2,
                             margintop: '10px'
                         }}>
-                            <box 
+                            <Box 
                             sx={{borderRadius: '50%',
-                                gap: 0.9,
+                                gap: 0.8,
                                 BorderColor: '#7c4dff',
                                 display: 'inline-flex'
                             }}>
-                            <StarPurple500
-                            sx={{
+                                <StarPurple500
+                                sx={{
                                 color: '#7c4dff',
 
                                 width: '30px',
                                 height: '60px'
-                            }}></StarPurple500>
-                            <Typography
-                            sx={{
+                                }}></StarPurple500>
+                                <Typography
+                                sx={{
                                 color: '#7c4dff',
                                 fontWeight: 'bold', mt: 1, mb: 1,
-                            }}>100%<br/> <Typography
-                            sx={{ 
+                                }}>100%<br/> <Typography
+                                sx={{ 
                                 color: '#7c4dff'
-                            }}>Comprometidos</Typography> </Typography>
-                            </box>
-                        </box>
-                        
+                                }}>Comprometidos</Typography> </Typography>
+                            </Box>
+                                
+                            <Box 
+                            sx={{
+                                display:"inline-flex"
+                            }}>
+                                <Bolt
+                                sx={{
+                                color: '#7c4dff',
 
+                                width: '30px',
+                                height: '60px'
+                                }}></Bolt>
+                                <Typography
+                                sx={{
+                                    color: '#7c4dff',
+                                    fontWeight: 'bold', mt: 1, mb: 1,
+                                }}>+50<br/> <Typography
+                                sx={{ 
+                                    color: '#7c4dff'
+                                }}>Proyectos Entregados</Typography> </Typography>
+                            </Box>
+                            <Box sx={{
+                                display:"inline-flex"
+                            }}>
+                             <People
+                                sx={{
+                                color: '#7c4dff',
 
-
-
-
-
-
-
-
-
+                                width: '30px',
+                                height: '60px'
+                                }}></People>
+                                <Typography
+                                sx={{
+                                color: '#7c4dff',
+                                fontWeight: 'bold', mt: 1, mb: 1,
+                                }}>98%<br/> <Typography
+                                sx={{ 
+                                color: '#7c4dff',
+                                }}>Clientes Satisfechos</Typography> </Typography>   
+                            </Box>
+                        </Box>
 
 
                     </Box>
-                    <Box alt="Aca va la imagen">
-
+                    <Box>
+                        <Box component="img"
+                        src='public/img (8).png'
+                        sx={{
+                            height: '550px',
+                            width: '150%'
+                        }}>
+                        </Box>
                     </Box>
                 </Box>
 
