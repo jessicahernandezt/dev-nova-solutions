@@ -32,7 +32,7 @@ function Hero() {
                     }}>
 
 
-                    <Box sx={{ width: '50%',  }}>
+                    <Box alt='box de info' sx={{ width: '50%',  }}>
                         <Typography
                             variant='overline'
                             sx={{
@@ -91,10 +91,7 @@ function Hero() {
                                 borderRadius:'50%',
                                 gap: 0.9 ,
                                 borderColor:'#7c4dff',
-                                display:'inline-flex',
-                                
-                                
-                                
+                                display:'inline-flex',  
                             }}  >
                                 <StarPurple500 
                                 sx={{
