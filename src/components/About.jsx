@@ -5,7 +5,6 @@ function About() {
     <Container maxWidth="lg" sx={{ py: 8 }}>
       <Box sx={{ display: 'flex', flexDirection: { xs: 'column', md: 'row' }, gap: 6, alignItems: 'center' }}>
         
-        {/* Columna de Texto */}
         <Box sx={{ flex: 1 }}>
           <Typography variant="overline" sx={{ color: 'primary.main', fontWeight: 700 }}>
             QUIÉNES SOMOS
@@ -21,7 +20,6 @@ function About() {
           </Button>
         </Box>
 
-        {/* Columna de Imagen */}
         <Box sx={{ flex: 1, width: '100%' }}>
           <Box 
             component="img"

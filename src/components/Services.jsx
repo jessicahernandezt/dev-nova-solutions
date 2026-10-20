@@ -12,7 +12,7 @@ const servicios = [
 function Services() {
   return (
     <Container maxWidth="lg" sx={{ py: 8 }}>
-      {/* Encabezado de la sección */}
+
       <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-end', mb: 4 }}>
         <Box>
           <Typography variant="overline" sx={{ color: 'primary.main', fontWeight: 700 }}>
@@ -30,7 +30,7 @@ function Services() {
         </Button>
       </Box>
 
-      {/* Cuadrícula de tarjetas */}
+
       <Box sx={{ display: 'grid', gridTemplateColumns: { xs: '1fr', sm: 'repeat(2, 1fr)', md: 'repeat(3, 1fr)' }, gap: 3 }}>
         {servicios.map((servicio, index) => (
           <Card key={index} sx={{ p: 3, borderRadius: 3, boxShadow: '0 4px 12px rgba(0,0,0,0.05)', border: '1px solid #f0f0f0' }}>
