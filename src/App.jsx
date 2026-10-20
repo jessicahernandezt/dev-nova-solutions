@@ -1,19 +1,18 @@
 
 import Hero from "./components/Hero"
 import Navbar from "./components/Navbar"
+import Servicios from "./components/Servicios"
 
-function app(){
+function App(){
   return (
     <>
     
     <Navbar/>
     <Hero/>
-    
-    
-    
+    <Servicios/>
     </>
     
   )
 }
-//zabala hola com estas, te quiero, sacate una para imaginarme la otra
-export default app
+
+export default App

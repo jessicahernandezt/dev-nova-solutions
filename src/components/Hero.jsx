@@ -12,7 +12,7 @@ function Hero() {
             minHeight: '520px',
             display: 'flex',
             alignItems: 'center',
-            backgroundColor: '#F7F5FF',
+            backgroundColor: '#ffff',
             py: 6
 
         }}
@@ -92,15 +92,12 @@ function Hero() {
 
                 </Box>
                 <Box sx={{width:"50%",height:"50%", }}>
-                    <Box component="Img" sx={{width:"130%",height:"130%", }}
+                    <Box component="Img" sx={{width:"130%",height:"130%",borderRadius:"20px" }}
                     src="public/img (8).png">
 
                     </Box>
                 </Box>
-                <Box></Box>
-               
-
-
+                
             </Box>
             
 
