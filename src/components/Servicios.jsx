@@ -54,9 +54,14 @@ function Servicios() {
             }}>
 
             <Box sx={{
+                margin: '10px 10px',
                 width: '33%',
                 display: 'flex',
                 alignItems: 'center',
+                boxShadow: '0px 5px 5px rgba(0,0,0,0.3)',
+                borderRadius: '5px',
+                padding: '0px 10px'
+                
             }}>
 
             <img src='public/pc.jpg' alt='icon-pc'
@@ -84,9 +89,13 @@ function Servicios() {
             </Box>
 
             <Box sx={{
+                margin: '10px 10px',
                 width: '33%',
                 display: 'flex',
                 alignItems: 'center',
+                boxShadow: '0px 5px 5px rgba(0,0,0,0.3)',
+                borderRadius: '5px',
+                padding: '0px 10px'
             }}>
 
             <img src='public/pc.jpg' alt='icon-pc'
@@ -114,9 +123,13 @@ function Servicios() {
             </Box>
 
             <Box sx={{
+                margin: '10px 10px',
                 width: '33%',
                 display: 'flex',
                 alignItems: 'center',
+                boxShadow: '0px 5px 5px rgba(0,0,0,0.3)',
+                borderRadius: '5px',
+                padding: '0px 10px'
             }}>
 
             <img src='public/pc.jpg' alt='icon-pc'
@@ -152,9 +165,13 @@ function Servicios() {
             }}>
 
             <Box sx={{
+                margin: '10px 10px',
                 width: '33%',
                 display: 'flex',
                 alignItems: 'center',
+                boxShadow: '0px 5px 5px rgba(0,0,0,0.3)',
+                borderRadius: '5px',
+                padding: '0px 10px'
             }}>
 
             <img src='public/pc.jpg' alt='icon-pc'
@@ -182,9 +199,13 @@ function Servicios() {
             </Box>
 
             <Box sx={{
+                margin: '10px 10px',
                 width: '33%',
                 display: 'flex',
                 alignItems: 'center',
+                boxShadow: '0px 5px 5px rgba(0,0,0,0.3)',
+                borderRadius: '5px',
+                padding: '0px 10px'
             }}>
 
             <img src='public/pc.jpg' alt='icon-pc'
@@ -212,9 +233,13 @@ function Servicios() {
             </Box>
 
             <Box sx={{
+                margin: '10px 10px',
                 width: '33%',
                 display: 'flex',
                 alignItems: 'center',
+                boxShadow: '0px 5px 5px rgba(0,0,0,0.3)',
+                borderRadius: '5px',
+                padding: '0px 10px'
             }}>
 
             <img src='public/pc.jpg' alt='icon-pc'
