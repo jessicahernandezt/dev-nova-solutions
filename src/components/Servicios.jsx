@@ -10,8 +10,8 @@ function Servicios() {
         <Box sx={{
             width: '100%',
         }}>
-            <Container sx={{
-                marginTop: '50px',
+            <Box sx={{
+                margin: '50px 100px'
             }}>
                 <Typography>
                     Nuestros servicios
@@ -20,8 +20,7 @@ function Servicios() {
             <Box sx={{
 
                 display: 'flex',
-
-
+                
             }}>
 
             <Box sx={{
@@ -40,7 +39,7 @@ function Servicios() {
             <Box sx={{
 
                 paddingTop: '1.5%',
-
+                marginLeft: '270px'
             }}>
                 <Typography>
                     ver todos los servicios ➔
@@ -246,7 +245,7 @@ function Servicios() {
             
 
                 
-            </Container>
+            </Box>
 
         </Box>
 
