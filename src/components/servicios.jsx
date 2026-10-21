@@ -1,7 +1,9 @@
-import { ArrowForward, HorizontalRule } from '@mui/icons-material'
+import { ArrowForward, ArrowRightAlt, Bolt, Directions, HorizontalRule, Rule } from '@mui/icons-material'
 import {
     Box,
     Button,
+    Card,
+    CardContent,
     Container,
     ImageListItem,
     Typography
@@ -19,60 +21,87 @@ function Servicios(){
             <Container maxWidth="lg">
                 <Box 
                 sx={{
-                    display:"flex",
+                    display:"block",
                     
                 }}>
-                    
-
-                    <Box alt="info"
-                    sx={{
-                        width:"100%",
-                        
-                    }}>
-                        <Box 
-                        sx={{
-                            alignItems:"flex-start",
-                            justifyContent:"flex-end",
+                    <Box alt="box general">
+                        <Box sx={{
                             display:"flex",
-                            gap:2,
-                            
-                        }}>
-                            
-                                <Typography sx={
-                                {
-                                    color:"#7c4dff",
-                                    width:"3px",
-                                    height:"3px",
-                                    
-                                    
-                                }
-                                }>
-                                    Ver todos nuestros servicios<ArrowForward></ArrowForward>
-                                </Typography>
-                        
-                   
-                        </Box>
-                        <Typography variant='overline'
-                        sx={{
-                            gap:1
-                        }}>
-                            <HorizontalRule sx={{
-                                color:"#7c4dff"
-                                
-                            }}></HorizontalRule> Nuestros servicios
-                        </Typography>
+                            flexDirection:"column",
 
-                        <Typography variant='h4'
-                        sx={{
-                            fontSize:"bold"
                         }}>
-                            Soluciones tecnologicas para cada necesidad
-                        </Typography>
-                        <Typography variant='subtittle'>
-                            Ofrecemos servicios de desarrollo de software y móviles, consultoria y soporte, para ayudar a optimizar los procesos y alcanzar tus objetivos
-                        </Typography>
+                            <Box sx={{
+                                position:"relative",
+                                zIndex:1,
+                                display:"flex",
+                                alignItems:"center",
+                                justifyContent:"space-between",
+                                gap:"8px"
+                            }}>
+                                <Box alt="text" 
+                                sx={{
+                                    width:"50%"
+
+                                }}>
+                                    <Typography variant='overline' sx={{
+                                        
+                                        fontSize:"bold"
+                                    }}>
+                                        <ArrowRightAlt sx={{color:"#7c4dff",}}></ArrowRightAlt> Nuestros servicios
+                                        
+                                    </Typography>
+
+                                </Box>
+                                <Box sx={{
+                                    justifyContent:"flex-end",
+                                    
+                                }}>
+                                    <Button size='small'  sx={{
+                                        
+                                        color:"#7c4dff",
+                                        padding: '4px 8px', 
+                                        fontSize: '0.75rem',
+                                        minWidth: 'auto'
+                                        
+                                    }}>
+                                        <Typography variant='caption' >
+                                            Ver todos nuestros servicios <ArrowForward sx={{
+                                                width:"18px",
+                                                height:"10px"
+                                            }}></ArrowForward>
+                                        </Typography>
+                                    </Button>
+
+                                </Box>
+
+                            </Box>
+                            <Box>
+                                <Typography variant='h5' 
+                                sx={{
+                                    fontSize:"bold"
+                                }}>
+                                    Soluciones tecnologicas para cada necesidad
+                                </Typography>
+                                <Typography variant='caption'>
+                                    ofrecemos servicios de desarrollo de software, aplicaciones web y movil, consultoria <br/> y soporte, para ayudarte a optimizar los procesos y alcanzar tus objetivos
+                                    
+                                </Typography>                                
+                            </Box>
+
+                        </Box>
+                        <Box>
+                            <Card>
+                                <CardContent>
+                                    
+                                </CardContent>
+                            </Card>
+                        </Box>
 
                     </Box>
+
+                    
+
+                    
 
                 </Box>
             </Container>
