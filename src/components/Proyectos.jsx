@@ -288,7 +288,7 @@ function Hero() {
                                         fontWeight: 'bold',
                                         fontSize: '13px',
                                     }}>
-                                        React
+                                        Flutter
                                     </Typography>
                                 </Box>
 
@@ -307,7 +307,7 @@ function Hero() {
                                         fontWeight: 'bold',
                                         fontSize: '13px',
                                     }}>
-                                        Node.js
+                                        Firebase
                                     </Typography>
                                 </Box>
                                 <Box sx={{
@@ -325,7 +325,7 @@ function Hero() {
                                         fontWeight: 'bold',
                                         fontSize: '13px',
                                     }}>
-                                        PostgreSQL
+                                        Node.js
                                     </Typography>
                                 </Box>
                             </Box>
@@ -446,7 +446,7 @@ function Hero() {
                                         fontWeight: 'bold',
                                         fontSize: '13px',
                                     }}>
-                                        Node.js
+                                        Express
                                     </Typography>
                                 </Box>
                                 <Box sx={{
@@ -464,7 +464,7 @@ function Hero() {
                                         fontWeight: 'bold',
                                         fontSize: '13px',
                                     }}>
-                                        PostgreSQL
+                                        MongoDB
                                     </Typography>
                                 </Box>
                             </Box>
@@ -566,7 +566,7 @@ function Hero() {
                                         fontWeight: 'bold',
                                         fontSize: '13px',
                                     }}>
-                                        React
+                                        Next.js
                                     </Typography>
                                 </Box>
 
@@ -585,7 +585,7 @@ function Hero() {
                                         fontWeight: 'bold',
                                         fontSize: '13px',
                                     }}>
-                                        Node.js
+                                        Stripe
                                     </Typography>
                                 </Box>
                                 <Box sx={{
@@ -603,7 +603,7 @@ function Hero() {
                                         fontWeight: 'bold',
                                         fontSize: '13px',
                                     }}>
-                                        PostgreSQL
+                                        AWS
                                     </Typography>
                                 </Box>
                             </Box>
