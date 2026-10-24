@@ -27,7 +27,7 @@ function Hero() {
                         gap: 10
                     }}>
 
-                    <Box alt="Aca debes poner los botones" sx={{ width: '60%' }}>
+                    <Box sx={{ width: '60%' }}>
                         <Typography
                             variant='overline'
                             sx={{
@@ -61,7 +61,7 @@ function Hero() {
                             textTransform: 'none',
                             borderRadius: 2
                         }}>
-                            Solicitar cotización →
+                            Comenzar Proyecto →
                         </Button>
 
                         <Button variant='contained'
@@ -154,8 +154,8 @@ function Hero() {
                         <Box component="img"
                         src='public/img (8).png'
                         sx={{
-                            height: '550px',
-                            width: '150%'
+                            height: '520px',
+                            width: '140%'
                         }}>
                         </Box>
                     </Box>

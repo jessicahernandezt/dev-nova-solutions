@@ -70,10 +70,7 @@ function Navbar() {
                             Solicitar cotización →
                         </Button>
                     </Box>
-
-
-
-
+                    
                 </Toolbar>
             </Container>
 
