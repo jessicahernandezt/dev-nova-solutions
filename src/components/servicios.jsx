@@ -16,7 +16,7 @@ function Servicios(){
             display: 'flex',
             alignItems: 'center',
             backgroundColor: '#f7f7ff',
-            py: 6
+            py:"10px"
         }}>
             <Container maxWidth="lg" sx={{
                 
@@ -24,6 +24,7 @@ function Servicios(){
                 <Box 
                 sx={{
                     display:"block",
+                    py:"10px"
                  
                     
                     
@@ -53,7 +54,7 @@ function Servicios(){
                                         
                                         fontSize:"bold"
                                     }}>
-                                        <ArrowRightAlt sx={{color:"#7c4dff",}}></ArrowRightAlt> Nuestros servicios
+                                        Nuestros servicios
                                         
                                     </Typography>
 
@@ -67,10 +68,13 @@ function Servicios(){
                                         color:"#7c4dff",
                                         padding: '4px 8px', 
                                         fontSize: '0.75rem',
-                                        minWidth: 'auto'
+                                        minWidth: '0',
+                                        minHeight:"0"
                                         
                                     }}>
-                                        <Typography variant='caption' >
+                                        <Typography variant='caption' sx={{
+                                            fontSize:"9px"
+                                        }}>
                                             Ver todos nuestros servicios <ArrowForward sx={{
                                                 width:"18px",
                                                 height:"10px"
@@ -100,6 +104,8 @@ function Servicios(){
                            gap:2,
                            width:"100%",
                            alignItems:"center",
+                           marginTop:"10px",
+                           margin:"20px"
                            
                         }}>
                             <Box sx={{
@@ -115,11 +121,15 @@ function Servicios(){
                                     }}>
                                         <Box sx={{
                                             borderRadius:"50%",
-                                            borderColor:"#7c4dff"
+                                            borderColor:"#7c4dff",
+                                            width:"30%",
+                                            
+                                            marginTop:"10px",
+                                            
                                         }}>
                                         <Monitor sx={{
-                                            width:"70%",
-                                            height:"90%",
+                                            width:"90%",
+                                            height:"70%",
                                             color:"#7c4dff",
                                             
                                            
@@ -140,7 +150,7 @@ function Servicios(){
                                                 fontSize:"10px",
                                                 color:"#837f7f"
                                                 }}>
-                                                    Sitios y plataformas web modernas, seguras y escalables
+                                                    Sitios y plataformas web modernas, <br/> seguras y escalables
                                                 </Typography>
                                             </Box>
                                             <Box sx={{
@@ -182,12 +192,16 @@ function Servicios(){
                                     }}>
                                         <Box sx={{
                                             borderRadius:"50%",
-                                            borderColor:"#7c4dff"
+                                            borderColor:"#7c4dff",
+                                            width:"30%",
+                                            
+                                            marginTop:"10px",
                                         }}>
                                         <AppSettingsAlt sx={{
-                                            width:"70%",
-                                            height:"90%",
+                                            
+                                            height:"70%",
                                             color:"#7c4dff",
+                                            width:"90%",
                                         }}>
 
                                         </AppSettingsAlt>
@@ -199,7 +213,7 @@ function Servicios(){
                                             <Typography variant='overline' sx={{
                                                 fontSize:"bold"
                                             }}>
-                                                Desarrollo web
+                                                Aplicaciones Móviles
                                             </Typography>
                                             <Box>
                                                 <Typography variant='caption' sx={{
@@ -207,7 +221,7 @@ function Servicios(){
                                                 fontSize:"10px",
                                                 color:"#837f7f"
                                                 }}>
-                                                    Sitios y plataformas web modernas, seguras y escalables
+                                                    App nativas e hibridas para <br/> IOs y Android
                                                 </Typography>
                                             </Box>
                                             <Box sx={{
@@ -249,12 +263,15 @@ function Servicios(){
                                     }}>
                                         <Box sx={{
                                             borderRadius:"50%",
-                                            borderColor:"#7c4dff"
+                                            borderColor:"#7c4dff",
+                                            width:"30%",
+                                            marginTop:"10px"
                                         }}>
                                         <CodeOff sx={{
-                                            width:"70%",
-                                            height:"90%",
+                                            
+                                            height:"70%",
                                             color:"#7c4dff",
+                                            width:"90%",
                                         }}>
 
                                         </CodeOff>
@@ -266,7 +283,7 @@ function Servicios(){
                                             <Typography variant='overline' sx={{
                                                 fontSize:"bold"
                                             }}>
-                                                Desarrollo web
+                                                Desarrollo de Software
                                             </Typography>
                                             <Box>
                                                 <Typography variant='caption' sx={{
@@ -274,7 +291,7 @@ function Servicios(){
                                                 fontSize:"10px",
                                                 color:"#837f7f"
                                                 }}>
-                                                    Sitios y plataformas web modernas, seguras y escalables
+                                                    Soluciones a la medida para <br/> procesos especificos
                                                 </Typography>
                                             </Box>
                                             <Box sx={{
@@ -322,12 +339,14 @@ function Servicios(){
                                     }}>
                                         <Box sx={{
                                             borderRadius:"50%",
-                                            borderColor:"#7c4dff"
+                                            borderColor:"#7c4dff",
+                                            width:"30%",
+                                            marginTop:"10px"
                                         }}>
                                         <Lightbulb sx={
                                             {
-                                            width:"70%",
-                                            height:"90%",
+                                            width:"90%",
+                                            height:"70%",
                                             color:"#7c4dff",
                                             }
                                         }></Lightbulb>
@@ -339,7 +358,7 @@ function Servicios(){
                                             <Typography variant='overline' sx={{
                                                 fontSize:"bold"
                                             }}>
-                                                Desarrollo web
+                                                Consultoria Tecnologica 
                                             </Typography>
                                             <Box>
                                                 <Typography variant='caption' sx={{
@@ -347,72 +366,7 @@ function Servicios(){
                                                 fontSize:"10px",
                                                 color:"#837f7f"
                                                 }}>
-                                                    Sitios y plataformas web modernas, seguras y escalables
-                                                </Typography>
-                                            </Box>
-                                            <Box sx={{
-                                                
-                                            }}>
-                                                <Button size='small' sx={{
-                                                    minHeight:"0",
-                                                    minWidth:"0",
-                                                    color:"#7c4dff",
-                                                    
-                                                }}>
-                                                    <Typography variant='caption' sx={{
-                                                        fontSize:"9px"
-                                                    }}>
-                                                        Ver más
-                                                    </Typography><ArrowForward sx={{
-                                                        width:"9px",
-                                                        height:"9px"
-                                                    }}></ArrowForward>
-                                                </Button>
-                                            </Box>
-
-
-                                            
-                                        </Box>
-                                        
-
-                                        
-
-                                    </CardContent>
-
-                                </Card>
-                                <Card sx={{
-                                    width:"30%",
-                                    height:"90%"
-                                }}>
-                                    <CardContent sx={{
-                                        display:"flex"
-                                    }}>
-                                        <Box sx={{
-                                            borderRadius:"50%",
-                                            borderColor:"#7c4dff"
-                                        }}>
-                                        <DeviceHub sx={{
-                                            width:"70%",
-                                            height:"90%",
-                                            color:"#7c4dff",
-                                        }}></DeviceHub>
-                                        </Box>
-                                        <Box
-                                        sx={{
-                                            
-                                        }}>
-                                            <Typography variant='overline' sx={{
-                                                fontSize:"bold"
-                                            }}>
-                                                Desarrollo web
-                                            </Typography>
-                                            <Box>
-                                                <Typography variant='caption' sx={{
-                                                lineHeight:"1.1",
-                                                fontSize:"10px",
-                                                color:"#837f7f"
-                                                }}>
-                                                    Sitios y plataformas web modernas, seguras y escalables
+                                                    Te ayudamos a definir la mejor <br/> estrategia tecnologica
                                                 </Typography>
                                             </Box>
                                             <Box sx={{
@@ -455,12 +409,80 @@ function Servicios(){
                                         <Box sx={{
                                             borderRadius:"50%",
                                             borderColor:"#7c4dff",
-                                            width:"50%",
-                                            justifyItems:"center",
-                                            alignItems:"center"
+                                            width:"30%",
+                                            marginTop:"10px"
+                                        }}>
+                                        <DeviceHub sx={{
+                                            
+                                            height:"70%",
+                                            color:"#7c4dff",
+                                            width:"90%",
+                                        }}></DeviceHub>
+                                        </Box>
+                                        <Box
+                                        sx={{
+                                            
+                                        }}>
+                                            <Typography variant='overline' sx={{
+                                                fontSize:"bold"
+                                            }}>
+                                                Integracion de Sistemas
+                                            </Typography>
+                                            <Box>
+                                                <Typography variant='caption' sx={{
+                                                lineHeight:"1.1",
+                                                fontSize:"10px",
+                                                color:"#837f7f"
+                                                }}>
+                                                    Conectamos tus herramientas <br/> y optimizamos tus procesos
+                                                </Typography>
+                                            </Box>
+                                            <Box sx={{
+                                                
+                                            }}>
+                                                <Button size='small' sx={{
+                                                    minHeight:"0",
+                                                    minWidth:"0",
+                                                    color:"#7c4dff",
+                                                    
+                                                }}>
+                                                    <Typography variant='caption' sx={{
+                                                        fontSize:"9px"
+                                                    }}>
+                                                        Ver más
+                                                    </Typography><ArrowForward sx={{
+                                                        width:"9px",
+                                                        height:"9px"
+                                                    }}></ArrowForward>
+                                                </Button>
+                                            </Box>
+
+
+                                            
+                                        </Box>
+                                        
+
+                                        
+
+                                    </CardContent>
+
+                                </Card>
+                                <Card sx={{
+                                    width:"30%",
+                                    height:"90%"
+                                }}>
+                                    <CardContent sx={{
+                                        display:"flex"
+                                    }}>
+                                        <Box sx={{
+                                            borderRadius:"50%",
+                                            borderColor:"#7c4dff",
+                                            width:"30%",
+                                            marginTop:"10px"
+                                            
                                         }}>
                                         <VerifiedUser sx={{
-                                            width:"70%",
+                                            width:"90%",
                                             height:"70%",
                                             color:"#7c4dff",
                                         }}></VerifiedUser>
@@ -472,7 +494,7 @@ function Servicios(){
                                             <Typography variant='overline' sx={{
                                                 fontSize:"bold"
                                             }}>
-                                                Desarrollo web
+                                                Soporte y Mantenimiento
                                             </Typography>
                                             <Box>
                                                 <Typography variant='caption' sx={{
@@ -480,7 +502,7 @@ function Servicios(){
                                                 fontSize:"10px",
                                                 color:"#837f7f"
                                                 }}>
-                                                    Sitios y plataformas web modernas, seguras y escalables
+                                                    Tu operacion siempre en <br/> funcionamiento 
                                                 </Typography>
                                             </Box>
                                             <Box sx={{
