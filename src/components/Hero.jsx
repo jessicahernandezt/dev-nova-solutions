@@ -4,6 +4,7 @@ import {Box,
     Container,
     responsiveFontSizes,
     Typography} from '@mui/material'
+import { grey } from '@mui/material/colors'
 
 function Hero() {
     return(
@@ -12,13 +13,13 @@ function Hero() {
             minHeight: '520px',
             display: 'flex',
             alignItems: 'center',
-            backgroundColor: '#ffff',
+            backgroundColor: '#F8F5FA',
             py: 6
 
         }}
         >
 
-        <Container maxWidth='lg' >
+        <Container maxWidth='lg'  >
             <Box
             sx={{
                 display: 'flex',
@@ -41,14 +42,14 @@ function Hero() {
                         justifyContent: 'left',
                         fontSize: '40px'
                     }}>
-                        Trasformando ideas en 
+                        Trasformando ideas en </Typography>
                         <Typography
                         sx={{
                             color:'#7c4dff',
                             fontWeight:'extra bold',
                             fontSize:'40px'
                         }}>soluciones digitales</Typography>
-                    </Typography>
+                
                     <Typography sx={{padding: ('7px')}}>
                         Desarrollamos sofware a la medida para impulsar el crecimiento de tu negocio. Combinamos tecnologia, creatividad y experiencia para convertir tus ideas en productos visuales  
 
@@ -92,7 +93,7 @@ function Hero() {
 
                 </Box>
                 <Box sx={{width:"50%",height:"50%", }}>
-                    <Box component="Img" sx={{width:"130%",height:"130%",borderRadius:"20px" }}
+                    <Box component="img" sx={{width:"130%",height:"130%",borderRadius:"20px" }}
                     src="public/img (8).png">
 
                     </Box>
