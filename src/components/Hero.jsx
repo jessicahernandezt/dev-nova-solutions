@@ -1,56 +1,152 @@
-import {
-    Box,
-    Button,
-    Container,
-    Typography
-} from '@mui/material'
+import{Box,Button,Container,Typography} from '@mui/material'
+
+
 
 function Hero() {
-    return (
+    return(
         <Box
+        sx={{
+            minHeight:"520PX",
+            display:"flex",
+            alignItems:"center",
+            backgroundColor:"#f7f7ff",
+            py: 6
+        }}>
+          <Container maxWidth="lg">
+            <Box
             sx={{
-                minHeight: '520px',
-                display: 'flex',
-                alignItems: 'center',
-                backgroundColor: '#f7f7ff',
-                py: 6
-            }}
-        >
+                display:"flex",
+                alignItems:"center",
+                gap:6
+            }}>
+               
+               <Typography
+               sx={{
+                color:"#7c4dff",
+                fontWeight:"bold",
+                letterSpacing:2
 
-            <Container maxWidth='lg'>
-                <Box
+
+
+               }}>
+                IDEAS· TECNOLOGIAS· RESULTADOS
+
+                <Box 
+                sx={{
+                    display:"flex",
+                    alignItems:"center",
+                    gap:2
+                }}>
+
+                    
+                    <Typography variant='h4' 
                     sx={{
-                        display: 'flex',
-                        alignItems: 'center',
-                        gap: 6
+                        color:"#000",
+                        fontWeight:"bold",
+                        letterSpacing:3
+                       
                     }}>
 
-                    <Box sx={{ width: '50%' }}>
-                        <Typography
-                            variant='overline'
-                            sx={{
-                                color: '#7c4dff',
-                                fontWeight: 'bold',
-                                letterSpacing: 2
-                            }}>
+                        Transformamos ideas  <br/>
+                         <Typography variant='h4'
+                    sx={{
+                        color:"#7c4dff",
+                        fontWeight:"bold",
+                        letterSpacing:3
 
-                            IDEAS · TECNOLOGIA · RESULTADOS
+                    }}>
 
-                        </Typography>
+                      en soluciones digitales 
+                    </Typography>
+                    </Typography>
 
-                        <Typography
-                            variant='h2'
-                            sx={{ fontWeight: 'bold', color: '#171b35', mt: 1, mb: 2 }}
-                        >Transformamos ideas en soluciones digitales</Typography>
+                    
 
-                        <Typography
-                        sx={{color: '#666', fontSize: '1.1rem', mb:3}}
-                        >Desarrollamos software a la medida para impulsar el crecimiento de tu negocio. Combinamos tecnología, creatividad y experiencia para convertir tus ideas en productos reales</Typography>
-                    </Box>
+                    
+
                 </Box>
 
-            </Container>
+                <Box
+                sx={{
+                    display:"flex",
+                    alignItems:"center",
+                    
+                }}>
+                    <Typography variant='subtitle2'
+                    sx={{
+                        color:"#000",
+                        fontWeight:"bold",
+
+                    }}>
+                        Desarrollamos software a la medida para impulsar el crecimiento 
+                        <br></br>
+                         de tu negocio.Combinamos tecnologias.creatividad y experencia
+                        <br></br>
+                        para convetir tus ideas productos reales.
+
+                    </Typography>
+
+                </Box>
+
+                    <Box 
+                    sx={{
+                        display:"flex",
+                        gap:5
+                    }}>
+                      <Button variant="contained" size='large'
+                      sx={{
+                        backgroundColor:'#7c4dff'
+                      }}>Comenzar proyecto → </Button>
+
+                        
+
+                      <Button variant='contained' size='large'
+                      sx={{
+                        backgroundColor:"#fff",
+                        color:"#000",
+                        
+                        
+                      }}>Conocer nuestros servicios</Button>
+                    </Box>
+
+
+                   <Box
+                   sx={{
+                    display:"flex",
+                    width:"100%",
+                    gap:2
+                   }}>
+
+                    <Typography
+                    sx={{
+                        color:"#000"
+                    }}> favorite_border 100%<br></br>Comprometidos</Typography>
+
+
+                    <Typography
+                    sx={{
+                        color:"#000"
+                    }}>+50<br></br>Proyectos entregados</Typography>
+
+                    <Typography sx={{
+                        color:"#000"
+                    }}>98%<br></br>satisfecho</Typography>
+                    
+                   </Box>
+
+                 
+
+
+   
+
+               </Typography>
+
+
+            </Box>
+            </Container>  
         </Box>
+
     )
 }
+
 export default Hero
