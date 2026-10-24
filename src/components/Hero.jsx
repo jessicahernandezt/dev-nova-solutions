@@ -82,32 +82,56 @@ function Hero() {
                 <Box sx={{
                     display: 'flex',
                     alignItems: 'center',
-                    gap: '5px'
+                    gap: '25px'
                 }}>
-                    <Box>
+                    <Box sx={{
+                        display:'flex'
+                        }}>
                         <GppGoodIcon
                         sx={{  
                             color: '#7c4dff'
                         }}>
                           
                         </GppGoodIcon>
+
+                        <Typography sx={{fontWeight: 'bold'}}>
+                            100%
+                        <Typography sx={{color: '#2B2626', fontWeight: 'bold'}}>
+                            Comprometidos
+                        </Typography>
+                        </Typography> 
                     </Box>
 
-                    <Box>
+                    <Box sx={{
+                        display: 'flex'
+                        }}>
                         <RocketLaunchIcon 
                         sx={{
                             color: '#7c4dff'
                             }}>
-
                         </RocketLaunchIcon>
+
+                        <Typography sx={{fontWeight: 'bold'}}>
+                            +50
+                        <Typography sx={{color: '#2B2626', fontWeight: 'bold'}}>
+                        Proyectos entregados
+                        </Typography>
+                        </Typography> 
                     </Box>
 
-                    <Box>
+                    <Box sx={{
+                        display: 'flex'
+                        }}>
                         <PeopleAltIcon sx={{
                             color: '#7c4dff',
                             }}>
-
                         </PeopleAltIcon>
+                        <Typography sx={{fontWeight: 'bold'}}>
+                            98%
+                        <Typography sx={{color: '#2B2626', fontWeight: 'bold'}}>
+                        Clientes satisfechos
+                        </Typography>
+                        </Typography>
                     </Box>
                 </Box>
 
