@@ -9,7 +9,7 @@ function Hero() {
     return (
 
         <Box sx={{
-            width: '100%',
+            width: '90%',
             margin: '30px 70px',
             height: 'auto',
         }}>
@@ -64,7 +64,7 @@ function Hero() {
                 alignItems: 'center',
                 justifyContent: 'space-around',
                 width: '100%',
-                marginLeft: '-70px',
+
             }}>
 
                 <Box sx={{
