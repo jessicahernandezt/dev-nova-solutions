@@ -154,8 +154,8 @@ function Hero() {
                         <Box component="img"
                         src='public/img (8).png'
                         sx={{
-                            height: '520px',
-                            width: '140%'
+                            height: '510px',
+                            width: '130%'
                         }}>
                         </Box>
                     </Box>
