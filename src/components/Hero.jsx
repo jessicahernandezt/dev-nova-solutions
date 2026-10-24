@@ -1,88 +1,128 @@
-import { HeatPumpOutlined } from '@mui/icons-material'
-import {Box, 
-    Button, 
+import {
+    Box,
+    Button,
     Container,
-    Typography} from '@mui/material'
+    Typography
+} from '@mui/material'
 
 function Hero() {
-    return(
+    return (
         <Box
-        sx={{
-            minHeight: '520px',
-            display: 'flex',
-            alignItems: 'center',
-            backgroundColor: '#f7f7ff',
-            py: 6
-        }}
-        >
-
-        <Container maxWidth='lg'>
-            <Box
             sx={{
+                minHeight: '520px',
                 display: 'flex',
                 alignItems: 'center',
-                gap: 6
-            }}>
-
-                <Typography
-                sx={{
-                    color: '#7c4dff',
-                    fontWeight: 'bold',
-                    letterSpacing: 2
-                }}>
-
-                    IDEAS · TECNOLOGIA · RESULTADOS
-
-                </Typography>
-
-            </Box>
-
-         <Box>
-                          <Typography
+                backgroundColor: '#f7f7ff',
+                py: 6
+            }}
+        >
+            <Container maxWidth='lg'>
+                <Box
                     sx={{
-                           fontWeight: 'bold',
-                             justifyContent: 'left',
-                               fontSize: '40px',
+                        display: 'flex',
+                        alignItems: 'center',
+                        gap: 6,
+                        flexWrap: 'wrap'
+                    }}
+                >
+                    <Box sx={{ flex: '1 1 420px' }}>
+                        <Typography
+                            sx={{
+                                color: '#7c4dff',
+                                fontWeight: 'bold',
+                                letterSpacing: 2,
+                                mb: 3
+                            }}
+                        >
+                            IDEAS · TECNOLOGIA · RESULTADOS
+                        </Typography>
+
+                        <Typography
+                            sx={{
+                                fontWeight: 'bold',
+                                fontSize: '40px',
                                 marginBottom: '20px'
-                             }}>
-                                    Transformando ideas en soluciones digitales
-                                                                                </Typography>
+                            }}
+                        >
+                            Transformando ideas en soluciones digitales
+                        </Typography>
 
-    <Typography
-                           sx= {{ 
-                             fontWeight: 'arial',
-                             justifyContent: ' right',
-                               fontSize: '20px',
-                               marginBottom: '20px' }}>
-      Desarrollamos software a la medida,
-      para poder impulsar el crecimiento de tu negocio,
-      combinando tu negocio con la tecnología, creatividad y experiencia
-      para convertir tus ideas en productos reales.
-                                                                 </Typography>
+                        <Typography
+                            sx={{
+                                fontFamily: 'arial',
+                                fontSize: '20px',
+                                marginBottom: '20px'
+                            }}
+                        >
+                            Desarrollamos software a la medida,
+                            para poder impulsar el crecimiento de tu negocio,
+                            combinando tu negocio con la tecnología, creatividad y experiencia
+                            para convertir tus ideas en productos reales.
+                        </Typography>
 
-</Box>
-            <div style={{ display: "flex", gap: "20px" }}>
-                <button
-                    style={{
-                            backgroundColor: "#8B5CF6",
-                            color: "white",
-                            padding: "12px 24px",
-                            border: "none",
-                            borderRadius: "8px",
-                             cursor: "pointer"
-                                             }}
-                         > Comenzar el Proyecto   </button>     
+                        <Box sx={{ display: 'flex', gap: '20px' }}>
+                            <Button
+                                sx={{
+                                    backgroundColor: '#8B5CF6',
+                                    color: 'white',
+                                    padding: '12px 24px',
+                                    borderRadius: '8px',
+                                    textTransform: 'none',
+                                    '&:hover': { backgroundColor: '#7c3aed' }
+                                }}
+                            >
+                                Comenzar el Proyecto
+                            </Button>
 
-<button>
-Conoce nuestro servicio
-</button>
+                            <Button
+                                sx={{
+                                    padding: '12px 24px',
+                                    borderRadius: '8px',
+                                    textTransform: 'none',
+                                    color: '#8B5CF6',
+                                    border: '1px solid #8B5CF6'
+                                }}
+                            >
+                                Conoce nuestro servicio
+                            </Button>
+                        </Box>
+                    </Box>
 
+                    <Box sx={{ flex: '1 1 420px', position: 'relative' }}>
+                        <Typography
+                            sx={{
+                                position: 'absolute',
+                                top: -55,
+                                right: 10,
+                                color: '#7c4dff',
+                                fontWeight: 'bold',
+                                fontSize: '18px',
+                                transform: 'rotate(-6deg)',
+                                lineHeight: 1.2,
+                                zIndex: 2,
+                                display: { xs: 'none', md: 'block' }
+                            }}
+                        >
+                            Código que crea
+                            <br />
+                            oportunidades
+                        </Typography>
 
+                        <Box
+                            component='img'
 
-</div>
-    
-        </Container>
-</Box>
+                            alt='Código que crea oportunidades'
+                            sx={{
+                                width: '100%',
+                                borderRadius: '14px',
+                                display: 'block'
+                            }}
+                        />
+                    </Box>
+                </Box>
+            </Container>
+        </Box>
     )
 }
+
 export default Hero
