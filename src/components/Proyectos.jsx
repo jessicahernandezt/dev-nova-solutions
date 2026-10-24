@@ -21,46 +21,89 @@ function Proyectos() {
                     </Typography>
 
                     <Box component='div' sx={{display:'flex', alignItems:'center', justifyContent:'space-evenly'}}>
-                    <Card sx={{ maxWidth: 345}}>
-                        <CardMedia sx={{ height: 140 }} image="/img (8).png" title="neko"/>
-                        <CardContent>
-                            <Box component='div' sx={{backgroundColor:'#7c4dff', color:'white', borderRadius:'50px', padding:'5px', maxWidth:'45px'}}>Web</Box>
-                            <Typography gutterBottom variant="h5" component="div">
-                                Plataforma de gestion empresarial
-                            </Typography>
-                            <Typography variant="body2" sx={{ color: 'text.secondary' }}>
-                            Lizards are a widespread group of squamate reptiles, with over 6,000
-                            species, ranging across all continents except Antarctica
-                            </Typography>
-                        </CardContent>
-                        <CardActions>
-                            <Box sx={{backgroundColor:'#e6e6e6', borderRadius:'5px', border:'1px solid #acacac', padding:'6px'}}>dasdfa</Box>
-                        </CardActions>
-                        <CardActions>
-                            <Button size="small">Share</Button>
-                            <Button size="small">Learn More</Button>
-                        </CardActions>
-                    </Card>
-                    <Card sx={{ maxWidth: 345}}>
-                        <CardMedia sx={{ height: 140 }} image="/img (8).png" title="neko"/>
-                        <CardContent>
-                            <Box component='div' sx={{backgroundColor:'#7c4dff', color:'white', borderRadius:'50px', padding:'5px', maxWidth:'45px'}}>Web</Box>
-                            <Typography gutterBottom variant="h5" component="div">
-                                Plataforma de gestion empresarial
-                            </Typography>
-                            <Typography variant="body2" sx={{ color: 'text.secondary' }}>
-                            Lizards are a widespread group of squamate reptiles, with over 6,000
-                            species, ranging across all continents except Antarctica
-                            </Typography>
-                        </CardContent>
-                        <CardActions>
-                            <Box sx={{backgroundColor:'#e6e6e6', borderRadius:'5px', border:'1px solid #acacac', padding:'6px'}}>dasdfa</Box>
-                        </CardActions>
-                        <CardActions>
-                            <Button size="small">Share</Button>
-                            <Button size="small">Learn More</Button>
-                        </CardActions>
-                    </Card>
+                        <Card sx={{ maxWidth: 270}}>
+                            <CardMedia sx={{ height: 140 }} image="/img (8).png" title="neko"/>
+                            <CardContent>
+                                <Box component='div' sx={{backgroundColor:'#7c4dff', color:'white', borderRadius:'50px', padding:'5px', maxWidth:'45px'}}>Web</Box>
+                                <Typography gutterBottom variant="h5" component="div">
+                                    Plataforma de gestion empresarial
+                                </Typography>
+                                <Typography variant="body2" sx={{ color: 'text.secondary' }}>
+                                Lizards are a widespread group of squamate reptiles, with over 6,000
+                                species, ranging across all continents except Antarctica
+                                </Typography>
+                            </CardContent>
+                            <CardActions>
+                                <Box sx={{backgroundColor:'#e6e6e6', borderRadius:'5px', border:'1px solid #acacac', padding:'6px'}}>dasdfa</Box>
+                            </CardActions>
+                            <CardActions>
+                                <Button size="small">Share</Button>
+                                <Button size="small">Learn More</Button>
+                            </CardActions>
+                        </Card>
+
+                        <Card sx={{ maxWidth: 270}}>
+                            <CardMedia sx={{ height: 140 }} image="/img (8).png" title="neko"/>
+                            <CardContent>
+                                <Box component='div' sx={{backgroundColor:'#7c4dff', color:'white', borderRadius:'50px', padding:'5px', maxWidth:'45px'}}>Web</Box>
+                                <Typography gutterBottom variant="h5" component="div">
+                                    Plataforma de gestion empresarial
+                                </Typography>
+                                <Typography variant="body2" sx={{ color: 'text.secondary' }}>
+                                Lizards are a widespread group of squamate reptiles, with over 6,000
+                                species, ranging across all continents except Antarctica
+                                </Typography>
+                            </CardContent>
+                            <CardActions>
+                                <Box sx={{backgroundColor:'#e6e6e6', borderRadius:'5px', border:'1px solid #acacac', padding:'6px'}}>dasdfa</Box>
+                            </CardActions>
+                            <CardActions>
+                                <Button size="small">Share</Button>
+                                <Button size="small">Learn More</Button>
+                            </CardActions>
+                        </Card>
+
+                        <Card sx={{ maxWidth: 270}}>
+                            <CardMedia sx={{ height: 140 }} image="/img (8).png" title="neko"/>
+                            <CardContent>
+                                <Box component='div' sx={{backgroundColor:'#7c4dff', color:'white', borderRadius:'50px', padding:'5px', maxWidth:'45px'}}>Web</Box>
+                                <Typography gutterBottom variant="h5" component="div">
+                                    Plataforma de gestion empresarial
+                                </Typography>
+                                <Typography variant="body2" sx={{ color: 'text.secondary' }}>
+                                Lizards are a widespread group of squamate reptiles, with over 6,000
+                                species, ranging across all continents except Antarctica
+                                </Typography>
+                            </CardContent>
+                            <CardActions>
+                                <Box sx={{backgroundColor:'#e6e6e6', borderRadius:'5px', border:'1px solid #acacac', padding:'6px'}}>dasdfa</Box>
+                            </CardActions>
+                            <CardActions>
+                                <Button size="small">Share</Button>
+                                <Button size="small">Learn More</Button>
+                            </CardActions>
+                        </Card>
+                        
+                        <Card sx={{ maxWidth: 270}}>
+                            <CardMedia sx={{ height: 140 }} image="/img (8).png" title="neko"/>
+                            <CardContent>
+                                <Box component='div' sx={{backgroundColor:'#7c4dff', color:'white', borderRadius:'50px', padding:'5px', maxWidth:'45px'}}>Web</Box>
+                                <Typography gutterBottom variant="h5" component="div">
+                                    Plataforma de gestion empresarial
+                                </Typography>
+                                <Typography variant="body2" sx={{ color: 'text.secondary' }}>
+                                Lizards are a widespread group of squamate reptiles, with over 6,000
+                                species, ranging across all continents except Antarctica
+                                </Typography>
+                            </CardContent>
+                            <CardActions>
+                                <Box sx={{backgroundColor:'#e6e6e6', borderRadius:'5px', border:'1px solid #acacac', padding:'6px'}}>dasdfa</Box>
+                            </CardActions>
+                            <CardActions>
+                                <Button size="small">Share</Button>
+                                <Button size="small">Learn More</Button>
+                            </CardActions>
+                        </Card>
                     </Box>
 
                 </Box>
