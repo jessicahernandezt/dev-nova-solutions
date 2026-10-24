@@ -82,19 +82,20 @@ function Hero() {
                 <Box sx={{
                     display: 'flex',
                     alignItems: 'center',
-                    gap: '25px'
+                    gap: '25px',
+                    marginTop: '50px'
                 }}>
                     <Box sx={{
                         display:'flex'
                         }}>
                         <GppGoodIcon
                         sx={{  
-                            color: '#7c4dff'
+                            color: '#7c4dff',
                         }}>
                           
                         </GppGoodIcon>
 
-                        <Typography sx={{fontWeight: 'bold'}}>
+                        <Typography sx={{fontWeight: 'bold', fontSize: '23px', marginLeft: '15px'}}>
                             100%
                         <Typography sx={{color: '#2B2626', fontWeight: 'bold'}}>
                             Comprometidos
@@ -111,7 +112,7 @@ function Hero() {
                             }}>
                         </RocketLaunchIcon>
 
-                        <Typography sx={{fontWeight: 'bold'}}>
+                        <Typography sx={{fontWeight: 'bold', fontSize: '23px', marginLeft: '15px'}}>
                             +50
                         <Typography sx={{color: '#2B2626', fontWeight: 'bold'}}>
                         Proyectos entregados
@@ -126,7 +127,7 @@ function Hero() {
                             color: '#7c4dff',
                             }}>
                         </PeopleAltIcon>
-                        <Typography sx={{fontWeight: 'bold'}}>
+                        <Typography sx={{fontWeight: 'bold', fontSize: '23px', marginLeft: '15px'}}>
                             98%
                         <Typography sx={{color: '#2B2626', fontWeight: 'bold'}}>
                         Clientes satisfechos
