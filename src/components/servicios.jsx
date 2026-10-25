@@ -128,9 +128,10 @@ function Servicios(){
                                             
                                         }}>
                                         <Monitor sx={{
-                                            width:"90%",
+                                            width:"80%",
                                             height:"70%",
                                             color:"#7c4dff",
+                                            
                                             
                                            
                                         }}></Monitor>
@@ -160,6 +161,7 @@ function Servicios(){
                                                     minHeight:"0",
                                                     minWidth:"0",
                                                     color:"#7c4dff",
+                                                    marginTop:"10px"
                                                     
                                                 }}>
                                                     <Typography variant='caption' sx={{
@@ -201,7 +203,7 @@ function Servicios(){
                                             
                                             height:"70%",
                                             color:"#7c4dff",
-                                            width:"90%",
+                                            width:"80%",
                                         }}>
 
                                         </AppSettingsAlt>
@@ -231,6 +233,7 @@ function Servicios(){
                                                     minHeight:"0",
                                                     minWidth:"0",
                                                     color:"#7c4dff",
+                                                    marginTop:"10px"
                                                     
                                                 }}>
                                                     <Typography variant='caption' sx={{
@@ -271,7 +274,7 @@ function Servicios(){
                                             
                                             height:"70%",
                                             color:"#7c4dff",
-                                            width:"90%",
+                                            width:"80%",
                                         }}>
 
                                         </CodeOff>
@@ -301,7 +304,7 @@ function Servicios(){
                                                     minHeight:"0",
                                                     minWidth:"0",
                                                     color:"#7c4dff",
-                                                    
+                                                    marginTop:"10px"
                                                 }}>
                                                     <Typography variant='caption' sx={{
                                                         fontSize:"9px"
@@ -345,7 +348,7 @@ function Servicios(){
                                         }}>
                                         <Lightbulb sx={
                                             {
-                                            width:"90%",
+                                            width:"80%",
                                             height:"70%",
                                             color:"#7c4dff",
                                             }
@@ -376,6 +379,7 @@ function Servicios(){
                                                     minHeight:"0",
                                                     minWidth:"0",
                                                     color:"#7c4dff",
+                                                    marginTop:"10px"
                                                     
                                                 }}>
                                                     <Typography variant='caption' sx={{
@@ -416,7 +420,7 @@ function Servicios(){
                                             
                                             height:"70%",
                                             color:"#7c4dff",
-                                            width:"90%",
+                                            width:"80%",
                                         }}></DeviceHub>
                                         </Box>
                                         <Box
@@ -444,6 +448,7 @@ function Servicios(){
                                                     minHeight:"0",
                                                     minWidth:"0",
                                                     color:"#7c4dff",
+                                                    marginTop:"10px"
                                                     
                                                 }}>
                                                     <Typography variant='caption' sx={{
@@ -482,7 +487,7 @@ function Servicios(){
                                             
                                         }}>
                                         <VerifiedUser sx={{
-                                            width:"90%",
+                                            width:"80%",
                                             height:"70%",
                                             color:"#7c4dff",
                                         }}></VerifiedUser>
@@ -512,6 +517,7 @@ function Servicios(){
                                                     minHeight:"0",
                                                     minWidth:"0",
                                                     color:"#7c4dff",
+                                                    marginTop:"10px"
                                                     
                                                 }}>
                                                     <Typography variant='caption' sx={{
