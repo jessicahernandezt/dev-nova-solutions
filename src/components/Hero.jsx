@@ -137,6 +137,9 @@ function Hero() {
                 </Box>
 
             </Container>
+            <Container component="img"
+            sx={{width: '650px', height: '600px'}} alt='hero'src='.\img_8.png'>
+            </Container>
         </Box>
     )
 }
