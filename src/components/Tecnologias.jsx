@@ -1,4 +1,4 @@
-import {Box, Button, Container, Typography, Card, CardActions, CardContent, CardMedia} from '@mui/material'
+import {Box, Container, Typography, Card, CardContent, CardMedia} from '@mui/material'
 
 function Tecnologias() {
     return(
