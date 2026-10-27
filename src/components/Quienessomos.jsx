@@ -1,4 +1,4 @@
-import { ArrowForward, Bolt, Opacity, PeopleAltRounded } from '@mui/icons-material'
+import { ArrowForward, Bolt, FileOpen, Groups2, HealthAndSafety, HomeWork, Opacity, PeopleAltRounded } from '@mui/icons-material'
 import { StarPurple500 } from '@mui/icons-material'
 
 import {
@@ -67,10 +67,19 @@ function QuienesSomos() {
                         }}></Box>
                     </Box>
                     <Box alt="iconos">
-                        <Box></Box>
-                        <Box></Box>
-                        <Box></Box>
-                        <Box></Box>
+                        <Box>
+                            <HomeWork />
+                        </Box>
+                        <Box>
+                            <FileOpen></FileOpen>
+
+                        </Box>
+                        <Box>
+                            <Groups2></Groups2>
+                        </Box>
+                        <Box>
+                            <HealthAndSafety></HealthAndSafety>
+                        </Box>
                     </Box>
 
                 </Box>
