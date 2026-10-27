@@ -1,6 +1,7 @@
-import{Box,Button,Container,Typography} from '@mui/material'
-
-
+import{Box,Button,colors,Container,Typography} from '@mui/material';
+import FavoriteIcon from '@mui/icons-material/Favorite';
+import ComputerIcon from '@mui/icons-material/Computer';
+import PersonAddIcon from '@mui/icons-material/PersonAdd';
 
 function Hero() {
     return(
@@ -91,7 +92,7 @@ function Hero() {
                     <Box 
                     sx={{
                         display:"flex",
-                        gap:5
+                        gap:3
                     }}>
                       <Button variant="contained" size='large'
                       sx={{
@@ -114,25 +115,40 @@ function Hero() {
                    sx={{
                     display:"flex",
                     width:"100%",
-                    gap:2
+                    padding:"15px",
+                    gap:3
                    }}>
 
-                    <Typography
-                    sx={{
-                        color:"#000"
-                    }}> favorite_border 100%<br></br>Comprometidos</Typography>
+                        <Typography
+                        sx={{
+                            color:"#000",
+                            display:"flex",
+                            gap:2
+                        }}> <FavoriteIcon sx={{
+                            color:"#7c4dff"
+                        }}/>100%<br></br>Comprometidos</Typography>
 
 
-                    <Typography
-                    sx={{
-                        color:"#000"
-                    }}>+50<br></br>Proyectos entregados</Typography>
+                        <Typography
+                        sx={{
+                            color:"#000",
+                            display:"flex",
+                            gap:2
+                        }}> <ComputerIcon sx={{
+                            color:"#7c4dff"
+                        }} />+50<br></br>Proyectos entregados</Typography>
 
-                    <Typography sx={{
-                        color:"#000"
-                    }}>98%<br></br>satisfecho</Typography>
+                        <Typography sx={{
+                            color:"#000",
+                            display:"flex",
+                            gap:2
+                        }}> <PersonAddIcon sx={{
+                            color:"#7c4dff"
+                        }}/>98%<br></br> Clientes satisfecho</Typography>
                     
                    </Box>
+
+
 
                  
 
@@ -142,6 +158,14 @@ function Hero() {
                </Typography>
 
 
+            </Box>
+
+            <Box sx={{
+               display:"flex",
+               width:"10%",
+               padding:"10px"
+            }}>
+                <Box component="img" src='./img (8).png'></Box>
             </Box>
             </Container>  
         </Box>
