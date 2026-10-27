@@ -1,6 +1,7 @@
 import { ArrowForward } from '@mui/icons-material'
 import AdUnitsIcon from '@mui/icons-material/AdUnits'
 import TvIcon from '@mui/icons-material/Tv'
+import CodeOffIcon from '@mui/icons-material/CodeOff'
 import CardContent from '@mui/material/CardContent';
 import {Box, 
     Button, 
@@ -23,8 +24,9 @@ function Servicios() {
                     <Box>
 
                     </Box>
-                    <Box sx={{width:"50%"}}>
-                        <Typography sx={{padding:'2px',fontStyle:"italic",fontWeight:"bold", }}>
+                    <Box sx={{width:"100%"}}>
+                        <Box sx={{width: "50%"}}>
+                            <Typography sx={{padding:'2px',fontStyle:"italic",fontWeight:"bold", }}>
                                 Nuestros servicios                                
                         </Typography>
                         <Typography sx={{
@@ -38,21 +40,26 @@ function Servicios() {
                         <Typography sx={{color:"grey", padding:"2"}}>
                             Ofrecemos servicios de desarrollo de software, aplicaciones web y moviles, consultoria y transporte, para ayudarte a optimizar tus procesos y alcanzar tus objetivos
                         </Typography>
+                        </Box>
                         <Box sx={{
                 display: 'flex',
                 alignItems: 'center',
                 gap: 1}}>
-                            <Card sx={{width: '270%', height: 150}}>
+                            <Card sx={{width: '33%', height: 150}}>
                                 <Box>
                                     <TvIcon sx={{width: 100, height:100}}></TvIcon>
                                 </Box>
                             </Card>
-                            <Card sx={{width: 270, height: 150}}>
+                            <Card sx={{width: '33%', height: 150}}>
                                 <Box>
                                     <AdUnitsIcon sx={{width: 100, height:100}}></AdUnitsIcon>
                                 </Box>
                             </Card>
-                            <Card><AdUnitsIcon></AdUnitsIcon></Card>
+                            <Card sx={{width: '33%', height: 150}}>
+                                <Box>
+                                    <CodeOffIcon sx={{width: 100, height:100}}></CodeOffIcon>
+                                </Box>
+                            </Card>
 
                         </Box>
                         <Box sx={{
