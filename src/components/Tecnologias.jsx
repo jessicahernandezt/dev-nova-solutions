@@ -1,5 +1,3 @@
-import { Box, Typography } from "@mui/material";
-
 const tecnologias = [
   { nombre: "React", color: "#61DAFB", logo: "⚛" },
   { nombre: "Vite", color: "#646CFF", logo: "⚡" },
@@ -12,6 +10,15 @@ const tecnologias = [
   { nombre: "Flutter", color: "#54C5F8", logo: "◆" },
   { nombre: "Python", color: "#3776AB", logo: "🐍" },
 ];
+
+import {
+    Box,
+    Button,
+    Container,
+    Typography
+} from '@mui/material'
+
+
 
 function Tecnologias() {
   return (
@@ -42,7 +49,7 @@ function Tecnologias() {
           gap: 2,
         }}
       >
-        {tecnologias.map((tec) => (
+
           <Box
             sx={{
               bgcolor: "white",
@@ -64,17 +71,15 @@ function Tecnologias() {
                 mb: 1,
               }}
             >
-              {tec.logo}
             </Typography>
 
             <Typography
               variant="body2"
               sx={{ fontWeight: "bold", color: "#334155" }}
             >
-              {tec.nombre}
+
             </Typography>
           </Box>
-        ))}
       </Box>
     </Box>
   );
