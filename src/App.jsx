@@ -5,6 +5,7 @@ import Nosotros from "./components/Quienes-somos"
 import Proyectos from "./components/Proyectos"
 import Tecnologias from "./components/Tecnologias"
 import Experiencia from "./components/Experiencia"
+import Contacto from "./components/Contacto"
 
 function App(){
 
@@ -17,6 +18,7 @@ function App(){
       <Proyectos />
       <Tecnologias />
       <Experiencia />
+      <Contacto />
     </>
   )
 }
