@@ -3,7 +3,7 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
 function Contacto() {
     return(
-        <Box sx={{minHeight: '520px', display: 'flex', alignItems: 'space', justifyContent:'space-evenly', backgroundColor: '#f7f7ff', py: 1}}>
+        <Box sx={{minHeight: '520px', display: 'flex', alignItems: 'center', justifyContent:'space-evenly', backgroundColor: '#f7f7ff', py: 1}}>
             <Container maxWidth='lg'>
                 <Box sx={{display: 'flex', alignItems: 'center', gap: 3}}>
 
