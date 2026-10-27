@@ -12,7 +12,7 @@ import { Height } from '@mui/icons-material';
 
 function Hero() {
     return (
-        <Box
+        <Box /*Hero*/
             sx={{
                 minHeight: '520px',
                 display: 'flex',
