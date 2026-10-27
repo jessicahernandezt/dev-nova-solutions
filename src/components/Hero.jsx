@@ -22,15 +22,16 @@ function Hero() {
             }}
         >
 
-            <Container maxWidth='lg'>
-                <Box
-                    sx={{
+            <Container maxWidth='lg' sx={{display:'flex'}}>
+            <Box>
+                <Box sx={{ /*Info-hero*/
                         display: 'flex',
                         alignItems: 'center',
+                        justifyContent: 'space-between',
                         gap: 6
                     }}>
 
-                    <Box sx={{ width: '50%' }}>
+                    <Box sx={{flex:1, flexShrink: '0', maxWidth: '550px'}}>
                         <Typography
                             variant='overline'
                             sx={{
@@ -54,7 +55,7 @@ function Hero() {
                     </Box>
                 </Box>
 
-                <Box sx={{
+                <Box sx={{ /*Botones-hero*/
                     display: 'flex',
                     alignItems: "center",
                     gap: 1
@@ -79,11 +80,11 @@ function Hero() {
                     
                 </Box>
 
-                <Box sx={{
+                <Box sx={{ /* iconos-hero*/
                     display: 'flex',
                     alignItems: 'center',
                     gap: '25px',
-                    marginTop: '50px'
+                    marginTop: '10px',
                 }}>
                     <Box sx={{
                         display:'flex'
@@ -91,6 +92,7 @@ function Hero() {
                         <GppGoodIcon
                         sx={{  
                             color: '#7c4dff',
+                            fontSize: '50px'
                         }}>
                           
                         </GppGoodIcon>
@@ -108,7 +110,8 @@ function Hero() {
                         }}>
                         <RocketLaunchIcon 
                         sx={{
-                            color: '#7c4dff'
+                            color: '#7c4dff',
+                            fontSize: '50px'
                             }}>
                         </RocketLaunchIcon>
 
@@ -125,6 +128,7 @@ function Hero() {
                         }}>
                         <PeopleAltIcon sx={{
                             color: '#7c4dff',
+                            fontSize: '50px'
                             }}>
                         </PeopleAltIcon>
                         <Typography sx={{fontWeight: 'bold', fontSize: '23px', marginLeft: '15px'}}>
@@ -135,11 +139,17 @@ function Hero() {
                         </Typography>
                     </Box>
                 </Box>
+            </Box>
 
+            <Box /*Imagen-hero*/
+            component="img" src='./img_8.png' alt='hero' sx={{
+                width: '740px',
+                height: '560px'
+            }}>
+                 
+            </Box>
             </Container>
-            <Container component="img"
-            sx={{width: '650px', height: '600px'}} alt='hero'src='.\img_8.png'>
-            </Container>
+
         </Box>
     )
 }
