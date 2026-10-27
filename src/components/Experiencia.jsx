@@ -64,52 +64,54 @@ function Experiencia() {
                     </Typography>
 
                     <Box component='div' sx={{display:'flex', alignItems:'center', justifyContent:'space-evenly'}}>
-                        <Card sx={{ maxWidth: 270}}>
-                            <CardMedia sx={{ height: 140 }} image="/img (8).png" title="neko"/>
+                        <Card sx={{ maxWidth: 330}}>
                             <CardContent>
-                                <Box component='div' sx={{backgroundColor:'#7c4dff', color:'white', borderRadius:'50px', padding:'5px', maxWidth:'45px'}}>Web</Box>
-                                <Typography gutterBottom variant="h5" component="div">
-                                    Plataforma de gestion empresarial
-                                </Typography>
-                                <Typography variant="body2" sx={{ color: 'text.secondary' }}>
-                                    Sistema completo para la administracion de procesos internos
-                                </Typography>
+                                <Box sx={{ display: 'flex', alignItems: 'flex-start', gap: 2}}>
+                                    <Avatar alt='' src='/img (7).png' />
+                                    <Box sx={{flex: 1, minWidth: 0}}>
+                                        <Typography sx={{color: '#666', mb:1}}>
+                                            "El equipo de DevNova entendio perfectamente nuestras necesidades y entrego un producto de gran valor. Altamente recomendados."
+                                        </Typography>
+                                        <Typography sx={{color:"#171b35", fontWeight:"bold", fontSize: '1.1rem', letterSpacing:2}}>
+                                            Laura Martinez
+                                        </Typography>
+                                        <Typography sx={{color: '#666', mb:1}}>
+                                            Directora de Marketing. Startup
+                                        </Typography>
+                                        <Typography sx={{color: '#faca2c', letterSpacing:2}}>
+                                            ★★★★★
+                                        </Typography>
+                                    </Box>
+                                </Box>
                             </CardContent>
-                            <CardActions>
-                                <Box sx={{backgroundColor:'#e6e6e6', borderRadius:'5px', border:'1px solid #acacac', padding:'5px', fontSize:'15px', color:'#666'}}>React</Box>
-                                <Box sx={{backgroundColor:'#e6e6e6', borderRadius:'5px', border:'1px solid #acacac', padding:'5px', fontSize:'15px', color:'#666'}}>Node.js</Box>
-                                <Box sx={{backgroundColor:'#e6e6e6', borderRadius:'5px', border:'1px solid #acacac', padding:'5px', fontSize:'15px', color:'#666'}}>PostegreSQL</Box>
-                            </CardActions>
-                            <CardActions>
-                                <Button sx={{color: '#7c4dff', fontWeight:"bold"}}>Ver proyecto →</Button>
-                            </CardActions>
                         </Card>
 
-                        <Card sx={{ maxWidth: 270}}>
-                            <CardMedia sx={{ height: 140 }} image="/img (8).png" title="neko"/>
+                        <Card sx={{ maxWidth: 330}}>
                             <CardContent>
-                                <Box component='div' sx={{backgroundColor:'#7c4dff', color:'white', borderRadius:'50px', padding:'5px', maxWidth:'45px'}}>Web</Box>
-                                <Typography gutterBottom variant="h5" component="div">
-                                    Plataforma de gestion empresarial
-                                </Typography>
-                                <Typography variant="body2" sx={{ color: 'text.secondary' }}>
-                                    Sistema completo para la administracion de procesos internos
-                                </Typography>
+                                <Box sx={{ display: 'flex', alignItems: 'flex-start', gap: 2}}>
+                                    <Avatar alt='' src='/img (7).png' />
+                                    <Box sx={{flex: 1, minWidth: 0}}>
+                                        <Typography sx={{color: '#666', mb:1}}>
+                                            "Soluciones creativas, comunicacion efectiva y un gran dominio tecnico. Sin duda los volveria a contratar para futuros proyectos."
+                                        </Typography>
+                                        <Typography sx={{color:"#171b35", fontWeight:"bold", fontSize: '1.1rem', letterSpacing:2}}>
+                                            Carlos Ramirez
+                                        </Typography>
+                                        <Typography sx={{color: '#666', mb:1}}>
+                                            CTO. Empresa de Retal
+                                        </Typography>
+                                        <Typography sx={{color: '#faca2c', letterSpacing:2}}>
+                                            ★★★★★
+                                        </Typography>
+                                    </Box>
+                                </Box>
                             </CardContent>
-                            <CardActions>
-                                <Box sx={{backgroundColor:'#e6e6e6', borderRadius:'5px', border:'1px solid #acacac', padding:'5px', fontSize:'15px', color:'#666'}}>React</Box>
-                                <Box sx={{backgroundColor:'#e6e6e6', borderRadius:'5px', border:'1px solid #acacac', padding:'5px', fontSize:'15px', color:'#666'}}>Node.js</Box>
-                                <Box sx={{backgroundColor:'#e6e6e6', borderRadius:'5px', border:'1px solid #acacac', padding:'5px', fontSize:'15px', color:'#666'}}>PostegreSQL</Box>
-                            </CardActions>
-                            <CardActions>
-                                <Button sx={{color: '#7c4dff', fontWeight:"bold"}}>Ver proyecto →</Button>
-                            </CardActions>
                         </Card>
 
-                        <Card sx={{ maxWidth: 270}}>
-                            <CardMedia sx={{ height: 140 }} image="/img (8).png" title="neko"/>
+                        <Card sx={{ maxWidth: 330}}>
+
                             <CardContent>
-                                <Box component='div' sx={{backgroundColor:'#7c4dff', color:'white', borderRadius:'50px', padding:'5px', maxWidth:'45px'}}>Web</Box>
+                                
                                 <Typography gutterBottom variant="h5" component="div">
                                     Plataforma de gestion empresarial
                                 </Typography>
