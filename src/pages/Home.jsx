@@ -22,4 +22,3 @@ function Home() {
 
 export default Home
 
-Y si manejan además Clientes/FA
