@@ -197,7 +197,7 @@ function Proyectos() {
                                 }}>
                                     <CardMedia 
                                     component="img"
-                                    src='./cardimg1.png'
+                                    src='./Cardimg2.png'
                                     sx={{
                                         width:"270px",
                                         height:"100px"
@@ -216,18 +216,18 @@ function Proyectos() {
                                             justifyContent:"center",
                                             fontSize:"15px"
                                         }}>
-                                            web
+                                            Movil
                                         </Typography>
                                         <Typography sx={{
                                             fontSize:"14px",
                                             
                                         }}>
-                                            Plataforma de gestion empresarial
+                                            App de reservas
                                         </Typography>
                                         <Typography sx={{
                                             fontSize:"12px"
                                         }}>
-                                            Sistema completo para la administración de procesos internos
+                                            Aplicacion movil para reservas de servicio y control de estado
                                         </Typography>
                                         <Box sx={{
                                             width:"290px",
@@ -240,21 +240,21 @@ function Proyectos() {
                                                 fontSize:"8px",
                                                 backgroundColor:"#7a7a7a48"
                                                 
-                                            }}>react</Button>
+                                            }}>Flutter</Button>
 
                                             <Button variant='small' sx={{
                                                 width:"10px",
                                                 height:"29px",
                                                 fontSize: "8px",
                                                 backgroundColor:"#7a7a7a48"
-                                            }}>node.js</Button>
+                                            }}>Firebase</Button>
 
                                             <Button variant='small' sx={{
                                                 width:"10px",
                                                 height:"29px",
                                                 fontSize:"8px",
                                                 backgroundColor:"#7a7a7a48",
-                                            }}>PostegreSQL</Button>
+                                            }}>node.js</Button>
                                         </Box>
                                        
                                         <Button sx={{
@@ -279,7 +279,7 @@ function Proyectos() {
                                 }}>
                                     <CardMedia 
                                     component="img"
-                                    src='./cardimg1.png'
+                                    src='./cardimg3.png'
                                     sx={{
                                         width:"270px",
                                         height:"100px"
@@ -304,12 +304,12 @@ function Proyectos() {
                                             fontSize:"14px",
                                             
                                         }}>
-                                            Plataforma de gestion empresarial
+                                            Sistema de inventario
                                         </Typography>
                                         <Typography sx={{
                                             fontSize:"12px"
                                         }}>
-                                            Sistema completo para la administración de procesos internos
+                                            Control de productos, entradas y reportes en tiempo real.
                                         </Typography>
                                         <Box sx={{
                                             width:"290px",
@@ -329,14 +329,14 @@ function Proyectos() {
                                                 height:"29px",
                                                 fontSize: "8px",
                                                 backgroundColor:"#7a7a7a48"
-                                            }}>node.js</Button>
+                                            }}>Expres</Button>
 
                                             <Button variant='small' sx={{
                                                 width:"10px",
                                                 height:"29px",
                                                 fontSize:"8px",
                                                 backgroundColor:"#7a7a7a48",
-                                            }}>PostegreSQL</Button>
+                                            }}>MongoDB</Button>
                                         </Box>
                                        
                                         <Button sx={{
@@ -361,7 +361,7 @@ function Proyectos() {
                                 }}>
                                     <CardMedia 
                                     component="img"
-                                    src='./cardimg1.png'
+                                    src='./cardimg4.png'
                                     sx={{
                                         width:"270px",
                                         height:"100px"
@@ -369,10 +369,10 @@ function Proyectos() {
                                     />
                                     <CardContent>
                                         <Typography sx={{
-                                            width:"20%",
+                                            width:"50%",
                                             height:"10%",
                                             borderColor:"#7c4dff",
-                                            borderRadius:"41%",
+                                            borderRadius:"45%",
                                             backgroundColor:"#7c4dff",
                                             color:"white",
                                             display:"flex",
@@ -380,18 +380,18 @@ function Proyectos() {
                                             justifyContent:"center",
                                             fontSize:"15px"
                                         }}>
-                                            web
+                                            E-commerce
                                         </Typography>
                                         <Typography sx={{
                                             fontSize:"14px",
                                             
                                         }}>
-                                            Plataforma de gestion empresarial
+                                            Tienda en linea
                                         </Typography>
                                         <Typography sx={{
                                             fontSize:"12px"
                                         }}>
-                                            Sistema completo para la administración de procesos internos
+                                            Plataforma de comercio electronico con pagos en linea
                                         </Typography>
                                         <Box sx={{
                                             width:"290px",
