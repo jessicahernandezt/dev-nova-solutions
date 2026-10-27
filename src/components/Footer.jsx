@@ -5,9 +5,10 @@ function Footer() {
     return(
         <Box sx={{minHeight: '520px', display: 'flex', alignItems: 'center', backgroundColor: '#171b35', py: 1}}>
             <Container maxWidth='lg'>
-                <Box sx={{display: 'flex', alignItems: 'center', justifyContent:'space-evenly', gap: 3, borderBottom:'1px solid #666', paddingBottom:'3%'}}>
+                <Box sx={{display: 'flex', alignItems: 'top', justifyContent:'space-evenly', gap: 3, borderBottom:'1px solid #666', paddingBottom:'3%'}}>
+
                     <Box>
-                        <Box sx={{display: "flex", alignItems: 'center', flexGrow: 1, gap: 1}}>{/* logo */}
+                        <Box sx={{display: "flex", alignItems: 'center', flexGrow: 1, gap: 1}}>
                             <Typography variant="h4" sx={{fontWeight: 'bold', color: '#7c4dff'}}>
                                 N
                             </Typography>
@@ -28,7 +29,7 @@ function Footer() {
                         </Box>
                     </Box>
 
-                    <Box sx={{padding:2}}>
+                    <Box sx={{paddingRight:2}}>
                         <Typography sx={{color:'#ffffff', fontWeight:"bold", letterSpacing:2, fontSize:'1.2rem'}}>
                             Navegación
                         </Typography>
@@ -57,7 +58,7 @@ function Footer() {
                         </Typography>
                     </Box>
 
-                    <Box sx={{display:'flex', flexDirection:'column', alignItems:'center', padding:2}}>
+                    <Box sx={{display:'flex', flexDirection:'column', alignItems:'center', paddingRight:2}}>
                         <Typography sx={{color:'#ffffff', fontWeight:"bold", letterSpacing:2, fontSize:'1.2rem'}}>
                             Contacto
                         </Typography>
@@ -94,11 +95,24 @@ function Footer() {
                                 →
                             </Button>
                         </Box>
+                        <Typography sx={{color:'#666', fontWeight:"bold", letterSpacing:2, fontSize:'14px', paddingTop:'3%'}}>
+                            Recibe noticias, novedades y contenido util.
+                        </Typography>
                     </Box>
                 </Box>
+
                 <Box sx={{display:'flex', alignItems: 'center', justifyContent:'space-evenly', gap: 3, paddingTop:'3%'}}>
-                    asda
+                    <Typography sx={{color:'#666', fontWeight:"bold", letterSpacing:2, fontSize:'14px'}}>
+                        © 2025 Dev Nova Solutions. Todos los derechos reservados.
+                    </Typography>
+                    <Typography sx={{color:'#666', fontWeight:"bold", letterSpacing:2, fontSize:'14px'}}>
+                        Aviso de Privacidad | Terminos de servicio
+                    </Typography>
+                    <Typography sx={{color:'#666', fontWeight:"bold", letterSpacing:2, fontSize:'14px'}}>
+                        Inovacion hoy. Un mejor mañana.
+                    </Typography>
                 </Box>
+                
             </Container>
         </Box>
     )
