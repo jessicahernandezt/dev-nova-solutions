@@ -143,7 +143,7 @@ function Hero() {
                 height: 'auto',
                 width: 'auto',
                 display: 'flex',
-
+                justifyContent: 'space-evenly',
             }}>
 
                 <Box sx={{
@@ -221,7 +221,15 @@ function Hero() {
                 </Box>
 
 
-                <Box>
+                <Box sx={{
+                    marginTop: '20px',
+                    borderRadius: '10px',
+                    padding: '10px 20px',
+                    width: '20%',
+                    height: 'auto',
+                    boxShadow: '0px 5px 5px rgba(0,0,0,0.3)',
+                    marginBottom: '20px',
+                }}>
                     <Typography>
                         Empresa que han confiado en nosotros
                     </Typography>
