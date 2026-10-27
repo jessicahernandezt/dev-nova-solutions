@@ -150,7 +150,7 @@ function ContactosFQA() {
 
                     <Box sx={{
                         display: 'flex',
-                        
+
                     }}>
 
                         <Box sx={{
@@ -213,7 +213,7 @@ function ContactosFQA() {
                                 Mensaje *
                             </Typography>
 
-                            <input type="text" placeholder='Cuentanos sobre tu proyecto'style={{
+                            <input type="text" placeholder='Cuentanos sobre tu proyecto' style={{
                                 width: '200px',
                                 height: '100px',
                                 borderRadius: '5px',
