@@ -1,5 +1,4 @@
-import {Box, Button, Container, Typography, Accordion, AccordionActions, AccordionSummary, AccordionDetails, TextField} from '@mui/material'
-import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import {Box, Button, Container, Typography, TextField} from '@mui/material'
 
 function Footer() {
     return(
@@ -112,7 +111,7 @@ function Footer() {
                         Inovacion hoy. Un mejor mañana.
                     </Typography>
                 </Box>
-                
+
             </Container>
         </Box>
     )
