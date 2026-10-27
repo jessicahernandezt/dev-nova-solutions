@@ -7,7 +7,25 @@ function Footer() {
             <Container maxWidth='lg'>
                 <Box sx={{display: 'flex', alignItems: 'center', justifyContent:'space-evenly', gap: 3, borderBottom:'1px solid #666', paddingBottom:'3%'}}>
                     <Box>
-                        asda
+                        <Box sx={{display: "flex", alignItems: 'center', flexGrow: 1, gap: 1}}>{/* logo */}
+                            <Typography variant="h4" sx={{fontWeight: 'bold', color: '#7c4dff'}}>
+                                N
+                            </Typography>
+                            <Typography variant="h6" sx={{fontWeight: 'bold', lineHeight: 1, color:'white'}}>
+                                DevNova
+                                <br/>
+                                Solutions
+                            </Typography>
+                        </Box>
+                        <Typography sx={{color: '#666', fontWeight: 'bold', letterSpacing: 2, fontSize:'14px'}}>
+                            Soluciones para un mejor mañana.
+                        </Typography>
+                        <Box sx={{display:'flex', gap:2, paddingTop:1}}>
+                            <Box component='img' src='/img (11).png' alt='' sx={{width:'20px', height: '20px', objectFit: 'contain', flexShrink: 0}}></Box>
+                            <Box component='img' src='/img (11).png' alt='' sx={{width:'20px', height: '20px', objectFit: 'contain', flexShrink: 0}}></Box>
+                            <Box component='img' src='/img (11).png' alt='' sx={{width:'20px', height: '20px', objectFit: 'contain', flexShrink: 0}}></Box>
+                            <Box component='img' src='/img (11).png' alt='' sx={{width:'20px', height: '20px', objectFit: 'contain', flexShrink: 0}}></Box>
+                        </Box>
                     </Box>
 
                     <Box sx={{padding:2}}>
