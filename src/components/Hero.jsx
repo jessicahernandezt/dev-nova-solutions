@@ -108,19 +108,50 @@ function Hero() {
                             oportunidades
                         </Typography>
 
-                        <Box
-                            component='img'
+                        <Box SX={{
+                         display: 'flex',
+                         alignItems: 'center',
+                          }}>
+                           
+                           <img src= 'public/inicio.png' alt='icon'
+                           style= {{width: '100%', heigth:'60%' }}></img>
 
-                            alt='Código que crea oportunidades'
-                            sx={{
-                                width: '100%',
-                                borderRadius: '14px',
-                                display: 'block'
-                            }}
-                        />
+                                 <Box sx={{
+                                    marginBottom: '30%'
+                                 }}>
+                                    
+
+                                    <Typography sx={{
+                                        color:'#888691',     
+                                        marginTop: '-220px',
+                                         }}>
+
+                                            Devnova  group solutions
+                                    
+                                    </Typography>
+                                    
+            
+                                    
+                                    </Box>  {/* este box es el fin de la parte de la imagen del inicio de devnova y asi*/}
+                                
+
+                          </Box> 
+
                     </Box>
                 </Box>
-            </Container>
+
+
+
+                              <box>
+
+
+
+                                
+                              </box>
+
+
+
+            </Container>  {/* no passar de este conteiner o todo da error, nota mental, se esta trabajando solo sobre el conteiner y nada debe de ir afuera*/}
         </Box>
     )
 }
