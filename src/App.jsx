@@ -6,7 +6,7 @@ import Proyectos from "./components/Proyectos"
 import Tecnologias from "./components/Tecnologias"
 import ExperienciaClientes from "./components/ExperienciaClientes"
 import ContactosFQA from "./components/ContactosFQA"
-
+import Footer from "./components/Footer"
 
 
 function App(){
@@ -21,7 +21,9 @@ function App(){
       <Tecnologias />
       <ExperienciaClientes />
       <ContactosFQA />
-      
+      <Footer />
+
+
     </>
   );
 }
