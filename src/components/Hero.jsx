@@ -14,7 +14,7 @@ function Hero() {
                 minHeight: '520px',
                 display: 'flex',
                 alignItems: 'center',
-                backgroundColor: '#f7f7ff',
+                backgroundColor: '#ededfc',
                 py: 6
             }}
         >

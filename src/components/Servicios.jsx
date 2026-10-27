@@ -2,7 +2,6 @@ import { DesktopWindowsOutlined, SmartphoneOutlined, CodeOutlined, LightbulbOutl
 import {
     Box,
     Button,
-    Card,
     Container,
     Typography
 } from '@mui/material'
@@ -199,8 +198,7 @@ function Servicios() {
                         Ver más →
                         </Button>
                     </Box>
-</Box>
-
+                </Box>
             </Container>
         </Box>
     )
