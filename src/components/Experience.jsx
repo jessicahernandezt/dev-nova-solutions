@@ -110,7 +110,7 @@ function Experience() {
             </Typography>
             <Box sx={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: 2, alignItems: 'center', justifyItems: 'center' }}>
               <Box component="img" src="/bbva.png" alt="BBVA" sx={{ height: 25, objectFit: 'contain' }} />
-              <Box component="img" src="/cinépolis.png" alt="Cinépolis" sx={{ height: 25, objectFit: 'contain' }} />
+              <Box component="img" src="/cinepolis.png" alt="Cinépolis" sx={{ height: 25, objectFit: 'contain' }} />
               <Box component="img" src="/telcel.png" alt="Telcel" sx={{ height: 20, objectFit: 'contain' }} />
               <Box component="img" src="/aws.png" alt="AWS" sx={{ height: 25, objectFit: 'contain' }} />
               <Box component="img" src="/bimbo.png" alt="Bimbo" sx={{ height: 25, objectFit: 'contain' }} />
