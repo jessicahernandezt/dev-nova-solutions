@@ -20,61 +20,61 @@ function Tecnologias() {
                     </Typography>
 
                     <Box component='div' sx={{display:'flex', alignItems:'center', justifyContent:'space-evenly', paddingTop:'2%'}}>
-                        <Card sx={{ maxWidth: 270}}>
+                        <Card sx={{ maxWidth: 120}}>
                             <CardMedia sx={{ height: 100, width: 100 }} image="/img (11).png" title="neko"/>
                             <CardContent>
                                 <Box component='span' sx={{textAlign:'center'}}>React</Box>
                             </CardContent>
                         </Card>
-                        <Card sx={{ maxWidth: 270}}>
+                        <Card sx={{ maxWidth: 120}}>
                             <CardMedia sx={{ height: 100, width: 100 }} image="/img (11).png" title="neko"/>
                             <CardContent>
                                 <Box component='span' sx={{textAlign:'center'}}>Vite</Box>
                             </CardContent>
                         </Card>
-                        <Card sx={{ maxWidth: 270}}>
+                        <Card sx={{ maxWidth: 120}}>
                             <CardMedia sx={{ height: 100, width: 100 }} image="/img (11).png" title="neko"/>
                             <CardContent>
                                 <Box component='span' sx={{textAlign:'center'}}>Node.js</Box>
                             </CardContent>
                         </Card>
-                        <Card sx={{ maxWidth: 270}}>
+                        <Card sx={{ maxWidth: 120}}>
                             <CardMedia sx={{ height: 100, width: 100 }} image="/img (11).png" title="neko"/>
                             <CardContent>
                                 <Box component='span' sx={{textAlign:'center'}}>Express</Box>
                             </CardContent>
                         </Card>
-                        <Card sx={{ maxWidth: 270}}>
+                        <Card sx={{ maxWidth: 120}}>
                             <CardMedia sx={{ height: 100, width: 100 }} image="/img (11).png" title="neko"/>
                             <CardContent>
                                 <Box component='span' sx={{textAlign:'center'}}>MongoDB</Box>
                             </CardContent>
                         </Card>
-                        <Card sx={{ maxWidth: 270}}>
+                        <Card sx={{ maxWidth: 120}}>
                             <CardMedia sx={{ height: 100, width: 100 }} image="/img (11).png" title="neko"/>
                             <CardContent>
                                 <Box component='span' sx={{textAlign:'center'}}>PostegreSQL</Box>
                             </CardContent>
                         </Card>
-                        <Card sx={{ maxWidth: 270}}>
+                        <Card sx={{ maxWidth: 120}}>
                             <CardMedia sx={{ height: 100, width: 100 }} image="/img (11).png" title="neko"/>
                             <CardContent>
                                 <Box component='span' sx={{textAlign:'center'}}>Git</Box>
                             </CardContent>
                         </Card>
-                        <Card sx={{ maxWidth: 270}}>
+                        <Card sx={{ maxWidth: 120}}>
                             <CardMedia sx={{ height: 100, width: 100 }} image="/img (11).png" title="neko"/>
                             <CardContent>
                                 <Box component='span' sx={{textAlign:'center'}}>AWS</Box>
                             </CardContent>
                         </Card>
-                        <Card sx={{ maxWidth: 270}}>
+                        <Card sx={{ maxWidth: 120}}>
                             <CardMedia sx={{ height: 100, width: 100 }} image="/img (11).png" title="neko"/>
                             <CardContent>
                                 <Box component='span' sx={{textAlign:'center'}}>Flutter</Box>
                             </CardContent>
                         </Card>
-                        <Card sx={{ maxWidth: 270}}>
+                        <Card sx={{ maxWidth: 120}}>
                             <CardMedia sx={{ height: 100, width: 100 }} image="/img (11).png" title="neko"/>
                             <CardContent>
                                 <Box component='span' sx={{textAlign:'center'}}>Python</Box>
