@@ -109,26 +109,20 @@ function Experiencia() {
                         </Card>
 
                         <Card sx={{ maxWidth: 330}}>
-
                             <CardContent>
-                                
-                                <Typography gutterBottom variant="h5" component="div">
-                                    Plataforma de gestion empresarial
+                                <Typography sx={{color: '#666', mb:1}}>
+                                    Empresas que han confiado en nosotros
                                 </Typography>
-                                <Typography variant="body2" sx={{ color: 'text.secondary' }}>
-                                    Sistema completo para la administracion de procesos internos
-                                </Typography>
+                                <Box sx={{display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: 6, backgroundColor: '#fff', padding: '1rem', borderRadius: 2}}>
+                                    <Box component='img' src='/img (12).png' alt='' sx={{width:'50px', height: '50px', objectFit: 'contain', flexShrink: 0}}></Box>
+                                    <Box component='img' src='/img (12).png' alt='' sx={{width:'50px', height: '50px', objectFit: 'contain', flexShrink: 0}}></Box>
+                                    <Box component='img' src='/img (12).png' alt='' sx={{width:'50px', height: '50px', objectFit: 'contain', flexShrink: 0}}></Box>
+                                    <Box component='img' src='/img (12).png' alt='' sx={{width:'50px', height: '50px', objectFit: 'contain', flexShrink: 0}}></Box>
+                                    <Box component='img' src='/img (12).png' alt='' sx={{width:'50px', height: '50px', objectFit: 'contain', flexShrink: 0}}></Box>
+                                    <Box component='img' src='/img (12).png' alt='' sx={{width:'50px', height: '50px', objectFit: 'contain', flexShrink: 0}}></Box>
+                                </Box>
                             </CardContent>
-                            <CardActions>
-                                <Box sx={{backgroundColor:'#e6e6e6', borderRadius:'5px', border:'1px solid #acacac', padding:'5px', fontSize:'15px', color:'#666'}}>React</Box>
-                                <Box sx={{backgroundColor:'#e6e6e6', borderRadius:'5px', border:'1px solid #acacac', padding:'5px', fontSize:'15px', color:'#666'}}>Node.js</Box>
-                                <Box sx={{backgroundColor:'#e6e6e6', borderRadius:'5px', border:'1px solid #acacac', padding:'5px', fontSize:'15px', color:'#666'}}>PostegreSQL</Box>
-                            </CardActions>
-                            <CardActions>
-                                <Button sx={{color: '#7c4dff', fontWeight:"bold"}}>Ver proyecto →</Button>
-                            </CardActions>
                         </Card>
-
                     </Box>
                     
                 </Box>
