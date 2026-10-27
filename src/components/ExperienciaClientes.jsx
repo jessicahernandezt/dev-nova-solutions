@@ -17,6 +17,7 @@ function Hero() {
                 display: 'flex',
                 justifyContent: 'space-around',
                 alignItems: 'center',
+                padding: '0% 1%',
 
             }}>
 
@@ -52,7 +53,8 @@ function Hero() {
                 <Box sx={{
                     display: 'flex',
                     width: '50%',
-                    justifyContent: 'flex-end',
+                    justifyContent: 'space-between',
+
                 }}>
 
                     <Box sx={{
@@ -62,7 +64,34 @@ function Hero() {
 
                         <img src='public/star.png' alt='icon'
 
-                            style={{ width: '55px', height: '55px', }}></img>
+                            style={{ width: '40px', height: '40px', }}></img>
+
+                        <Box sx={{
+                            marginBottom: '14px',
+                        }}>
+                            <h3>5+</h3>
+                            <Typography sx={{
+                                color: '#888691',
+                                marginTop: '-10px',
+                            }}>
+
+                                Años de experiencia</Typography>
+
+                        </Box>
+
+
+
+                    </Box>
+
+                    <Box sx={{
+                        display: 'flex',
+                        alignItems: 'center',
+
+                    }}>
+
+                        <img src='public/star.png' alt='icon'
+
+                            style={{ width: '40px', height: '40px', }}></img>
 
                         <Box sx={{
                             marginBottom: '14px',
@@ -84,23 +113,22 @@ function Hero() {
                     <Box sx={{
                         display: 'flex',
                         alignItems: 'center',
-
                     }}>
 
                         <img src='public/star.png' alt='icon'
 
-                            style={{ width: '55px', height: '55px', }}></img>
+                            style={{ width: '40px', height: '40px', }}></img>
 
                         <Box sx={{
                             marginBottom: '14px',
                         }}>
-                            <h3>+50</h3>
+                            <h3>30+</h3>
                             <Typography sx={{
                                 color: '#888691',
                                 marginTop: '-10px',
                             }}>
 
-                                proyectos entregados</Typography>
+                                Casos exitosos</Typography>
 
                         </Box>
 
@@ -115,18 +143,18 @@ function Hero() {
 
                         <img src='public/star.png' alt='icon'
 
-                            style={{ width: '55px', height: '55px', }}></img>
+                            style={{ width: '40px', height: '40px', }}></img>
 
                         <Box sx={{
                             marginBottom: '14px',
                         }}>
-                            <h3>+50</h3>
+                            <h3>98%</h3>
                             <Typography sx={{
                                 color: '#888691',
                                 marginTop: '-10px',
                             }}>
 
-                                proyectos entregados</Typography>
+                                Satisfaccion promedio</Typography>
 
                         </Box>
 
@@ -225,29 +253,64 @@ function Hero() {
                     marginTop: '20px',
                     borderRadius: '10px',
                     padding: '10px 20px',
-                    width: '20%',
+                    width: '27%',
                     height: 'auto',
                     boxShadow: '0px 5px 5px rgba(0,0,0,0.3)',
                     marginBottom: '20px',
                 }}>
-                    <Typography>
+                    <Typography sx={{
+                        color: '#888691',
+                    }}>
                         Empresa que han confiado en nosotros
                     </Typography>
 
                     <Box>
 
-                        <Box>
-                            <img src="" alt="" />
+                        <Box sx={{
+                            display: 'flex',
+                            justifyContent: 'space-between',
+                            marginTop: '10px',
+                        }}>
+
+                            <Box>
+                                <img src='public/BBVA.jpg' alt='icon'
+
+                                    style={{ width: '100px', height: '50px', borderRadius: '10px', }}></img>
+                            </Box>
+                            <Box>
+                                <img src='public/Cinepolis.jpg' alt='icon'
+                                    style={{ width: '100px', height: '50px', borderRadius: '10px', }}></img>
+                            </Box>
+                            <Box>
+                                <img src='public/Bimbo.jpg' alt='icon'
+                                    style={{ width: '100px', height: '50px', borderRadius: '10px', }}></img >
+                            </Box>
+
                         </Box>
+
+                        <Box sx={{
+                            display: 'flex',
+                            justifyContent: 'space-between',
+                            marginTop: '10px',
+                        }}>
+
                         <Box>
-                            <img src="" alt="" />
+                            <img src='public/Telcel.jpg' alt='icon'
+                                style={{ width: '100px', height: '50px', borderRadius: '10px', }}></img>
                         </Box>
+
                         <Box>
-                            <img src="" alt="" />
+                            <img src='public/Aws.jpg' alt='icon'
+                                style={{ width: '100px', height: '50px', borderRadius: '10px', }}></img>
                         </Box>
+
                         <Box>
-                            <img src="" alt="" />
+                            <img src='public/Microsoft.jpg' alt='icon'
+                                style={{ width: '100px', height: '50px', borderRadius: '10px', }}></img>
                         </Box>
+
+                        </Box>
+
                     </Box>
 
                 </Box>
