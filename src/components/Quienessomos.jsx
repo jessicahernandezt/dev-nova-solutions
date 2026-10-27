@@ -55,7 +55,8 @@ function QuienesSomos() {
                                 
                                 backgroundColor:"#7c4dff",
                                 fontSize:"12px",
-                                width:"60%"
+                                width:"60%",
+                                fontSize:"10px"
                                 
                             }}>
                                 conoce mas sobre nosotros<ArrowForward></ArrowForward>
@@ -175,7 +176,7 @@ function QuienesSomos() {
                                 <Typography sx={{
                                     fontSize:"12px",
                                     color:"#837f7f"
-                                }}>años de experiencia</Typography>
+                                }}>Desarrolladores, diseñadores y estrategias </Typography>
                             </Box>
                         </Box>
                     </Box>
