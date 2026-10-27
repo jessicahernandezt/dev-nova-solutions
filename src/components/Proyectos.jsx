@@ -5,6 +5,7 @@ import {
     Box,
     Button,
     Card,
+    CardActions,
     CardContent,
     CardMedia,
     Container,
@@ -15,11 +16,11 @@ import {
 function Proyectos() {
     return (
          <Box sx={{
-            minHeight: '380px',
+            minHeight: '400px',
             display: 'flex',
             alignItems: 'center',
             
-            py: "10px"
+            py: 6
         }}>
             <Container maxWidth='lg'>
                 <Box 
@@ -101,7 +102,7 @@ function Proyectos() {
 
                         </Box>
                         <Box sx={{
-                            
+                            marginTop:"10px"
                         }}>
                             <Box alt="cards" sx={{
                                 display:"flex",
@@ -110,7 +111,7 @@ function Proyectos() {
                             }}>
                                 <Card sx={{
                                     width:"270px",
-                                    height:"250px"
+                                    height:"280px"
                                 }}>
                                     <CardMedia 
                                     component="img"
@@ -146,40 +147,295 @@ function Proyectos() {
                                         }}>
                                             Sistema completo para la administración de procesos internos
                                         </Typography>
-                                        <Box>
-                                            <Card>
-                                                <CardContent>
-                                                    ER
-                                                </CardContent>
-                                            </Card>
+                                        <Box sx={{
+                                            width:"290px",
+                                            height:"45px",
+                                            gap:3,
+                                        }}>
+                                            <Button variant='small' sx={{
+                                                width:"10px",
+                                                height:"29px",
+                                                fontSize:"8px",
+                                                backgroundColor:"#7a7a7a48"
+                                                
+                                            }}>react</Button>
+
+                                            <Button variant='small' sx={{
+                                                width:"10px",
+                                                height:"29px",
+                                                fontSize: "8px",
+                                                backgroundColor:"#7a7a7a48"
+                                            }}>node.js</Button>
+
+                                            <Button variant='small' sx={{
+                                                width:"10px",
+                                                height:"29px",
+                                                fontSize:"8px",
+                                                backgroundColor:"#7a7a7a48",
+                                            }}>PostegreSQL</Button>
                                         </Box>
+                                       
+                                        <Button sx={{
+                                            fontSize:"8px",
+                                            color:"#7c4dff",
+                                            gap:1
+
+                                        }}>
+                                            Ver proyecto <ArrowForward sx={{
+                                                width:"9px"
+                                            }} />
+                                        </Button>
+                                        
                                        
 
                                     </CardContent>
+                                
                                 </Card>
                                 <Card sx={{
                                     width:"270px",
-                                    height:"239px"
+                                    height:"280px"
                                 }}>
+                                    <CardMedia 
+                                    component="img"
+                                    src='./cardimg1.png'
+                                    sx={{
+                                        width:"270px",
+                                        height:"100px"
+                                    }}
+                                    />
                                     <CardContent>
+                                        <Typography sx={{
+                                            width:"20%",
+                                            height:"10%",
+                                            borderColor:"#7c4dff",
+                                            borderRadius:"41%",
+                                            backgroundColor:"#7c4dff",
+                                            color:"white",
+                                            display:"flex",
+                                            alignItems:"center",
+                                            justifyContent:"center",
+                                            fontSize:"15px"
+                                        }}>
+                                            web
+                                        </Typography>
+                                        <Typography sx={{
+                                            fontSize:"14px",
+                                            
+                                        }}>
+                                            Plataforma de gestion empresarial
+                                        </Typography>
+                                        <Typography sx={{
+                                            fontSize:"12px"
+                                        }}>
+                                            Sistema completo para la administración de procesos internos
+                                        </Typography>
+                                        <Box sx={{
+                                            width:"290px",
+                                            height:"45px",
+                                            gap:3,
+                                        }}>
+                                            <Button variant='small' sx={{
+                                                width:"10px",
+                                                height:"29px",
+                                                fontSize:"8px",
+                                                backgroundColor:"#7a7a7a48"
+                                                
+                                            }}>react</Button>
+
+                                            <Button variant='small' sx={{
+                                                width:"10px",
+                                                height:"29px",
+                                                fontSize: "8px",
+                                                backgroundColor:"#7a7a7a48"
+                                            }}>node.js</Button>
+
+                                            <Button variant='small' sx={{
+                                                width:"10px",
+                                                height:"29px",
+                                                fontSize:"8px",
+                                                backgroundColor:"#7a7a7a48",
+                                            }}>PostegreSQL</Button>
+                                        </Box>
+                                       
+                                        <Button sx={{
+                                            fontSize:"8px",
+                                            color:"#7c4dff",
+                                            gap:1
+
+                                        }}>
+                                            Ver proyecto <ArrowForward sx={{
+                                                width:"9px"
+                                            }} />
+                                        </Button>
+                                        
+                                       
 
                                     </CardContent>
+                                
                                 </Card>
                                 <Card sx={{
                                     width:"270px",
-                                    height:"239px"
+                                    height:"280px"
                                 }}>
+                                    <CardMedia 
+                                    component="img"
+                                    src='./cardimg1.png'
+                                    sx={{
+                                        width:"270px",
+                                        height:"100px"
+                                    }}
+                                    />
                                     <CardContent>
+                                        <Typography sx={{
+                                            width:"20%",
+                                            height:"10%",
+                                            borderColor:"#7c4dff",
+                                            borderRadius:"41%",
+                                            backgroundColor:"#7c4dff",
+                                            color:"white",
+                                            display:"flex",
+                                            alignItems:"center",
+                                            justifyContent:"center",
+                                            fontSize:"15px"
+                                        }}>
+                                            web
+                                        </Typography>
+                                        <Typography sx={{
+                                            fontSize:"14px",
+                                            
+                                        }}>
+                                            Plataforma de gestion empresarial
+                                        </Typography>
+                                        <Typography sx={{
+                                            fontSize:"12px"
+                                        }}>
+                                            Sistema completo para la administración de procesos internos
+                                        </Typography>
+                                        <Box sx={{
+                                            width:"290px",
+                                            height:"45px",
+                                            gap:3,
+                                        }}>
+                                            <Button variant='small' sx={{
+                                                width:"10px",
+                                                height:"29px",
+                                                fontSize:"8px",
+                                                backgroundColor:"#7a7a7a48"
+                                                
+                                            }}>react</Button>
+
+                                            <Button variant='small' sx={{
+                                                width:"10px",
+                                                height:"29px",
+                                                fontSize: "8px",
+                                                backgroundColor:"#7a7a7a48"
+                                            }}>node.js</Button>
+
+                                            <Button variant='small' sx={{
+                                                width:"10px",
+                                                height:"29px",
+                                                fontSize:"8px",
+                                                backgroundColor:"#7a7a7a48",
+                                            }}>PostegreSQL</Button>
+                                        </Box>
+                                       
+                                        <Button sx={{
+                                            fontSize:"8px",
+                                            color:"#7c4dff",
+                                            gap:1
+
+                                        }}>
+                                            Ver proyecto <ArrowForward sx={{
+                                                width:"9px"
+                                            }} />
+                                        </Button>
+                                        
+                                       
 
                                     </CardContent>
+                                
                                 </Card>
                                 <Card sx={{
                                     width:"270px",
-                                    height:"239px"
+                                    height:"280px"
                                 }}>
+                                    <CardMedia 
+                                    component="img"
+                                    src='./cardimg1.png'
+                                    sx={{
+                                        width:"270px",
+                                        height:"100px"
+                                    }}
+                                    />
                                     <CardContent>
+                                        <Typography sx={{
+                                            width:"20%",
+                                            height:"10%",
+                                            borderColor:"#7c4dff",
+                                            borderRadius:"41%",
+                                            backgroundColor:"#7c4dff",
+                                            color:"white",
+                                            display:"flex",
+                                            alignItems:"center",
+                                            justifyContent:"center",
+                                            fontSize:"15px"
+                                        }}>
+                                            web
+                                        </Typography>
+                                        <Typography sx={{
+                                            fontSize:"14px",
+                                            
+                                        }}>
+                                            Plataforma de gestion empresarial
+                                        </Typography>
+                                        <Typography sx={{
+                                            fontSize:"12px"
+                                        }}>
+                                            Sistema completo para la administración de procesos internos
+                                        </Typography>
+                                        <Box sx={{
+                                            width:"290px",
+                                            height:"45px",
+                                            gap:3,
+                                        }}>
+                                            <Button variant='small' sx={{
+                                                width:"10px",
+                                                height:"29px",
+                                                fontSize:"8px",
+                                                backgroundColor:"#7a7a7a48"
+                                                
+                                            }}>react</Button>
+
+                                            <Button variant='small' sx={{
+                                                width:"10px",
+                                                height:"29px",
+                                                fontSize: "8px",
+                                                backgroundColor:"#7a7a7a48"
+                                            }}>node.js</Button>
+
+                                            <Button variant='small' sx={{
+                                                width:"10px",
+                                                height:"29px",
+                                                fontSize:"8px",
+                                                backgroundColor:"#7a7a7a48",
+                                            }}>PostegreSQL</Button>
+                                        </Box>
+                                       
+                                        <Button sx={{
+                                            fontSize:"8px",
+                                            color:"#7c4dff",
+                                            gap:1
+
+                                        }}>
+                                            Ver proyecto <ArrowForward sx={{
+                                                width:"9px"
+                                            }} />
+                                        </Button>
+                                        
+                                       
 
                                     </CardContent>
+                                
                                 </Card>
                                 
 
