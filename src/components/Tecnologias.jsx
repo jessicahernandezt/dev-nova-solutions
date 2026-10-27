@@ -19,13 +19,14 @@ function Tecnologias() {
                         Herramientas que hacen posibles grandes ideas
                     </Typography>
 
-                    <Box component='div' sx={{display:'flex', alignItems:'center', justifyContent:'space-evenly'}}>
-                        <Box sx={{display:'flex', backgroundColor:'white'}}>
-                            <Box component='img' src='/img (11).png' alt='' sx={{width:'120px', height: '120px', objectFit: 'contain', flexShrink: 0}}></Box>
-                            <Typography>
-                                hola
-                            </Typography>
-                        </Box>
+                    <Box component='div' sx={{display:'flex', alignItems:'center', justifyContent:'space-evenly', paddingTop:'2%'}}>
+                        <Card sx={{ maxWidth: 270}}>
+                            <CardMedia sx={{ height: 100, width: 100 }} image="/img (11).png" title="neko"/>
+                            <CardContent>
+                                <Box component='span' sx={{textAlign:'center'}}>React</Box>
+                            </CardContent>
+                        </Card>
+                        
                     </Box>
 
                 </Box>
