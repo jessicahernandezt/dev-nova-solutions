@@ -9,12 +9,36 @@ function Footer() {
                     <Box>
                         asda
                     </Box>
-                    <Box>
-                        asda
+
+                    <Box sx={{padding:2}}>
+                        <Typography sx={{color:'#ffffff', fontWeight:"bold", letterSpacing:2, fontSize:'1.2rem'}}>
+                            Navegación
+                        </Typography>
+                        <Typography sx={{color: '#666', fontWeight: 'bold', letterSpacing: 2, fontSize:'14px'}}>
+                            Inicio <br />
+                            Servicios <br />
+                            Quienes somos <br />
+                            Proyectos <br />
+                            Tecnologias <br />
+                            Clientes <br />
+                            Contactos 
+                        </Typography>
                     </Box>
+
                     <Box>
-                        asda
+                        <Typography sx={{color:'#ffffff', fontWeight:"bold", letterSpacing:2, fontSize:'1.2rem'}}>
+                            Servicios
+                        </Typography>
+                        <Typography sx={{color: '#666', fontWeight: 'bold', letterSpacing: 2, fontSize:'14px'}}>
+                            Desarrollo Web <br />
+                            Aplicaciones Moviles <br />
+                            Desarrollo de Software <br />
+                            Consultoria Tecnologica <br />
+                            Integracion de Sistemas <br />
+                            Soporte y Mantenimiento 
+                        </Typography>
                     </Box>
+
                     <Box sx={{display:'flex', flexDirection:'column', alignItems:'center', padding:2}}>
                         <Typography sx={{color:'#ffffff', fontWeight:"bold", letterSpacing:2, fontSize:'1.2rem'}}>
                             Contacto
@@ -41,13 +65,14 @@ function Footer() {
                             </Box>
                         </Box>
                     </Box>
+
                     <Box>
                         <Typography sx={{color:'#ffffff', fontWeight:"bold", letterSpacing:2, fontSize:'1.2rem', paddingBottom:'3%'}}>
                             Suscribete a nuestro boletin
                         </Typography>
                         <Box component='div' sx={{position:'relative'}}>
                             <TextField defaultValue='Tu correo electronico' sx={{backgroundColor:'white', borderRadius:2, color:'white', width:'100%'}} />
-                            <Button sx={{position:'absolute', right: '0', top: '0', height: '100%', backgroundColor: '#8B80C8', color: 'white', borderRadius: '0 2 2 0', fontSize: '22px'}}>
+                            <Button sx={{position:'absolute', right: '0', top: '0', height: '100%', backgroundColor: '#8B80C8', color: 'white', borderRadius: 2, fontSize: '22px'}}>
                                 →
                             </Button>
                         </Box>
