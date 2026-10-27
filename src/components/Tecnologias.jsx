@@ -8,15 +8,17 @@ import {
 function Hero() {
     return (
         <Box sx={{
-            width: '90%',
-            height: 'auto',
-            margin: '40px 60px',
+            width: '100%',
+            height: '300px',
+            backgroundColor: '#f7f7ff',
+            padding: '20px 30px',
+            
         }}>
 
             <Box sx={{
                 display: 'flex',
-                width: '100%',
-
+                width: '97%',
+                margin: '0px 50px',
             }}>
 
                 <Box sx={{
@@ -44,7 +46,9 @@ function Hero() {
 
 
                 <Box>
-                    <Typography>
+                    <Typography sx={{
+                        color: '#8c8c8c',
+                    }}>
                         Utilizamos tecnologias modernas y confiables para desarrollar solicitudes escalables, seguras y de alto rendimiento
                     </Typography>
                 </Box>
@@ -70,7 +74,7 @@ function Hero() {
                     display: 'flex',
                     flexDirection: 'column',
                     alignItems: 'center',
-                    width: '100px',
+                    width: '150px',
                     height: 'auto',
                     borderRadius: '9px',
                     boxShadow: '0px 5px 5px rgba(0,0,0,0.3)',
@@ -81,7 +85,7 @@ function Hero() {
                     <img src='public/react.png' alt='icon-react'
 
                         style={{
-                            width: '100%',
+                            width: '60%',
                             height: 'auto',
                         }}>
                     </img>
@@ -97,7 +101,7 @@ function Hero() {
                     display: 'flex',
                     flexDirection: 'column',
                     alignItems: 'center',
-                    width: '100px',
+                    width: '150px',
                     height: 'auto',
                     borderRadius: '9px',
                     boxShadow: '0px 5px 5px rgba(0,0,0,0.3)',
@@ -108,7 +112,7 @@ function Hero() {
                     <img src='public/Vite.png' alt='icon-react'
 
                         style={{
-                            width: '100%',
+                            width: '60%',
                             height: 'auto',
                         }}>
                     </img>
@@ -124,7 +128,7 @@ function Hero() {
                     display: 'flex',
                     flexDirection: 'column',
                     alignItems: 'center',
-                    width: '100px',
+                    width: '150px',
                     height: 'auto',
                     borderRadius: '9px',
                     boxShadow: '0px 5px 5px rgba(0,0,0,0.3)',
@@ -135,7 +139,7 @@ function Hero() {
                     <img src='public/Node.png' alt='icon-react'
 
                         style={{
-                            width: '100%',
+                            width: '60%',
                             height: 'auto',
                         }}>
                     </img>
@@ -151,7 +155,7 @@ function Hero() {
                     display: 'flex',
                     flexDirection: 'column',
                     alignItems: 'center',
-                    width: '100px',
+                    width: '150px',
                     height: 'auto',
                     borderRadius: '9px',
                     boxShadow: '0px 5px 5px rgba(0,0,0,0.3)',
@@ -162,7 +166,7 @@ function Hero() {
                     <img src='public/Express.png' alt='icon-react'
 
                         style={{
-                            width: '100%',
+                            width: '60%',
                             height: 'auto',
                         }}>
                     </img>
@@ -178,7 +182,7 @@ function Hero() {
                     display: 'flex',
                     flexDirection: 'column',
                     alignItems: 'center',
-                    width: '100px',
+                    width: '150px',
                     height: 'auto',
                     borderRadius: '9px',
                     boxShadow: '0px 5px 5px rgba(0,0,0,0.3)',
@@ -189,7 +193,7 @@ function Hero() {
                     <img src='public/MongoDB.png' alt='icon-react'
 
                         style={{
-                            width: '100%',
+                            width: '60%',
                             height: 'auto',
                         }}>
                     </img>
@@ -205,7 +209,7 @@ function Hero() {
                     display: 'flex',
                     flexDirection: 'column',
                     alignItems: 'center',
-                    width: '100px',
+                    width: '150px',
                     height: 'auto',
                     borderRadius: '9px',
                     boxShadow: '0px 5px 5px rgba(0,0,0,0.3)',
@@ -216,7 +220,7 @@ function Hero() {
                     <img src='public/PostgreeSQL.png' alt='icon-react'
 
                         style={{
-                            width: '100%',
+                            width: '60%',
                             height: 'auto',
                         }}>
                     </img>
@@ -232,7 +236,7 @@ function Hero() {
                     display: 'flex',
                     flexDirection: 'column',
                     alignItems: 'center',
-                    width: '100px',
+                    width: '150px',
                     height: 'auto',
                     borderRadius: '9px',
                     boxShadow: '0px 5px 5px rgba(0,0,0,0.3)',
@@ -243,7 +247,7 @@ function Hero() {
                     <img src='public/Git.png' alt='icon-react'
 
                         style={{
-                            width: '100%',
+                            width: '60%',
                             height: 'auto',
                         }}>
                     </img>
@@ -259,7 +263,7 @@ function Hero() {
                     display: 'flex',
                     flexDirection: 'column',
                     alignItems: 'center',
-                    width: '100px',
+                    width: '150px',
                     height: 'auto',
                     borderRadius: '9px',
                     boxShadow: '0px 5px 5px rgba(0,0,0,0.3)',
@@ -270,7 +274,7 @@ function Hero() {
                     <img src='public/flutter.png' alt='icon-react'
 
                         style={{
-                            width: '100%',
+                            width: '60%',
                             height: 'auto',
                         }}>
                     </img>
@@ -286,7 +290,7 @@ function Hero() {
                     display: 'flex',
                     flexDirection: 'column',
                     alignItems: 'center',
-                    width: '100px',
+                    width: '150px',
                     height: 'auto',
                     borderRadius: '9px',
                     boxShadow: '0px 5px 5px rgba(0,0,0,0.3)',
@@ -297,7 +301,7 @@ function Hero() {
                     <img src='public/Python.png' alt='icon-react'
 
                         style={{
-                            width: '100%',
+                            width: '60%',
                             height: 'auto',
                         }}>
                     </img>
@@ -313,7 +317,7 @@ function Hero() {
                     display: 'flex',
                     flexDirection: 'column',
                     alignItems: 'center',
-                    width: '100px',
+                    width: '150px',
                     height: 'auto',
                     borderRadius: '9px',
                     boxShadow: '0px 5px 5px rgba(0,0,0,0.3)',
@@ -324,7 +328,7 @@ function Hero() {
                     <img src='public/react.png' alt='icon-react'
 
                         style={{
-                            width: '100%',
+                            width: '60%',
                             height: 'auto',
                         }}>
                     </img>
