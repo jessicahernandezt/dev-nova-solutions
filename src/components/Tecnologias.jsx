@@ -330,7 +330,7 @@ function Hero() {
                     </img>
 
                     <Typography>
-                        React
+                        Python
                     </Typography>
 
                 </Box>
