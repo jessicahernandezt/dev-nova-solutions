@@ -21,9 +21,7 @@ function Servicios() {
         }}>
             <Container>
                 <Box>
-                    <Box>
-
-                    </Box>
+                    
                     <Box sx={{width:"100%"}}>
                         <Box sx={{width: "50%"}}>
                             <Typography sx={{padding:'2px',fontStyle:"italic",fontWeight:"bold", }}>
@@ -42,9 +40,9 @@ function Servicios() {
                         </Typography>
                         </Box>
                         <Box sx={{
-                display: 'flex',
-                alignItems: 'center',
-                gap: 1}}>
+                        display: 'flex',
+                        alignItems: 'center',
+                        gap: 1}}>
                             <Card sx={{width: '33%', height: 150}}>
                                 <Box>
                                     <TvIcon sx={{width: 100, height:100}}></TvIcon>
@@ -63,9 +61,9 @@ function Servicios() {
 
                         </Box>
                         <Box sx={{
-                display: 'flex',
-                alignItems: 'center',
-                gap: 1}}>
+                        display: 'flex',
+                        alignItems: 'center',
+                        gap: 1}}>
                             <Card><Typography>HOLA</Typography></Card>
                             <Card><Typography>HOLA</Typography></Card>
                             <Card><Typography>HOLA</Typography></Card>
@@ -76,14 +74,7 @@ function Servicios() {
 
                 </Box>
             </Container>
-            <Box sx={{
-                display: 'flex',
-                alignItems: 'center',
-                gap: 6}}>
-                
-
-                
-            </Box>
+           
 
         </Box>
     )
