@@ -404,21 +404,21 @@ function Proyectos() {
                                                 fontSize:"8px",
                                                 backgroundColor:"#7a7a7a48"
                                                 
-                                            }}>react</Button>
+                                            }}>next.js</Button>
 
                                             <Button variant='small' sx={{
                                                 width:"10px",
                                                 height:"29px",
                                                 fontSize: "8px",
                                                 backgroundColor:"#7a7a7a48"
-                                            }}>node.js</Button>
+                                            }}>Stripe</Button>
 
                                             <Button variant='small' sx={{
                                                 width:"10px",
                                                 height:"29px",
                                                 fontSize:"8px",
                                                 backgroundColor:"#7a7a7a48",
-                                            }}>PostegreSQL</Button>
+                                            }}>AWS</Button>
                                         </Box>
                                        
                                         <Button sx={{
