@@ -4,6 +4,7 @@ import Servicios from "./components/Servicios"
 import QuienesSomos from "./components/QuienesSomos"
 import Proyectos from "./components/Proyectos"
 import Tecnologias from "./components/Tecnologias"
+import ExperienciaClientes from "./components/ExperienciaClientes"
 
 function App(){
 
@@ -15,6 +16,7 @@ function App(){
       <QuienesSomos />
       <Proyectos />
       <Tecnologias />
+      <ExperienciaClientes />
       
     </>
   );
