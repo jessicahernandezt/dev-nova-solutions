@@ -105,7 +105,7 @@ function Hero() {
                     backgroundColor: '#f7f6f1',
                 }}>
 
-                    <img src='public/react.png' alt='icon-react'
+                    <img src='public/Vite.png' alt='icon-react'
 
                         style={{
                             width: '100%',
@@ -114,7 +114,7 @@ function Hero() {
                     </img>
 
                     <Typography>
-                        React
+                        Vite
                     </Typography>
 
                 </Box>
@@ -132,7 +132,7 @@ function Hero() {
                     backgroundColor: '#f7f6f1',
                 }}>
 
-                    <img src='public/react.png' alt='icon-react'
+                    <img src='public/Node.png' alt='icon-react'
 
                         style={{
                             width: '100%',
@@ -141,7 +141,7 @@ function Hero() {
                     </img>
 
                     <Typography>
-                        React
+                        Node.Js
                     </Typography>
 
                 </Box>
@@ -159,7 +159,7 @@ function Hero() {
                     backgroundColor: '#f7f6f1',
                 }}>
 
-                    <img src='public/react.png' alt='icon-react'
+                    <img src='public/Express.png' alt='icon-react'
 
                         style={{
                             width: '100%',
@@ -168,7 +168,7 @@ function Hero() {
                     </img>
 
                     <Typography>
-                        React
+                        Express
                     </Typography>
 
                 </Box>
@@ -186,7 +186,7 @@ function Hero() {
                     backgroundColor: '#f7f6f1',
                 }}>
 
-                    <img src='public/react.png' alt='icon-react'
+                    <img src='public/MongoDB.png' alt='icon-react'
 
                         style={{
                             width: '100%',
@@ -195,7 +195,7 @@ function Hero() {
                     </img>
 
                     <Typography>
-                        React
+                        MongoDB
                     </Typography>
 
                 </Box>
@@ -213,7 +213,7 @@ function Hero() {
                     backgroundColor: '#f7f6f1',
                 }}>
 
-                    <img src='public/react.png' alt='icon-react'
+                    <img src='public/PostgreeSQL.png' alt='icon-react'
 
                         style={{
                             width: '100%',
@@ -222,7 +222,7 @@ function Hero() {
                     </img>
 
                     <Typography>
-                        React
+                        PostgreeSQL
                     </Typography>
 
                 </Box>
@@ -240,7 +240,7 @@ function Hero() {
                     backgroundColor: '#f7f6f1',
                 }}>
 
-                    <img src='public/react.png' alt='icon-react'
+                    <img src='public/Git.png' alt='icon-react'
 
                         style={{
                             width: '100%',
@@ -249,7 +249,7 @@ function Hero() {
                     </img>
 
                     <Typography>
-                        React
+                        Git
                     </Typography>
 
                 </Box>
@@ -267,7 +267,7 @@ function Hero() {
                     backgroundColor: '#f7f6f1',
                 }}>
 
-                    <img src='public/react.png' alt='icon-react'
+                    <img src='public/flutter.png' alt='icon-react'
 
                         style={{
                             width: '100%',
@@ -276,7 +276,7 @@ function Hero() {
                     </img>
 
                     <Typography>
-                        React
+                        Flutter
                     </Typography>
 
                 </Box>
@@ -294,7 +294,7 @@ function Hero() {
                     backgroundColor: '#f7f6f1',
                 }}>
 
-                    <img src='public/react.png' alt='icon-react'
+                    <img src='public/Python.png' alt='icon-react'
 
                         style={{
                             width: '100%',
@@ -303,7 +303,7 @@ function Hero() {
                     </img>
 
                     <Typography>
-                        React
+                        Python
                     </Typography>
 
                 </Box>
