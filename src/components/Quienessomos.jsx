@@ -13,7 +13,7 @@ function Quienessomos() {
                 minHeight: '560px',
                 display: 'flex',
                 alignItems: 'center',
-                backgroundColor: '#ededfc',
+                backgroundColor: '#e9e9ff',
                 py: 6
             }}>
                 <Container maxWidth='lg'>

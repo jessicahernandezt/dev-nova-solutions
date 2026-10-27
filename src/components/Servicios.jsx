@@ -44,7 +44,7 @@ function Servicios() {
                         sx={{color: '#666', fontSize: '1rem', mb:5}}
                         >Ofrecemos servicios de desarrollo de software, aplicaciones web y moviles, consultoria y soporte, para ayudarte a optimizar tus procesos y alcanzar tus objetivos</Typography>
                     </Box>
-                        <Button sx={{color: '#7c4dff', textTransform: 'none', fontWeight:'bold' }}>Ver Todos Los Servicios →</Button>
+                        <Button sx={{color: '#7c4dff', textTransform: 'none', fontWeight:'bold' }}>Ver todos los servicios →</Button>
                 </Box>
                 
                     <Box
