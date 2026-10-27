@@ -15,7 +15,7 @@ function Servicios(){
             minHeight:'520px',
             display: 'flex',
             alignItems: 'center',
-            backgroundColor: '#f7f7ff',
+           
             py:"10px"
         }}>
             <Container maxWidth="lg" sx={{

@@ -12,11 +12,11 @@ import {
 function QuienesSomos() {
     return (
         <Box sx={{
-            minHeight: '520px',
+            minHeight: '380px',
             display: 'flex',
             alignItems: 'center',
             backgroundColor: '#f7f7ff',
-            py: 6
+            py: "10px"
         }}>
             <Container maxWidth='lg'>
                 <Box sx={{
@@ -25,7 +25,7 @@ function QuienesSomos() {
                     gap:6
                 }}>
                     <Box alt="texto" sx={{
-                        
+                        width:"60%"
                     }}>
                         <Typography variant='overline' sx={{
                             fontSize:"bold"
@@ -41,6 +41,8 @@ function QuienesSomos() {
 
                         <Typography variant='subtittle' sx={{
                             marginTop:"15px",
+                            fontSize:"14px",
+                            color:"#837f7f"
                         }}>
                             En Dev Nova Solutions somos un equipo de profesionales apasionados por la tecnologia y la innovación. Ayudamos a empresas y emprendedores a transformar sus ideas en soluciones digitales que generan valor real
                         </Typography>
@@ -53,32 +55,128 @@ function QuienesSomos() {
                                 
                                 backgroundColor:"#7c4dff",
                                 fontSize:"12px",
-                                width:"50%"
+                                width:"60%"
                                 
                             }}>
                                 conoce mas sobre nosotros<ArrowForward></ArrowForward>
                             </Button>
                         </Box>
                     </Box>
-                    <Box alt="imagen"> 
-                        <Box component="img" src='public/img (1).png' sx={{
-                            width:"20%",
-                            height:"20%"
-                        }}></Box>
-                    </Box>
-                    <Box alt="iconos">
-                        <Box>
-                            <HomeWork />
-                        </Box>
-                        <Box>
-                            <FileOpen></FileOpen>
+                    <Box sx={{
+                        width:"49%",
+                        height:"55%",
+                        display:"flex",
+                        justifyContent:"flex-end",
+                        alignItems:"flex-end"
+                        
+                    }
+                    }>
+                        
+                        <Box component="img" src='./img (1).png' sx={{
+                            width:"60%",
+                            height:"35%",
+                            borderRadius:"10%"
+                            
+                            
+                        }}>
+                            
 
                         </Box>
-                        <Box>
-                            <Groups2></Groups2>
+                    </Box>
+                    
+                    <Box alt="iconos" 
+                    sx={{
+                        alignItems:"flex-start",
+                        width:"25%",
+                        
+                    }}>
+                        <Box sx={{
+                           display:"flex" ,
+                           gap:1
+                        }}>
+                            <HomeWork sx={
+                                {
+                                    color:"#7c4dff",
+                                    border:"#7c4dff44"
+                                }
+                            } />
+                            <Box sx={{
+                                display:"block",
+                                
+                            }}>
+                                <Typography sx={{
+                                    fontSize:"bold"
+                                }}>5+ </Typography>
+                                <Typography sx={{
+                                    fontSize:"12px",
+                                    color:"#837f7f"
+                                }}>años de experiencia</Typography>
+                            </Box>
                         </Box>
-                        <Box>
-                            <HealthAndSafety></HealthAndSafety>
+                        <Box sx={{
+                            display:"flex",
+                            gap:1,
+                            marginTop:"5px"
+                        }}>
+                            <FileOpen sx={{
+                                color:"#7c4dff",
+                            }} />
+                            <Box sx={{
+                                display:"block",
+                                
+                            }}>
+                                <Typography sx={{
+                                    fontSize:"bold"
+                                }}>50+ </Typography>
+                                <Typography sx={{
+                                    fontSize:"12px",
+                                    color:"#837f7f"
+                                }}>Proyectos terminados</Typography>
+                            </Box>
+
+                        </Box>
+                        <Box sx={{
+                            display:"flex",
+                            gap:1,
+                            marginTop:"5px"
+                        }}>
+                            <Groups2 sx={{
+                                color:"#7c4dff",
+                            }} />
+                            <Box sx={{
+                                display:"block",
+                                
+                            }}>
+                                <Typography sx={{
+                                    fontSize:"bold"
+                                }}>30+ </Typography>
+                                <Typography sx={{
+                                    fontSize:"12px",
+                                    color:"#837f7f"
+                                }}>Clientes satisfechos</Typography>
+                            </Box>
+                        </Box>
+                        <Box sx={{
+                            display:"flex",
+                            gap:1,
+                            marginTop:"5px"
+                        }}>
+                            <HealthAndSafety sx={{
+                                color:"#7c4dff",
+                            }} />
+                            <Box sx={{
+                                display:"block",
+                                
+                            }}>
+                                <Typography sx={{
+                                    fontSize:"bold",
+                                    fontSize:"14px"
+                                }}>Talento Multidisciplinario </Typography>
+                                <Typography sx={{
+                                    fontSize:"12px",
+                                    color:"#837f7f"
+                                }}>años de experiencia</Typography>
+                            </Box>
                         </Box>
                     </Box>
 

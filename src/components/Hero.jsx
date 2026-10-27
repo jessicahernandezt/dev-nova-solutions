@@ -181,7 +181,7 @@ function Hero() {
                         height:'40%'
                     }}>
                         <Box component="img"
-                        src='public/img (8).png'
+                        src='/img (8).png'
                         sx={{
                             width:'160%',
                             height:'120%'
