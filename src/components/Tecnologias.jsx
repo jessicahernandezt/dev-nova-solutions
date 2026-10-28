@@ -62,7 +62,9 @@ function Tecnologias(){
                             </Box>
 
                         </Box>
-                        <Box>
+                        <Box sx={{
+                            width:"100%"
+                        }}>
                             <Typography variant='h5' 
                             sx={{
                                     fontSize:"bold"
@@ -141,7 +143,7 @@ function Tecnologias(){
                             height:"100px",
                             
                         }}>
-                            <CardMedia component="img" src='public/node.webp' sx={{
+                            <CardMedia component="img" src='./node.webp' sx={{
                                 width:"50%",
                                 height:"50%",
                                 display:"block",

@@ -3,6 +3,8 @@ import Servicios from "../components/Servicios"
 import QuienesSomos from "../components/QuienesSomos"
 import Proyectos from "../components/Proyectos"
 import Tecnologias from "../components/Tecnologias"
+import ExperienciasClientes from "../components/ExperienciasClientes"
+
 
 function Home() {
   return (
@@ -12,6 +14,7 @@ function Home() {
     <QuienesSomos />
     <Proyectos />
     <Tecnologias />
+    <ExperienciasClientes />
     </>
   )
 }
