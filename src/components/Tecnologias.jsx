@@ -95,12 +95,14 @@ function Tecnologias(){
                                 
                             }}>
                                 <Typography sx={{
-                                    display:"block",
+                                    display:"flex",
                                     justifyContent:"center",
                                     alignItems:"center",
-                                    marginLeft:"10px"
+                                    marginLeft:"auto",
+                                    marginRight:"auto",
+                                    fontSize:"14px"
                                 }}>
-                                    REACT
+                                    React
                                 </Typography>
                             </CardContent>
                         </Card>
@@ -109,8 +111,8 @@ function Tecnologias(){
                             height:"100px",
                             
                         }}>
-                            <CardMedia component="img" src='./react-icon.webp' sx={{
-                                width:"40%",
+                            <CardMedia component="img" src='./vite.webp' sx={{
+                                width:"50%",
                                 height:"50%",
                                 display:"block",
                                 justifyContent:"center",
@@ -123,12 +125,14 @@ function Tecnologias(){
                                 
                             }}>
                                 <Typography sx={{
-                                    display:"block",
+                                    display:"flex",
                                     justifyContent:"center",
                                     alignItems:"center",
-                                    marginLeft:"10px"
+                                    marginLeft:"auto",
+                                    marginRight:"auto",
+                                    fontSize:"14px"
                                 }}>
-                                    REACT
+                                    Vite
                                 </Typography>
                             </CardContent>
                         </Card>
@@ -137,8 +141,8 @@ function Tecnologias(){
                             height:"100px",
                             
                         }}>
-                            <CardMedia component="img" src='./react-icon.webp' sx={{
-                                width:"40%",
+                            <CardMedia component="img" src='public/node.webp' sx={{
+                                width:"50%",
                                 height:"50%",
                                 display:"block",
                                 justifyContent:"center",
@@ -151,12 +155,14 @@ function Tecnologias(){
                                 
                             }}>
                                 <Typography sx={{
-                                    display:"block",
+                                    display:"flex",
                                     justifyContent:"center",
                                     alignItems:"center",
-                                    marginLeft:"10px"
+                                    marginLeft:"auto",
+                                    marginRight:"auto",
+                                    fontSize:"14px"
                                 }}>
-                                    REACT
+                                    Node.JS
                                 </Typography>
                             </CardContent>
                         </Card>
@@ -165,8 +171,8 @@ function Tecnologias(){
                             height:"100px",
                             
                         }}>
-                            <CardMedia component="img" src='./react-icon.webp' sx={{
-                                width:"40%",
+                            <CardMedia component="img" src='./express.png' sx={{
+                                width:"50%",
                                 height:"50%",
                                 display:"block",
                                 justifyContent:"center",
@@ -179,12 +185,14 @@ function Tecnologias(){
                                 
                             }}>
                                 <Typography sx={{
-                                    display:"block",
+                                    display:"flex",
                                     justifyContent:"center",
                                     alignItems:"center",
-                                    marginLeft:"10px"
+                                    marginLeft:"auto",
+                                    marginRight:"auto",
+                                    fontSize:"14px"
                                 }}>
-                                    REACT
+                                    Express
                                 </Typography>
                             </CardContent>
                         </Card>
@@ -193,8 +201,8 @@ function Tecnologias(){
                             height:"100px",
                             
                         }}>
-                            <CardMedia component="img" src='./react-icon.webp' sx={{
-                                width:"40%",
+                            <CardMedia component="img" src='./mongo db.webp' sx={{
+                                width:"50%",
                                 height:"50%",
                                 display:"block",
                                 justifyContent:"center",
@@ -207,12 +215,14 @@ function Tecnologias(){
                                 
                             }}>
                                 <Typography sx={{
-                                    display:"block",
+                                    display:"flex",
                                     justifyContent:"center",
                                     alignItems:"center",
-                                    marginLeft:"10px"
+                                    marginLeft:"auto",
+                                    marginRight:"auto",
+                                    fontSize:"14px"
                                 }}>
-                                    REACT
+                                    MongoDB
                                 </Typography>
                             </CardContent>
                         </Card>
@@ -221,8 +231,8 @@ function Tecnologias(){
                             height:"100px",
                             
                         }}>
-                            <CardMedia component="img" src='./react-icon.webp' sx={{
-                                width:"40%",
+                            <CardMedia component="img" src='./postegredb.webp' sx={{
+                                width:"50%",
                                 height:"50%",
                                 display:"block",
                                 justifyContent:"center",
@@ -235,128 +245,139 @@ function Tecnologias(){
                                 
                             }}>
                                 <Typography sx={{
-                                    display:"block",
+                                    display:"flex",
                                     justifyContent:"center",
                                     alignItems:"center",
-                                    marginLeft:"10px"
+                                    marginLeft:"auto",
+                                    marginRight:"auto",
+                                    fontSize:"14px"
                                 }}>
-                                    REACT
-                                </Typography>
-                            </CardContent>
-                        </Card>
-                        <Card sx={{
-                            width:"110px",
-                            height:"100px",
-                            
-                        }}>
-                            <CardMedia component="img" src='./react-icon.webp' sx={{
-                                width:"40%",
-                                height:"50%",
-                                display:"block",
-                                justifyContent:"center",
-                                alignItems:"center",
-                                marginLeft:"auto",
-                                marginRight:"auto",
-                                marginTop:"5px"
-                            }}/>
-                            <CardContent sx={{
-                                
-                            }}>
-                                <Typography sx={{
-                                    display:"block",
-                                    justifyContent:"center",
-                                    alignItems:"center",
-                                    marginLeft:"10px"
-                                }}>
-                                    REACT
-                                </Typography>
-                            </CardContent>
-                        </Card>
-                        <Card sx={{
-                            width:"110px",
-                            height:"100px",
-                            
-                        }}>
-                            <CardMedia component="img" src='./react-icon.webp' sx={{
-                                width:"40%",
-                                height:"50%",
-                                display:"block",
-                                justifyContent:"center",
-                                alignItems:"center",
-                                marginLeft:"auto",
-                                marginRight:"auto",
-                                marginTop:"5px"
-                            }}/>
-                            <CardContent sx={{
-                                
-                            }}>
-                                <Typography sx={{
-                                    display:"block",
-                                    justifyContent:"center",
-                                    alignItems:"center",
-                                    marginLeft:"10px"
-                                }}>
-                                    REACT
-                                </Typography>
-                            </CardContent>
-                        </Card>
-                        <Card sx={{
-                            width:"110px",
-                            height:"100px",
-                            
-                        }}>
-                            <CardMedia component="img" src='./react-icon.webp' sx={{
-                                width:"40%",
-                                height:"50%",
-                                display:"block",
-                                justifyContent:"center",
-                                alignItems:"center",
-                                marginLeft:"auto",
-                                marginRight:"auto",
-                                marginTop:"5px"
-                            }}/>
-                            <CardContent sx={{
-                                
-                            }}>
-                                <Typography sx={{
-                                    display:"block",
-                                    justifyContent:"center",
-                                    alignItems:"center",
-                                    marginLeft:"10px"
-                                }}>
-                                    REACT
-                                </Typography>
-                            </CardContent>
-                        </Card>
-                        <Card sx={{
-                            width:"110px",
-                            height:"100px",
-                            
-                        }}>
-                            <CardMedia component="img" src='./react-icon.webp' sx={{
-                                width:"40%",
-                                height:"50%",
-                                display:"block",
-                                justifyContent:"center",
-                                alignItems:"center",
-                                marginLeft:"auto",
-                                marginRight:"auto",
-                                marginTop:"5px"
-                            }}/>
-                            <CardContent sx={{
-                                
-                            }}>
-                                <Typography sx={{
-                                    display:"block",
-                                    justifyContent:"center",
-                                    alignItems:"center",
-                                    marginLeft:"10px"
-                                }}>
-                                    REACT
+                                    PostegreSQL
                                 </Typography>
                             </CardContent>
                         </Card>
 
+                        <Card sx={{
+                            width:"110px",
+                            height:"100px",
+                            
+                        }}>
+                            <CardMedia component="img" src='./git.webp' sx={{
+                                width:"50%",
+                                height:"50%",
+                                display:"block",
+                                justifyContent:"center",
+                                alignItems:"center",
+                                marginLeft:"auto",
+                                marginRight:"auto",
+                                marginTop:"5px"
+                            }}/>
+                            <CardContent sx={{
+                                
+                            }}>
+                                <Typography sx={{
+                                    display:"flex",
+                                    justifyContent:"center",
+                                    alignItems:"center",
+                                    marginLeft:"auto",
+                                    marginRight:"auto",
+                                    fontSize:"14px"
+                                }}>
+                                    Git
+                                </Typography>
+                            </CardContent>
+                        </Card>
+                        <Card sx={{
+                            width:"110px",
+                            height:"100px",
+                            
+                        }}>
+                            <CardMedia component="img" src='./AWS.webp' sx={{
+                                width:"50%",
+                                height:"50%",
+                                display:"block",
+                                justifyContent:"center",
+                                alignItems:"center",
+                                marginLeft:"auto",
+                                marginRight:"auto",
+                                marginTop:"5px"
+                            }}/>
+                            <CardContent sx={{
+                                
+                            }}>
+                                <Typography sx={{
+                                    display:"flex",
+                                    justifyContent:"center",
+                                    alignItems:"center",
+                                    marginLeft:"auto",
+                                    marginRight:"auto",
+                                    fontSize:"14px"
+                                }}>
+                                    AWS
+                                </Typography>
+                            </CardContent>
+                        </Card>
+                        <Card sx={{
+                            width:"110px",
+                            height:"100px",
+                            
+                        }}>
+                            <CardMedia component="img" src='./Flutter.webp' sx={{
+                                width:"50%",
+                                height:"50%",
+                                display:"block",
+                                justifyContent:"center",
+                                alignItems:"center",
+                                marginLeft:"auto",
+                                marginRight:"auto",
+                                marginTop:"5px"
+                            }}/>
+                            <CardContent sx={{
+                                
+                            }}>
+                                <Typography sx={{
+                                    display:"flex",
+                                    justifyContent:"center",
+                                    alignItems:"center",
+                                    marginLeft:"auto",
+                                    marginRight:"auto",
+                                    fontSize:"14px"
+                                }}>
+                                    Flutter
+                                </Typography>
+                            </CardContent>
+                        </Card>
+                        <Card sx={{
+                            width:"110px",
+                            height:"100px",
+                            
+                        }}>
+                            <CardMedia component="img" src='./Python.webp' sx={{
+                                width:"50%",
+                                height:"50%",
+                                display:"block",
+                                justifyContent:"center",
+                                alignItems:"center",
+                                marginLeft:"auto",
+                                marginRight:"auto",
+                                marginTop:"5px"
+                            }}/>
+                            <CardContent sx={{
+                                
+                            }}>
+                                <Typography sx={{
+                                    display:"flex",
+                                    justifyContent:"center",
+                                    alignItems:"center",
+                                    marginLeft:"auto",
+                                    marginRight:"auto",
+                                    fontSize:"14px"
+                                }}>
+                                    Python
+                                </Typography>
+                            </CardContent>
+                        </Card>
+                        
                     </Box>
                     
 
