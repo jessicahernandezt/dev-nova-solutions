@@ -34,11 +34,11 @@ function Footer() {
                     }}>
                         <img src="public/img (17).png" alt="DevNova-Icon" style={{ width: '60px', height: '50px' }} />
                         <Box>
-                            <Typography>
+                            <Typography sx={{ fontWeight: 'bold', fontSize: '20px' }}>
                                 DevNova
                             </Typography>
 
-                            <Typography>
+                            <Typography sx={{ fontWeight: 'bolder', fontSize: '16px' }}>
                                 Solutions
                             </Typography>
 
@@ -57,16 +57,16 @@ function Footer() {
                         gap: '20px',
                     }}>
                         <Box>
-                            <img src="" alt="link-in" style={{ width: '60px', height: '50px' }} />
+                            <img src="public/linkedin.jpg" alt="link-in" style={{ width: '60px', height: '60px' }} />
                         </Box>
                         <Box>
-                            <img src="" alt="github" style={{ width: '60px', height: '50px' }} />
+                            <img src="public/github.jpg" alt="github" style={{ width: '60px', height: '60px' }} />
                         </Box>
                         <Box>
-                            <img src="" alt="youtube" style={{ width: '60px', height: '50px' }} />
+                            <img src="public/youtube.jpg" alt="youtube" style={{ width: '60px', height: '60px' }} />
                         </Box>
                         <Box>
-                            <img src="" alt="instagram" style={{ width: '60px', height: '50px' }} />
+                            <img src="public/instagram.jpg" alt="instagram" style={{ width: '60px', height: '60px' }} />
                         </Box>
 
                     </Box>
@@ -74,53 +74,83 @@ function Footer() {
                 </Box>
 
                 <Box>
-                    <Typography>
+                    <Typography sx={{
+                        fontWeight: "Bold",
+                    }}>
                         Navegacion
                     </Typography>
-                    <Typography>
+                    <Typography sx={{
+                        color: '#888691',
+                    }}>
                         Inicio
                     </Typography>
-                    <Typography>
+                    <Typography sx={{
+                        color: '#888691',
+                    }}>
                         Servicios
                     </Typography>
-                    <Typography>
+                    <Typography sx={{
+                        color: '#888691',
+                    }}>
                         Quienes Somos
                     </Typography>
-                    <Typography>
+                    <Typography sx={{
+                        color: '#888691',
+                    }}>
                         Proyectos
                     </Typography>
-                    <Typography>
+                    <Typography sx={{
+                        color: '#888691',
+                    }}>
                         Tecnologias
                     </Typography>
-                    <Typography>
+                    <Typography sx={{
+                        color: '#888691',
+                    }}>
                         Experiencia Clientes
                     </Typography>
-                    <Typography>
+                    <Typography sx={{
+                        color: '#888691',
+                    }}>
                         Contactos y FQA
                     </Typography>
                 </Box>
 
                 <Box>
 
-                    <Typography>
+                    <Typography sx={{
+                        fontWeight: "Bold",
+                    }}>
                         Servicios
                     </Typography>
-                    <Typography>
+                    <Typography sx={{
+                        color: '#888691',
+                    }}>
                         Desarrollo Web
                     </Typography>
-                    <Typography>
+                    <Typography sx={{
+                        color: '#888691',
+                    }}>
                         Aplicaciones Moviles
                     </Typography>
-                    <Typography>
+                    <Typography sx={{
+                        color: '#888691',
+                    }}>
                         Desarrollo de Software
                     </Typography>
-                    <Typography>
+                    <Typography sx={{
+                        color: '#888691',
+                    }}>
                         Consultoria Tecnologica
                     </Typography>
-                    <Typography>
+                    <Typography sx={{
+                        color: '#888691',
+                    }}>
                         Integracion de Sistemas
                     </Typography>
-                    <Typography>
+                    <Typography sx={{
+                        color: '#888691',
+                    }}>
                         Soporte y Mantenimiento
                     </Typography>
 
@@ -136,7 +166,7 @@ function Footer() {
                         display: 'flex',
                     }}>
 
-                        <img src='public/star.png' alt='correo'
+                        <img src='public/correo.jpg' alt='correo'
 
                             style={{ width: '25px', height: '25px', }}></img>
 
@@ -161,7 +191,7 @@ function Footer() {
                         display: 'flex',
                     }}>
 
-                        <img src='public/star.png' alt='correo'
+                        <img src='public/llamada.jpg' alt='correo'
 
                             style={{ width: '25px', height: '25px', }}></img>
 
@@ -186,7 +216,7 @@ function Footer() {
                         display: 'flex',
                     }}>
 
-                        <img src='public/star.png' alt='correo'
+                        <img src='public/ubi.jpg' alt='correo'
 
                             style={{ width: '25px', height: '25px', }}></img>
 
@@ -216,14 +246,33 @@ function Footer() {
                         Suscribete a nuestro boletin
                     </Typography>
 
-                    <Box>
+                    <Box sx={{
+                        display: 'flex',
+                    }}>
 
-                        <input type="text" placeholder='Ingresa tu correo' />
-                        <button type='submit'>➔</button>
+                        <input type="text" placeholder='Ingresa tu correo' style={{
+                            width: '300px',
+                            height: '40px',
+                            borderRadius: '9px 0px 0px 9px',
+                            border: 'none',
+                            backgroundColor: '#313745',
+                            borderColor: '#888691',
+                        }} />
+                        <button type='submit' style={{
+                            backgroundColor: '#7c4dff',
+                            color: 'white',
+                            border: 'none',
+                            cursor: 'pointer',
+                            width: '40px',
+                            height: '40px',
+                            borderRadius: '0px 9px 9px 0px',
+                        }} >➔</button>
 
                     </Box>
 
-                    <Typography>
+                    <Typography sx={{
+                        color: '#888691',
+                    }}>
                         Recibe noticias, novedades y contenido util.
                     </Typography>
 
@@ -245,11 +294,15 @@ function Footer() {
                 display: 'flex',
                 justifyContent: 'space-between',
             }}>
-                <Typography>
+                <Typography sx={{
+                    color: '#888691',
+                }}>
                     © 2025 DevNova Solutions. Todos los derechos reservados.
                 </Typography>
 
-                <Typography>
+                <Typography sx={{
+                    color: '#888691',
+                }}>
                     Aviso de privacidad | Términos y condiciones
                 </Typography>
 
