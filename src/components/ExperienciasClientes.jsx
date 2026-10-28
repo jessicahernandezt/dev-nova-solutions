@@ -50,8 +50,10 @@ function ExperienciasClientes(){
                                 justifyContent:"space-between",
                                 gap:12
                             }}>
-                                <Box>
-                                    <Typography variant='h5' 
+                                <Box sx={{
+                                    width:"500px",
+                                }}>
+                                    <Typography variant='h6' 
                                     sx={{
                                         fontSize:"bold"
                                     }}>
@@ -178,14 +180,18 @@ function ExperienciasClientes(){
 
 
                     </Box>
-                    <Box>
+                    <Box sx={{
+                        display:"flex"
+                    }}>
                         <Box alt="comentario" sx={{
                             display:"flex",
+                            width:"600px",
+                            height:"auto",
                             gap:2
                         }}>
                             <Card sx={{
-                                width:"30%",
-                                height:"50%",
+                                width:"50%",
+                                height:"85%",
                                 display:"flex"
                             }}>
                                 <Avatar sx={{
@@ -225,8 +231,8 @@ function ExperienciasClientes(){
                                 </CardContent>
                             </Card>
                             <Card sx={{
-                                width:"30%",
-                                height:"50%",
+                                width:"50%",
+                                height:"85%",
                                 display:"flex"
                             }}>
                                 <Avatar sx={{
@@ -236,7 +242,7 @@ function ExperienciasClientes(){
                                     display:"flex",
                                     marginLeft:"5px",
                                     marginRight:"auto"
-                                }} src='./Laura-Villarreal-Martínezxd.webp'/>
+                                }} src='./convicted-venezuelan-terrorist-ilich-ramirez-sanchez-aka-carlos-waits-28-november-2000-at.webp'/>
                                 <CardContent sx={{
                                     
                                 }}>
@@ -244,20 +250,21 @@ function ExperienciasClientes(){
                                         fontSize:"11px",
                                         color:"#837f7f"
                                     }}>
-                                        "El equipo de DevNova entendio perfectamente nuestras necesidades y entregó un producto de gran valor. Altamente recomendado"
+                                        "Soluciones creativas, comunicacion efectiva y un gran dominio tecnico. Sin duda los volveria a contratar para futuros proyectos"
                                     </Typography>
+
                                     <Typography sx={{
                                         fontSize:"12px",
                                         marginTop:"5px"
                                         
                                     }}>
-                                        Laura Martinez
+                                        Carlos Ramirez
                                     </Typography>
                                     <Typography sx={{
                                         fontSize:"10px",
                                         color:"#837f7f"
                                     }}>
-                                        Directora de Marketing. StarUp
+                                        CTO. Empresa de Retal
                                     </Typography>
                                     <Rating value={5}  readOnly>
                                         
@@ -266,7 +273,74 @@ function ExperienciasClientes(){
                                 </CardContent>
                             </Card>
                         </Box>
-                        <Box alt="Marcas"></Box>
+                        <Box alt="Marcas" sx={{
+                            width:"430px"
+                        }}>
+                            <Typography sx={{
+                                fontSize:"12px",
+                                display:"flex",
+                                alignItems:"center",
+                                justifyContent:"center",
+                                color:"#837f7f",
+                                marginLeft:"15px"
+                            }}>
+                                Empresas que han confiado en nosotros.
+                            </Typography>
+                            <Box alt="imagenes" sx={{
+                                display:"block",
+                                grid:"initial",
+                                justifyContent:"center",
+                                alignItems:"center",
+                                marginTop:"1px",
+                            }}>
+                                <Box sx={{
+                                    display:"flex",
+                                    justifyContent:"center",
+                                    alignItems:"center",
+                                    gap:7,
+                                    marginTop:"2px",
+                                    marginLeft:"60px",
+                                    marginRight:"auto"
+                                }}>
+                                    <Box component="img" src='./bbva_800.webp' sx={{
+                                        width:"20%",
+                                        height:"24%"
+                                    }}></Box>
+                                    <Box component="img" src='./cinepolis.webp' sx={{
+                                        width:"20%",
+                                        height:"24%"
+                                    }}></Box>
+                                    <Box component="img" src='./Bimbo.webp' sx={{
+                                        width:"20%",
+                                        height:"24%"
+                                    }}></Box>
+                                </Box>
+                                <Box sx={{
+                                    display:"flex",
+                                    justifyContent:"center",
+                                    alignItems:"center",
+                                    gap:7,
+                                    marginTop:"1px",
+                                    marginLeft:"60px",
+                                    marginRight:"auto"
+                                }}>
+                                    <Box component="img" src='./telcel.webp' sx={{
+                                        width:"20%",
+                                        height:"24%",
+                                    }}></Box>
+                                    <Box component="img" src='./AWS.webp' sx={{
+                                        width:"20%",
+                                        height:"24%"
+                                    }}></Box>
+                                    <Box component="img" src='./Microsoft-Logo-600x338.webp' sx={{
+                                        width:"20%",
+                                        height:"24%"
+                                    }}></Box>
+                                </Box>
+                                
+                                
+                            </Box>
+                        </Box>
                     </Box>
                 </Box>
             </Container>
