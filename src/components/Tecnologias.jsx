@@ -1,3 +1,9 @@
+import React from 'react';
+import {
+    Box,
+    Typography
+} from '@mui/material';
+
 const tecnologias = [
   { nombre: "React", color: "#61DAFB", logo: "⚛" },
   { nombre: "Vite", color: "#646CFF", logo: "⚡" },
@@ -11,19 +17,10 @@ const tecnologias = [
   { nombre: "Python", color: "#3776AB", logo: "🐍" },
 ];
 
-import {
-    Box,
-    Button,
-    Container,
-    Typography
-} from '@mui/material'
-
-
-
-function Tecnologias() {
+export default function Tecnologias() {
   return (
-    <Box sx={{ bgcolor: "#ededfc", p: 4 }}>
-      <Typography variant="subtitle2" color="#6045e8">
+    <Box sx={{ bgcolor: "#ededfc", p: 4, borderRadius: 3 }}>
+      <Typography variant="subtitle2" color="#6045e8" sx={{ fontWeight: "bold" }}>
         ━ Tecnologías
       </Typography>
 
@@ -43,14 +40,14 @@ function Tecnologias() {
         sx={{
           display: "grid",
           gridTemplateColumns: {
-            xs: "repeat(2, 1fr)",
-            sm: "repeat(5, 1fr)",
+            xs: "repeat(10, 1fr)",
           },
           gap: 2,
         }}
       >
-
+        {tecnologias.map((tec, index) => (
           <Box
+            key={index}
             sx={{
               bgcolor: "white",
               borderRadius: 2,
@@ -62,7 +59,8 @@ function Tecnologias() {
                 transform: "translateY(-4px)",
                 boxShadow: "0 5px 15px #00000015",
               },
-            }}>
+            }}
+          >
             <Typography
               sx={{
                 color: tec.color,
@@ -71,17 +69,18 @@ function Tecnologias() {
                 mb: 1,
               }}
             >
+              {tec.logo}
             </Typography>
 
             <Typography
               variant="body2"
               sx={{ fontWeight: "bold", color: "#334155" }}
             >
-
+              {tec.nombre}
             </Typography>
           </Box>
+        ))}
       </Box>
     </Box>
   );
 }
-export default Tecnologias
