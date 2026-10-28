@@ -9,23 +9,22 @@ import GppGoodIcon from '@mui/icons-material/GppGood';
 function Servicios() {
 return(
     <Box sx={{alignItems:'center'}}/*Nuestros-Servicios*/ >
-        <Typography>
+        <Typography sx={{fontSize:'20px', fontWeight:'bold'}}>
                 Nuestros servicios
-                    <Typography>
+                    <Typography sx={{fontSize: '30px', fontWeight:'bold'}}>
                         Soluciones tecnologicas para cada necesidad
                     </Typography>
-                <Typography>
+                <Typography sx={{fontSize:'15px'}}>
                     Ofrecemos servicios de desarrollo de software, aplicaciones web, moviles y moviles, consultoria<br/>
                     y soporte , para ayudarte a optimizar tus procesos y alcanzar tus objetivos.
                 </Typography>
         </Typography>
 
-        <Box sx={{display: 'grid', gridTemplateColumns: 'repeat(3,1fr)', gap: '1'}}/*tarjetas*/>
+        <Box sx={{display: 'grid', gridTemplateColumns: 'repeat(3,1fr)', gap: '8px', marginTop:'20px'}}/*tarjetas*/>
             <Box sx={{display: 'flex'}}/*Tarjeta Desarrollo web*/>
-                <MonitorIcon>
-                    
-                </MonitorIcon>
-
+                <Box sx={{bgcolor:'#e068e0', borderRadius:3, height:"70px", marginRight:'20px'}}>
+                <MonitorIcon sx={{fontSize:'70px', color:'#7c4dff'}}></MonitorIcon>
+                </Box>
                 <Typography>
                     Desarrollo Web
                     <Typography>
@@ -39,9 +38,7 @@ return(
             </Box>
 
             <Box sx={{display: 'flex'}}/*Tarjeta Apps*/>
-                <PhoneIphoneIcon>
-                    
-                </PhoneIphoneIcon>
+                <PhoneIphoneIcon sx={{fontSize:'70px', color:'#7c4dff'}}></PhoneIphoneIcon>
 
                 <Typography>
                     Desarrollo Web
@@ -56,7 +53,7 @@ return(
             </Box>
 
             <Box sx={{display: 'flex'}}/*Tarjeta Desarrollo software*/>
-                <CodeIcon>
+                <CodeIcon sx={{fontSize:'70px', color:'#7c4dff'}}>
                     
                 </CodeIcon>
 
@@ -73,7 +70,7 @@ return(
             </Box>
 
             <Box sx={{display: 'flex'}}/*Tarjeta Consuloria*/>
-                <LightbulbIcon>
+                <LightbulbIcon sx={{fontSize:'70px', color:'#7c4dff'}}>
                     
                 </LightbulbIcon>
 
@@ -89,7 +86,7 @@ return(
                 </Typography>
             </Box>
             <Box sx={{display: 'flex'}}/*Tarjeta Integracion*/>
-                <DeviceHubIcon>
+                <DeviceHubIcon sx={{fontSize:'70px', color:'#7c4dff'}}>
                     
                 </DeviceHubIcon>
 
@@ -105,7 +102,7 @@ return(
                 </Typography>
             </Box>
             <Box sx={{display: 'flex'}}/*Tarjeta Sporte*/>
-                <GppGoodIcon>
+                <GppGoodIcon sx={{fontSize:'70px', color:'#7c4dff'}}>
                     
                 </GppGoodIcon>
 
