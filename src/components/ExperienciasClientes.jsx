@@ -181,7 +181,8 @@ function ExperienciasClientes(){
 
                     </Box>
                     <Box sx={{
-                        display:"flex"
+                        display:"flex",
+                        marginTop:"10px"
                     }}>
                         <Box alt="comentario" sx={{
                             display:"flex",
