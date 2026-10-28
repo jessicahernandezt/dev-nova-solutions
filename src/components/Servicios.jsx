@@ -119,14 +119,14 @@ function Servicios() {
                         <Box sx={{
                             marginBottom: '15px',
                         }}>
-                            <h3>Desarrollo Web</h3>
+                            <h3>Aplicaciones Moviles</h3>
 
                             <Typography sx={{
                                 color: '#888691',
                                 marginTop: '-10px',
                             }}>
 
-                                Sitios y plataformas web modernas, seguras y esstables</Typography>
+                                Apps nativas e hibridas para iOS y Android</Typography>
                             <Typography sx={{
                                 color: '#7c4dff',
                             }}>
@@ -159,14 +159,14 @@ function Servicios() {
                         <Box sx={{
                             marginBottom: '15px',
                         }}>
-                            <h3>Desarrollo Web</h3>
+                            <h3>Desarrollo de Software</h3>
 
                             <Typography sx={{
                                 color: '#888691',
                                 marginTop: '-10px',
                             }}>
 
-                                Sitios y plataformas web modernas, seguras y esstables</Typography>
+                                Soluciones a la medida para procesos especificos</Typography>
 
                             <Typography sx={{
                                 color: '#7c4dff',
@@ -207,14 +207,14 @@ function Servicios() {
                         <Box sx={{
                             marginBottom: '15px',
                         }}>
-                            <h3>Desarrollo Web</h3>
+                            <h3>Consultoria Tecnologica</h3>
 
                             <Typography sx={{
                                 color: '#888691',
                                 marginTop: '-10px',
                             }}>
 
-                                Sitios y plataformas web modernas, seguras y esstables</Typography>
+                                Te ayudamos a definir la mejor estrategia tecnologica</Typography>
                             <Typography sx={{
                                 color: '#7c4dff',
                             }}>
@@ -246,14 +246,14 @@ function Servicios() {
                         <Box sx={{
                             marginBottom: '15px',
                         }}>
-                            <h3>Desarrollo Web</h3>
+                            <h3>Integracion de Sistemas</h3>
 
                             <Typography sx={{
                                 color: '#888691',
                                 marginTop: '-10px',
                             }}>
 
-                                Sitios y plataformas web modernas, seguras y esstables</Typography>
+                                Conectamos tus herramientas y optimizamos procesos</Typography>
                             <Typography sx={{
                                 color: '#7c4dff',
                             }}>
@@ -285,14 +285,14 @@ function Servicios() {
                         <Box sx={{
                             marginBottom: '15px',
                         }}>
-                            <h3>Desarrollo Web</h3>
+                            <h3>Soporte y Mantenimiento</h3>
 
                             <Typography sx={{
                                 color: '#888691',
                                 marginTop: '-10px',
                             }}>
 
-                                Sitios y plataformas web modernas, seguras y esstables</Typography>
+                                Tu operacion siempre en funcionamiento</Typography>
                             <Typography sx={{
                                 color: '#7c4dff',
                             }}>
