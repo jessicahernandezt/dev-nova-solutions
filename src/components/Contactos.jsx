@@ -94,7 +94,7 @@ function Contactos(){
                                     fontSize:"14px",
                                     color:"#837f7f"
                                 }}>
-                                    hola@devnova.com
+                                    Ciudad de Mexico. Mexico
                                 </Typography>
 
                             </Box>

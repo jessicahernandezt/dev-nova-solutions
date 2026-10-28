@@ -5,6 +5,8 @@ import Proyectos from "../components/Proyectos"
 import Tecnologias from "../components/Tecnologias"
 import ExperienciasClientes from "../components/ExperienciasClientes"
 import Contactos from "../components/Contactos"
+import Footer from "../components/Footer"
+
 
 function Home() {
   return (
@@ -15,7 +17,8 @@ function Home() {
     <Proyectos />
     <Tecnologias />
     <ExperienciasClientes />
-    <Contactos/>
+    <Contactos />
+    <Footer />
     </>
   )
 }

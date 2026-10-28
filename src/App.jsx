@@ -1,8 +1,8 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Layout from './Layout'
 import Home from './pages/Home'
-import Servicios from './components/Servicios'
-import QuienesSomos from './components/QuienesSomos'
+import Servicios from './pages/Servicios'
+import QuienesSomos from './pages/QuienesSomos'
 import Proyectos from './pages/Proyectos'
 import Tecnologias from './pages/Tecnologias'
 import Experiencia from './pages/Experiencia'
@@ -14,6 +14,7 @@ import DesarrolloSoftware from './pages/DesarrolloSoftware'
 
 function App() {
   return (
+    
     <BrowserRouter>
       <Routes>
         <Route element={<Layout />}>
