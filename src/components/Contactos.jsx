@@ -1,4 +1,4 @@
-import { ArrowForward, Bolt, Opacity, PeopleAltRounded, FileOpen, BusinessCenterOutlined, EngineeringOutlined, CasesOutlined, FavoriteOutlined, Email, EmailOutlined, Phone, PersonPinCircleOutlined } from '@mui/icons-material'
+import { ArrowForward, Bolt, Opacity, PeopleAltRounded, FileOpen, BusinessCenterOutlined, EngineeringOutlined, CasesOutlined, FavoriteOutlined, Email, EmailOutlined, Phone, PersonPinCircleOutlined, ExpandMore, Add } from '@mui/icons-material'
 import { StarPurple500 } from '@mui/icons-material'
 
 import {
@@ -12,7 +12,10 @@ import {
     Rating,
     Typography,
     TextField,
-    Autocomplete
+    Autocomplete,
+    Accordion,
+    AccordionSummary,
+    AccordionDetails
 } from '@mui/material'
 
 function Contactos(){
@@ -131,12 +134,122 @@ function Contactos(){
                             </TextField>
                             
                         </Box>
-                        <Button>
-                            hoa
+                        <Button  sx={{
+                            color:"white",
+                            backgroundColor:"#7c4dff",
+                            fontSize:"9px",
+                            width:"170px",
+                            height:"30px",
+                            gap:1
+                        }}>
+                            Enviar mensaje <ArrowForward sx={{
+                                width:"15px",
+                                height:"15px"
+                            }} />
                         </Button>
                     </Box>
-                    <Box alt="Preguntas frecuentes"></Box>
-                    <Box alt="Imagen"></Box>
+                    <Box alt="Preguntas frecuentes" sx={{
+                        width:"280px",
+                        height:"200px",
+                        
+                    }}>
+                        <Typography sx={{
+                            justifyContent:"center",
+                            alignItems:"center",
+                            fontSize:"15px",
+                            marginTop:"30px"
+                        }}>
+                            Preguntas frecuentes
+                        </Typography>
+                        <Box sx={{
+                            marginTop:"5px"
+                        }}>
+                            <Accordion sx={{
+                                
+                            }}>
+                                <AccordionSummary >
+                                    <Typography component="span" sx={{
+                                        fontSize:"12px",
+                                        
+                                    }} >
+                                        Cuanto tiempo tarda un proyecto
+                                    </Typography>
+
+                                </AccordionSummary>
+                                <AccordionDetails sx={{
+                                    fontSize:"12px",
+                                    
+                                }}>
+                                    3-6 Meses dependiendo del tipo de proyecto.
+                                </AccordionDetails>
+                            </Accordion>
+                            <Accordion sx={{
+                                
+                            }}>
+                                <AccordionSummary >
+                                    <Typography component="span" sx={{
+                                        fontSize:"12px"
+                                    }} >
+                                        ¿Que tecnologias usan?
+                                    </Typography>
+
+                                </AccordionSummary>
+                                <AccordionDetails sx={{
+                                    fontSize:"12px"
+                                }}> 
+                                    React, node.js, Mongodb, PostegreSQL, Express, Python, por mencionar algunas.
+                                </AccordionDetails>
+                            </Accordion>
+                            <Accordion sx={{
+                                
+                            }}>
+                                <AccordionSummary sx={{
+                                    
+                                }}>
+                                    <Typography component="span" sx={{
+                                        fontSize:"12px"
+                                    }}>
+                                        ¿Ofrecen mantenimineto despues del lanzamiento?
+                                    </Typography>
+
+                                </AccordionSummary>
+                                <AccordionDetails sx={{
+                                    fontSize:"12px"
+                                }}>
+                                    Si. Si usted lo necesita nos podemos encargar del mantenimineto si realiza un contrato.
+                                </AccordionDetails>
+                            </Accordion>
+                            <Accordion sx={{
+                                
+                            }}> 
+                                <AccordionSummary sx={{
+                                    
+                                }}>
+                                    <Typography component="span" sx={{
+                                        fontSize:"12px"
+                                    }} >
+                                        ¿Trabajan con empresas y pymes?
+                                    </Typography>
+
+                                </AccordionSummary>
+                                <AccordionDetails sx={{
+                                    fontSize:"12px"
+                                }}>
+                                    Si. Trabajamos con todo tipo de empresas, sean pequeñas o grandes
+                                </AccordionDetails>
+                            </Accordion>
+                        </Box>
+                    </Box>
+                    <Box alt="Imagen" sx={{
+                        marginTop:"80px"
+                    }}>
+                        <Box component="img" src='./img (22).png' sx={{
+                            width:"200px",
+                            height:"180px"
+                        }}>
+
+                        </Box>
+                    </Box>
 
                 </Box>
             </Container>
