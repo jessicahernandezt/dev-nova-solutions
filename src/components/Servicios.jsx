@@ -8,7 +8,9 @@ import GppGoodIcon from '@mui/icons-material/GppGood';
 
 function Servicios() {
 return(
-    <Box sx={{alignItems:'center'}}/*Nuestros-Servicios*/ >
+
+    <Box sx={{marginLeft: '80px'}}/*Nuestros-Servicios*/ >
+
         <Typography sx={{fontSize:'20px', fontWeight:'bold'}}>
                 Nuestros servicios
                     <Typography sx={{fontSize: '30px', fontWeight:'bold'}}>
@@ -20,7 +22,7 @@ return(
                 </Typography>
         </Typography>
 
-        <Box sx={{display: 'grid', gridTemplateColumns: 'repeat(3,1fr)', gap: '8px', marginTop:'20px'}}/*tarjetas*/>
+        <Box sx={{display: 'grid', gridTemplateColumns: 'repeat(3,max-content)', gap: '32px', marginTop:'20px', justifyContent:'center'}}/*tarjetas*/>
             <Box sx={{display: 'flex'}}/*Tarjeta Desarrollo web*/>
                 <Box sx={{bgcolor:'#e068e0', borderRadius:3, height:"70px", marginRight:'20px'}}>
                 <MonitorIcon sx={{fontSize:'70px', color:'#7c4dff'}}></MonitorIcon>
@@ -38,7 +40,10 @@ return(
             </Box>
 
             <Box sx={{display: 'flex'}}/*Tarjeta Apps*/>
-                <PhoneIphoneIcon sx={{fontSize:'70px', color:'#7c4dff'}}></PhoneIphoneIcon>
+                <Box sx={{bgcolor:'#e068e0', borderRadius:3, height:"70px", marginRight:'20px'}}>
+                    <PhoneIphoneIcon sx={{fontSize:'70px', color:'#7c4dff'}}></PhoneIphoneIcon>
+                </Box>
+
 
                 <Typography>
                     Desarrollo Web
@@ -53,9 +58,8 @@ return(
             </Box>
 
             <Box sx={{display: 'flex'}}/*Tarjeta Desarrollo software*/>
-                <CodeIcon sx={{fontSize:'70px', color:'#7c4dff'}}>
-                    
-                </CodeIcon>
+
+                <Box sx={{bgcolor:'#e068e0', borderRadius:3, height:"70px", marginRight:'20px'}}><CodeIcon sx={{fontSize:'70px', color:'#7c4dff'}}></CodeIcon></Box>
 
                 <Typography>
                     Desarrollo Web
@@ -70,9 +74,8 @@ return(
             </Box>
 
             <Box sx={{display: 'flex'}}/*Tarjeta Consuloria*/>
-                <LightbulbIcon sx={{fontSize:'70px', color:'#7c4dff'}}>
-                    
-                </LightbulbIcon>
+
+                <Box sx={{bgcolor:'#e068e0', borderRadius:3, height:"70px", marginRight:'20px'}}><LightbulbIcon sx={{fontSize:'70px', color:'#7c4dff'}}></LightbulbIcon></Box>
 
                 <Typography>
                     Desarrollo Web
@@ -85,10 +88,11 @@ return(
                     </Button>
                 </Typography>
             </Box>
+
             <Box sx={{display: 'flex'}}/*Tarjeta Integracion*/>
-                <DeviceHubIcon sx={{fontSize:'70px', color:'#7c4dff'}}>
-                    
-                </DeviceHubIcon>
+                <Box sx={{bgcolor:'#e068e0', borderRadius:3, height:"70px", marginRight:'20px'}}>
+                <DeviceHubIcon sx={{fontSize:'70px', color:'#7c4dff'}}></DeviceHubIcon>
+                </Box>
 
                 <Typography>
                     Desarrollo Web
@@ -102,9 +106,9 @@ return(
                 </Typography>
             </Box>
             <Box sx={{display: 'flex'}}/*Tarjeta Sporte*/>
-                <GppGoodIcon sx={{fontSize:'70px', color:'#7c4dff'}}>
-                    
-                </GppGoodIcon>
+                <Box sx={{bgcolor:'#e068e0', borderRadius:3, height:"70px", marginRight:'20px'}}>
+                <GppGoodIcon sx={{fontSize:'70px', color:'#7c4dff'}}></GppGoodIcon>
+                </Box>
 
                 <Typography>
                     Desarrollo Web

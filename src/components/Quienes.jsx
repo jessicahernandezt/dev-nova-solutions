@@ -7,18 +7,18 @@ function Quienes() {
     return(
         <Box sx={{display: 'flex', marginTop: '50px'}}/*Quienes somos*/>
             <Box /*Informacion y boton*/>
-                <Typography>
+                <Typography sx={{fontSize:'20px', fontWeight: 'bold'}}>
                     Quienes somos
-                    <Typography>
+                    <Typography sx={{fontSize: '30px', fontWeight:'bold'}}>
                         Un equipo que convierte ideas en impacto
-                        <Typography>
+                        <Typography sx={{fontSize:'15px'}}>
                             En DevNova Solutions somos un equipo de profesionales apasionados<br/>
                             por la tecnologia y la innovacion. Ayudamos a empresas y emprendedores<br/>
                             a transformar sus ideas en soluciones digitales que generan valor real.
                         </Typography>
                     </Typography>
                 </Typography>
-                <Button>
+                <Button Variant='contained' type="button" sx={{backgroundColor:'#7c4dff',padding:'15px', color: 'white', fontWeight:'bold'}}>
                     Conoce mas sobre nosotros →
                 </Button>
             </Box>
