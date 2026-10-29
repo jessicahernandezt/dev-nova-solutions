@@ -1,24 +1,30 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import Layout from './Layout'
-import Home from './pages/Home'
-import Servicios from './pages/Servicios'
-import QuienesSomos from './pages/QuienesSomos'
-import Proyectos from './pages/Proyectos'
-import Tecnologias from './pages/Tecnologias'
-import Experiencia from './pages/Experiencia'
-import Clientes from './pages/Clientes'
-import Contacto from './pages/Contacto'
-import DesarrolloWeb from './pages/DesarrolloWeb'
-import AplicacionesMoviles from './pages/AplicacionesMoviles'
-import DesarrolloSoftware from './pages/DesarrolloSoftware'
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Layout from './Layout';
+import Home from './pages/Home';
+import ServicesPage from './pages/ServicesPage';
+import Servicios from './pages/Servicios'; 
+import QuienesSomos from './pages/QuienesSomos';
+import Proyectos from './pages/Proyectos';
+import Tecnologias from './pages/Tecnologias';
+import Experiencia from './pages/Experiencia';
+import Clientes from './pages/Clientes';
+import Contacto from './pages/Contacto';
+import DesarrolloWeb from './pages/DesarrolloWeb';
+import AplicacionesMoviles from './pages/AplicacionesMoviles';
+import DesarrolloSoftware from './pages/DesarrolloSoftware';
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route element={<Layout />}>
+        <Route path="/" element={<Layout />}>
+          {/* Página de Inicio */}
           <Route index element={<Home />} />
-          <Route path="servicios" element={<Servicios />} />
+          
+          {/* Página individual de Jaime Lugo */}
+          <Route path="servicios" element={<ServicesPage />} />
+          
+          {/* Demás páginas del proyecto */}
           <Route path="quienes-somos" element={<QuienesSomos />} />
           <Route path="proyectos" element={<Proyectos />} />
           <Route path="tecnologias" element={<Tecnologias />} />
@@ -31,7 +37,7 @@ function App() {
         </Route>
       </Routes>
     </BrowserRouter>
-  )
+  );
 }
 
-export default App
+export default App;

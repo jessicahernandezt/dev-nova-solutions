@@ -1,86 +1,61 @@
-import { AppBar, Box, Button, Container, Toolbar, Typography } from '@mui/material'
-import { Link } from 'react-router-dom'
+import { AppBar, Toolbar, Typography, Button, Box, Container } from '@mui/material';
+import { Link, useLocation } from 'react-router-dom';
 
 function Navbar() {
+  const location = useLocation();
 
-    return (
-        <AppBar
-            position='static'
-            elevation={0}
-            sx={{
-                backgroundColor: '#FFFFFF',
-                color: '#1f2440'
-            }}>
-            <Container maxWidth='lg'>
-                <Toolbar disableGutters>
+  const navItems = [
+    { label: 'INICIO', path: '/' },
+    { label: 'SERVICIOS', path: '/servicios' },
+    { label: 'QUIÉNES SOMOS', path: '/quienes-somos' },
+    { label: 'PROYECTOS', path: '/proyectos' },
+    { label: 'TECNOLOGÍAS', path: '/tecnologias' },
+    { label: 'CONTACTO', path: '/contacto' },
+  ];
 
-                    {/* Logo */}
-                    <Box
-                        sx={{
-                            display: 'flex',
-                            alignItems: 'center',
-                            flexGrow: 1,
-                            gap: 1
-                        }}
-                    >
-                        <Typography
-                            variant='h4'
-                            sx={{
-                                fontWeight: 'bold',
-                                color: '#7c4dff'
-                            }}>
-                            N
-                        </Typography>
+  return (
+    <AppBar position="sticky" sx={{ backgroundColor: '#ffffff', boxShadow: 'none', borderBottom: '1px solid #f0f0f0' }}>
+      <Container maxWidth="lg">
+        <Toolbar disableGutters sx={{ display: 'flex', justifyContent: 'space-between' }}>
+          
+          {/* Logo */}
+          <Box component={Link} to="/" sx={{ display: 'flex', alignItems: 'center', gap: 1, textDecoration: 'none' }}>
+            <Typography variant="h5" sx={{ fontWeight: 900, color: '#7c4dff' }}>N</Typography>
+            <Typography variant="h6" sx={{ fontWeight: 800, color: '#1A1B41', lineHeight: 1 }}>DevNova<br/>Solutions</Typography>
+          </Box>
 
-                        <Typography
-                            variant='h6'
-                            sx={{
-                                fontWeight: 'bold',
-                                lineHeight: 1
-                            }}
-                        >
-                            DevNova
-                            <br />
-                            Solutions
-                        </Typography>
-                    </Box>
+          {/* Enlaces de Navegación */}
+          <Box sx={{ display: { xs: 'none', md: 'flex' }, gap: 3 }}>
+            {navItems.map((item) => (
+              <Typography
+                key={item.label}
+                component={Link}
+                to={item.path}
+                sx={{
+                  textDecoration: 'none',
+                  color: location.pathname === item.path ? '#7c4dff' : '#4b5563',
+                  fontWeight: location.pathname === item.path ? 700 : 600,
+                  fontSize: '0.85rem',
+                  '&:hover': { color: '#7c4dff' }
+                }}
+              >
+                {item.label}
+              </Typography>
+            ))}
+          </Box>
 
-                    {/*Navegacion*/}
+          {/* Botón de Cotización */}
+          <Button 
+            variant="contained" 
+            sx={{ backgroundColor: '#7c4dff', textTransform: 'none', fontWeight: 600, borderRadius: 2 }}
+          >
+            Solicitar cotización →
+          </Button>
 
-                    <Box
-                        sx={{
-                            display: 'flex',
-                            alignItems: 'center',
-                            gap: 1
-                        }}
-                    >
-                        <Button component={Link} to='/' sx={{color: '#1f2440'}}>Inicio</Button>
-                        <Button component={Link} to='/servicios' sx={{color: '#1f2440'}}>Servicios</Button>
-                        <Button component={Link} to='/quienes-somos' sx={{color: '#1f2440'}}>Quiénes somos</Button>
-                        <Button component={Link} to='/proyectos' sx={{color: '#1f2440'}}>Proyectos</Button>
-                        <Button component={Link} to='/tecnologias' sx={{color: '#1f2440'}}>Tecnologías</Button>
-                        <Button component={Link} to='/contacto' sx={{color: '#1f2440'}}>Contacto</Button>
-
-                        <Button component={Link} to='/contacto' variant='contained'
-                        sx={{
-                            ml: 2,
-                            backgroundColor:'#7c4dff',
-                            textTransform: 'none',
-                            borderRadius: 2
-                        }}>
-                            Solicitar cotización →
-                        </Button>
-                    </Box>
-
-
-
-
-                </Toolbar>
-            </Container>
-
-
-        </AppBar>
-    )
+        </Toolbar>
+      </Container>
+    </AppBar>
+  );
 }
 
-export default Navbar
+export default Navbar;
