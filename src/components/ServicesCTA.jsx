@@ -1,98 +1,149 @@
-import { Box, Container, Typography, Card, Button } from '@mui/material';
-import MonitorOutlinedIcon from '@mui/icons-material/MonitorOutlined';
-import PhoneIphoneOutlinedIcon from '@mui/icons-material/PhoneIphoneOutlined';
-import CodeOutlinedIcon from '@mui/icons-material/CodeOutlined';
-import LightbulbOutlinedIcon from '@mui/icons-material/LightbulbOutlined';
-import DeviceHubOutlinedIcon from '@mui/icons-material/DeviceHubOutlined';
-import VerifiedUserOutlinedIcon from '@mui/icons-material/VerifiedUserOutlined';
+import { Box, Container, Typography, Button } from '@mui/material';
+import WorkIcon from '@mui/icons-material/Work';
+import CheckCircleIcon from '@mui/icons-material/CheckCircle';
+import GroupsIcon from '@mui/icons-material/Groups';
+import ThumbUpIcon from '@mui/icons-material/ThumbUp';
 
-const servicios = [
-  { icono: <MonitorOutlinedIcon />, titulo: 'Desarrollo Web', desc: 'Sitios y plataformas web modernos, seguros y escalables.' },
-  { icono: <PhoneIphoneOutlinedIcon />, titulo: 'Aplicaciones Móviles', desc: 'Apps nativas e híbridas para iOS y Android.' },
-  { icono: <CodeOutlinedIcon />, titulo: 'Desarrollo de Software', desc: 'Soluciones a la medida para procesos específicos.' },
-  { icono: <LightbulbOutlinedIcon />, titulo: 'Consultoría Tecnológica', desc: 'Te ayudamos a definir la mejor estrategia tecnológica.' },
-  { icono: <DeviceHubOutlinedIcon />, titulo: 'Integración de Sistemas', desc: 'Conectamos tus herramientas y optimizamos procesos.' },
-  { icono: <VerifiedUserOutlinedIcon />, titulo: 'Soporte y Mantenimiento', desc: 'Tu operación siempre en funcionamiento.' }
-];
-
-function Services() {
+function ServicesCTA() {
   return (
-    <Box sx={{ backgroundColor: '#F8F9FC', py: 8 }}>
-      <Container maxWidth="lg">
-        
-        <Box sx={{ mb: 4 }}>
-          <Box sx={{ display: 'flex', alignItems: 'center', gap: 1, mb: 1 }}>
-            <Box sx={{ width: 24, height: 2, backgroundColor: '#7c4dff' }} />
-            <Typography variant="overline" sx={{ color: '#7c4dff', fontWeight: 700, letterSpacing: 1 }}>
-              Nuestros servicios
-            </Typography>
-          </Box>
+    <Box sx={{ backgroundColor: '#F8F9FC', py: 10 }}>
+      <Container maxWidth="xl"> {/* Usamos xl para tener más espacio horizontal */}
+        <Box 
+          sx={{ 
+            display: 'flex', 
+            flexDirection: { xs: 'column', lg: 'row' }, 
+            alignItems: 'center', 
+            justifyContent: 'space-between',
+            gap: { xs: 6, lg: 4 } 
+          }}
+        >
           
-          <Typography variant="h4" sx={{ fontWeight: 800, color: '#1A1B41', mb: 1 }}>
-            Soluciones tecnológicas para cada necesidad
-          </Typography>
           
-          <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', flexWrap: 'wrap', gap: 2 }}>
-            <Typography variant="body1" sx={{ color: '#6b7280', maxWidth: '600px' }}>
-              Ofrecemos servicios de desarrollo de software, aplicaciones web y móviles, consultoría y soporte, para ayudarte a optimizar tus procesos y alcanzar tus objetivos.
+          <Box sx={{ flex: 1.2, maxWidth: { lg: '35%' } }}>
+            <Box sx={{ display: 'flex', alignItems: 'center', gap: 1, mb: 1 }}>
+              <Box sx={{ width: 24, height: 2, backgroundColor: '#7c4dff' }} />
+              <Typography variant="overline" sx={{ color: '#7c4dff', fontWeight: 700, letterSpacing: 1 }}>
+                Hablemos de tu proyecto
+              </Typography>
+            </Box>
+            
+            <Typography variant="h4" sx={{ fontWeight: 800, color: '#1A1B41', mb: 2, lineHeight: 1.2, fontSize: { xs: '2rem', md: '2.5rem' } }}>
+              ¿Listo para transformar tu idea en una solución real?
             </Typography>
-            <Button variant="text" sx={{ textTransform: 'none', fontWeight: 600, color: '#7c4dff' }}>
-              Ver todos los servicios →
-            </Button>
-          </Box>
-        </Box>
-
-        <Box sx={{ display: 'grid', gridTemplateColumns: { xs: '1fr', sm: 'repeat(2, 1fr)', md: 'repeat(3, 1fr)' }, gap: 3 }}>
-          {servicios.map((servicio, index) => (
-            <Card 
-              key={index} 
-              sx={{ 
-                p: 2.5, 
-                borderRadius: 2, 
-                boxShadow: '0px 2px 10px rgba(0,0,0,0.03)', 
-                border: '1px solid #F0F0F0',
-                display: 'flex',
-                flexDirection: 'row',
-                alignItems: 'flex-start',
-                gap: 2,
-                backgroundColor: '#FFFFFF'
-              }}
-            >
-              <Box 
+            
+            <Typography variant="body1" sx={{ color: '#4b5563', mb: 4, fontSize: '0.95rem', lineHeight: 1.6 }}>
+              Cuéntanos sobre tu proyecto y te ayudaremos a encontrar la mejor solución para tus objetivos. Nuestro equipo está listo para asesorarte.
+            </Typography>
+            
+            
+            <Box sx={{ display: 'flex', gap: 2, flexDirection: { xs: 'column', sm: 'row' }, flexWrap: 'wrap' }}>
+              <Button 
+                variant="contained" 
                 sx={{ 
-                  backgroundColor: '#F3EFFF', 
-                  borderRadius: 2, 
-                  width: 56, 
-                  height: 56, 
-                  display: 'flex', 
-                  alignItems: 'center', 
-                  justifyContent: 'center',
-                  color: '#7c4dff',
-                  fontSize: '32px',
-                  flexShrink: 0
+                  backgroundColor: '#7c4dff', 
+                  textTransform: 'none', 
+                  fontWeight: 600, 
+                  px: 3, 
+                  py: 1.2, 
+                  borderRadius: 2,
+                  whiteSpace: 'nowrap',
+                  '&:hover': { backgroundColor: '#6a3de8' }
                 }}
               >
-                {servicio.icono}
-              </Box>
-              
-              <Box sx={{ flex: 1 }}>
-                <Typography variant="subtitle1" sx={{ fontWeight: 700, color: '#1A1B41', mb: 0.5, fontSize: '1rem' }}>
-                  {servicio.titulo}
-                </Typography>
-                <Typography variant="body2" sx={{ color: '#6b7280', mb: 1.5, lineHeight: 1.4, fontSize: '0.85rem' }}>
-                  {servicio.desc}
-                </Typography>
-                <Button variant="text" sx={{ textTransform: 'none', fontWeight: 700, p: 0, color: '#7c4dff', fontSize: '0.85rem' }}>
-                  Ver más →
-                </Button>
-              </Box>
-            </Card>
-          ))}
-        </Box>
+                Solicitar una cotización →
+              </Button>
+              <Button 
+                variant="outlined" 
+                sx={{ 
+                  textTransform: 'none', 
+                  fontWeight: 600, 
+                  px: 3, 
+                  py: 1.2, 
+                  borderRadius: 2, 
+                  color: '#1A1B41', 
+                  borderColor: '#d1d5db', 
+                  backgroundColor: '#fff',
+                  whiteSpace: 'nowrap',
+                  '&:hover': { backgroundColor: '#f3f4f6' }
+                }}
+              >
+                Contactar con un asesor
+              </Button>
+            </Box>
+          </Box>
 
+          
+          <Box sx={{ flex: 1.5, position: 'relative', width: '100%', display: 'flex', justifyContent: 'center' }}>
+            <Box 
+              component="img"
+              src="/about.png" 
+              alt="Equipo trabajando"
+              sx={{ 
+                width: '100%', 
+                maxWidth: '500px',
+                height: '320px', 
+                objectFit: 'cover', 
+                borderRadius: 3,
+                boxShadow: '0 10px 30px rgba(0,0,0,0.08)'
+              }}
+            />
+            
+            <Box 
+              sx={{ 
+                position: 'absolute', 
+                bottom: 0, 
+                left: 'calc(50% - 250px)', // Lo alinea con el borde izquierdo de la imagen
+                backgroundColor: '#7c4dff', 
+                color: 'white', 
+                p: 2, 
+                borderTopRightRadius: 16,
+                borderBottomLeftRadius: 12,
+                boxShadow: '0 -4px 10px rgba(0,0,0,0.1)',
+                display: { xs: 'none', sm: 'block' } // Se oculta en celular para no estorbar
+              }}
+            >
+              <Typography variant="body2" sx={{ lineHeight: 1.2, fontWeight: 500 }}>Ideas</Typography>
+              <Typography variant="body2" sx={{ lineHeight: 1.2, fontWeight: 500 }}>Personas</Typography>
+              <Typography variant="subtitle1" sx={{ fontWeight: 800, lineHeight: 1.2 }}>Grandes Resultados</Typography>
+            </Box>
+          </Box>
+
+          
+          <Box sx={{ flex: 0.8, display: 'flex', flexDirection: 'column', gap: 3 }}>
+            {[
+              { icon: <WorkIcon />, num: '5+', text: 'Años de experiencia' },
+              { icon: <CheckCircleIcon />, num: '50+', text: 'Proyectos completados' },
+              { icon: <GroupsIcon />, num: '30+', text: 'Clientes satisfechos' },
+              { icon: <ThumbUpIcon />, num: '98%', text: 'Satisfacción promedio' }
+            ].map((item, index) => (
+              <Box key={index} sx={{ display: 'flex', alignItems: 'center', gap: 2 }}>
+                <Box 
+                  sx={{ 
+                    width: 45, 
+                    height: 45, 
+                    borderRadius: '50%', 
+                    backgroundColor: '#F3EFFF', 
+                    color: '#7c4dff', 
+                    display: 'flex', 
+                    alignItems: 'center', 
+                    justifyContent: 'center',
+                    flexShrink: 0
+                  }}
+                >
+                  {item.icon}
+                </Box>
+                <Box>
+                  <Typography variant="h6" sx={{ fontWeight: 800, color: '#1A1B41', lineHeight: 1, fontSize: '1.2rem' }}>{item.num}</Typography>
+                  <Typography variant="caption" sx={{ color: '#6b7280', fontSize: '0.85rem' }}>{item.text}</Typography>
+                </Box>
+              </Box>
+            ))}
+          </Box>
+
+        </Box>
       </Container>
     </Box>
   );
 }
 
-export default Services;
+export default ServicesCTA;

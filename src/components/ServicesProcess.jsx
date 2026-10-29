@@ -56,7 +56,7 @@ function ServicesProcess() {
             }} 
           />
 
-          {/* Pasos */}
+          
           {steps.map((step, index) => (
             <Box 
               key={index} 

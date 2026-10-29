@@ -18,13 +18,13 @@ function Navbar() {
       <Container maxWidth="lg">
         <Toolbar disableGutters sx={{ display: 'flex', justifyContent: 'space-between' }}>
           
-          {/* Logo */}
+          
           <Box component={Link} to="/" sx={{ display: 'flex', alignItems: 'center', gap: 1, textDecoration: 'none' }}>
             <Typography variant="h5" sx={{ fontWeight: 900, color: '#7c4dff' }}>N</Typography>
             <Typography variant="h6" sx={{ fontWeight: 800, color: '#1A1B41', lineHeight: 1 }}>DevNova<br/>Solutions</Typography>
           </Box>
 
-          {/* Enlaces de Navegación */}
+          
           <Box sx={{ display: { xs: 'none', md: 'flex' }, gap: 3 }}>
             {navItems.map((item) => (
               <Typography
@@ -44,7 +44,7 @@ function Navbar() {
             ))}
           </Box>
 
-          {/* Botón de Cotización */}
+          
           <Button 
             variant="contained" 
             sx={{ backgroundColor: '#7c4dff', textTransform: 'none', fontWeight: 600, borderRadius: 2 }}
