@@ -5,7 +5,7 @@ import Proyectos from "../components/Proyectos"
 import Tecnologias from "../components/Tecnologias"
 import ExperienciasClientes from "../components/ExperienciasClientes"
 import Contactos from "../components/Contactos"
-import Footer from "../components/Footer"
+
 
 
 function Home() {
@@ -18,7 +18,7 @@ function Home() {
     <Tecnologias />
     <ExperienciasClientes />
     <Contactos />
-    <Footer />
+    
     </>
   )
 }
