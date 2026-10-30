@@ -74,16 +74,16 @@ function Hero() {
                     </Typography>
 
                     <button type='submit' style={{
-                            backgroundColor: '#7c4dff',
-                            color: 'white',
-                            border: 'none',
-                            cursor: 'pointer',
-                            borderRadius: '9px',
-                            width: '40%',
-                            height: '35px',
-                            marginTop: '20px',
-                            fontWeight: 'bold',
-                        }} >Conoce nuestra trayectoria →</button>
+                        backgroundColor: '#7c4dff',
+                        color: 'white',
+                        border: 'none',
+                        cursor: 'pointer',
+                        borderRadius: '9px',
+                        width: '40%',
+                        height: '35px',
+                        marginTop: '20px',
+                        fontWeight: 'bold',
+                    }} >Conoce nuestra trayectoria →</button>
 
 
                 </Box>
