@@ -12,7 +12,7 @@ import {
 function QueDesarrollamos(){
     return (
         <Box sx={{
-            minHeight:'520px',
+            minHeight:'300px',
             display: 'flex',
             alignItems: 'center',
            
@@ -63,14 +63,15 @@ function QueDesarrollamos(){
                            display:"grid",
                            gap:2,
                            width:"100%",
-                           alignItems:"center",
-                           marginTop:"10px",
-                           margin:"20px"
+                           marginTop:"10px"
                            
                         }}>
                             <Box sx={{
                                 display:"flex",
-                                gap:3
+                                gap:3,
+                                justifyContent:"center",
+                                alignItems:"center",
+                                marginLeft:"5px"
                             }}>
                                 <Card sx={{
                                     width:"30%",
@@ -106,16 +107,16 @@ function QueDesarrollamos(){
                                             width:"230px",
                                             height:"130px"
                                         }}>
-                                            <Typography variant='body2' sx={{
+                                            <Typography variant='body1' sx={{
                                                 fontSize:"bold",
                                                 
                                             }}>
                                                 Sitios corporativos
                                             </Typography>
                                                
-                                            <Typography variant='caption' sx={{
+                                            <Typography variant='sutitle1' sx={{
                                             
-                                                fontSize:"11px",
+                                                fontSize:"13px",
                                                 color:"#837f7f"
                                             }}>
                                                 Sitios web profesionales que comunican tu marca, servicios y valores de forma efectiva
@@ -133,47 +134,48 @@ function QueDesarrollamos(){
                                         display:"flex"
                                     }}>
                                         <Box sx={{
+                                            height:"50%",
+                                            width:"50%",
+                                            color:"#7c4dff",
                                             
-                                            width:"65%",
-                                            
-                                            marginTop:"10px",
+                                            display:"flex",
                                             
                                         }}>
-                                        <RocketLaunch sx={{
-                                            width:"65%",
-                                            height:"55%",
-                                            color:"#7c4dff",
-                                            borderRadius:"20%",
-                                            borderColor:"#7c4dff",
-                                            backgroundColor:"#fb08df36"}} />
+                                            <RocketLaunch sx={{
+                                                width:"50%",
+                                                height:"65%",
+                                                borderRadius:"20%",
+                                        
+                                                borderColor:"#7c4dff",
+                                                backgroundColor:"#fb08df36",
+                                                marginTop:"1px",
+                                                
+                                                
+                                            }} />
                                         </Box>
                                         <Box
                                         sx={{
-                                            
+                                            borderLeft:"10px",
+                                            display:"block",
+                                            width:"230px",
+                                            height:"130px"
                                         }}>
-                                            <Typography variant='overline' sx={{
-                                                fontSize:"bold"
+                                            <Typography variant='body1' sx={{
+                                                fontSize:"bold",
+                                                
                                             }}>
-                                                Landing Pages
+                                                Landing pages
                                             </Typography>
-                                            <Box>
-                                                <Typography variant='caption' sx={{
-                                                lineHeight:"1.1",
-                                                fontSize:"11px",
-                                                color:"#837f7f"
-                                                }}>
-                                                    Paginas enfocadas en convertir visitantes en clientes, ideales para campañas y lanzamientos.
-                                                </Typography>
-                                            </Box>
+                                               
+                                            <Typography variant='sutitle1' sx={{
                                             
-
-
+                                                fontSize:"13px",
+                                                color:"#837f7f"
+                                            }}>
+                                                Paginas enfocadas en convertir visitantes en clientes, ideales para campañas y lanzamientos.
+                                            </Typography>
                                             
                                         </Box>
-                                        
-
-                                        
-
                                     </CardContent>
 
                                 </Card>
@@ -185,47 +187,48 @@ function QueDesarrollamos(){
                                         display:"flex"
                                     }}>
                                         <Box sx={{
+                                            height:"50%",
+                                            width:"50%",
+                                            color:"#7c4dff",
                                             
-                                            width:"65%",
-                                            
-                                            marginTop:"10px",
+                                            display:"flex",
                                             
                                         }}>
-                                        <ShoppingCartOutlined sx={{
-                                            width:"65%",
-                                            height:"55%",
-                                            color:"#7c4dff",
-                                            borderRadius:"20%",
-                                            borderColor:"#7c4dff",
-                                            backgroundColor:"#fb08df36"}} />
+                                            <ShoppingCartOutlined sx={{
+                                                width:"50%",
+                                                height:"65%",
+                                                borderRadius:"20%",
+                                        
+                                                borderColor:"#7c4dff",
+                                                backgroundColor:"#fb08df36",
+                                                marginTop:"1px",
+                                                
+                                                
+                                            }} />
                                         </Box>
                                         <Box
                                         sx={{
-                                            
+                                            borderLeft:"10px",
+                                            display:"block",
+                                            width:"230px",
+                                            height:"130px"
                                         }}>
-                                            <Typography variant='overline' sx={{
-                                                fontSize:"bold"
+                                            <Typography variant='body1' sx={{
+                                                fontSize:"bold",
+                                                
                                             }}>
                                                 E-commerce
                                             </Typography>
-                                            <Box>
-                                                <Typography variant='caption' sx={{
-                                                lineHeight:"1.1",
-                                                fontSize:"11px",
-                                                color:"#837f7f"
-                                                }}>
-                                                Tiendas en linea seguras, escalables y fáciles de gestionar para vender tus productos o servicios
-                                                </Typography>
-                                            </Box>
+                                               
+                                            <Typography variant='sutitle1' sx={{
                                             
-
-
+                                                fontSize:"13px",
+                                                color:"#837f7f"
+                                            }}>
+                                                Tiendas en linea seguras, escalables y fáciles de gestionar para vender tus productos o servicios 
+                                            </Typography>
                                             
                                         </Box>
-                                        
-
-                                        
-
                                     </CardContent>
 
                                 </Card>
@@ -237,51 +240,51 @@ function QueDesarrollamos(){
                                         display:"flex"
                                     }}>
                                         <Box sx={{
+                                            height:"50%",
+                                            width:"50%",
+                                            color:"#7c4dff",
                                             
-                                            width:"65%",
-                                            
-                                            marginTop:"10px",
+                                            display:"flex",
                                             
                                         }}>
-                                        <CodeOff sx={{
-                                            width:"65%",
-                                            height:"55%",
-                                            color:"#7c4dff",
-                                            borderRadius:"20%",
-                                            borderColor:"#7c4dff",
-                                            backgroundColor:"#fb08df36"}} />
+                                            <CodeOff sx={{
+                                                width:"50%",
+                                                height:"65%",
+                                                borderRadius:"20%",
+                                        
+                                                borderColor:"#7c4dff",
+                                                backgroundColor:"#fb08df36",
+                                                marginTop:"1px",
+                                                
+                                                
+                                            }} />
                                         </Box>
                                         <Box
                                         sx={{
-                                            
+                                            borderLeft:"10px",
+                                            display:"block",
+                                            width:"230px",
+                                            height:"130px"
                                         }}>
-                                            <Typography variant='overline' sx={{
-                                                fontSize:"bold"
+                                            <Typography variant='body1' sx={{
+                                                fontSize:"bold",
+                                                
                                             }}>
                                                 Sistemas web
                                             </Typography>
-                                            <Box>
-                                                <Typography variant='caption' sx={{
-                                                lineHeight:"1.1",
-                                                fontSize:"11px",
-                                                color:"#837f7f"
-                                                }}>
-                                                Plataformas a la medida para automatizar procesos y resolver necesidades especificas de tu negocio 
-                                                </Typography>
-                                            </Box>
+                                               
+                                            <Typography variant='sutitle1' sx={{
                                             
-
-
+                                                fontSize:"13px",
+                                                color:"#837f7f"
+                                            }}>
+                                                Plataformas a la medida para automatizar pprocesos y resolver necesidades especificas de tu negocio.
+                                            </Typography>
                                             
                                         </Box>
-                                        
-
-                                        
-
                                     </CardContent>
 
                                 </Card>
-                                
                                 
                             </Box>
                             
