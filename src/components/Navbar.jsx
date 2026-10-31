@@ -60,6 +60,8 @@ function Navbar() {
                         <Button component={Link} to='/proyectos' sx={{color: '#1f2440'}}>Proyectos</Button>
                         <Button component={Link} to='/tecnologias' sx={{color: '#1f2440'}}>Tecnologías</Button>
                         <Button component={Link} to='/contacto' sx={{color: '#1f2440'}}>Contacto</Button>
+                        <Button component={Link} to='/desarrollo-web' sx={{color: '#1f2440'}}>DesarrolloWeb</Button>
+
 
                         <Button component={Link} to='/contacto' variant='contained'
                         sx={{

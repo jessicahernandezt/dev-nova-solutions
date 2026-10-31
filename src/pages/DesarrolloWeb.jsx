@@ -1,5 +1,13 @@
+import HeroDW from "../ComponentesDW/HeroDW"
+import QueDesarrollamos from "../ComponentesDW/QueDesarrollamos"
+
 function DesarrolloWeb() {
-  return <h1>Desarrollo web</h1>
+  return (
+    <>
+      <HeroDW/>
+      <QueDesarrollamos/>
+    </>
+  )
 }
 
 export default DesarrolloWeb
