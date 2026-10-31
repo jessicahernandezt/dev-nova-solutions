@@ -1,5 +1,11 @@
+import Hero from '../components/Hero'
 function Tecnologias() {
-  return <h1>Tecnologías</h1>
+  return (
+    <>
+    <Hero />
+    </>
+
+  )
 }
 
 export default Tecnologias
