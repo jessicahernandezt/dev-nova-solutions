@@ -2,41 +2,60 @@ import LightbulbIcon from '@mui/icons-material/Lightbulb';
 import ColorLensIcon from '@mui/icons-material/ColorLens';
 import CodeIcon from '@mui/icons-material/Code';
 import RocketLaunchIcon from '@mui/icons-material/RocketLaunch';
-import { Box, Container, Typography } from '@mui/material'
+import { 
+    Box, 
+    Container, 
+    Typography 
+} from '@mui/material'
 
 function ProcesoDesarroloMovil() {
     return (
-        <Box sx={{ minHeight: '520px', 
-        display: 'flex', 
-        alignItems: 'center', 
-        backgroundColor: '#f7f7ff', 
-        py: 6 }}>
-            <Container>
-                <Typography
-                    variant='overline'
-                    sx={{ color: '#171b35', fontWeight: 'bold', letterSpacing: 2 }}>
-                    --Proceso de desarrollo movil
-                </Typography>
+        <Box sx={{ 
+            minHeight: '400px',
+            display: 'flex',
+            alignItems: 'center',
+            backgroundColor: '#f7f7ff',
+            py: 4
+        }}>
+            <Container maxWidth='lg'>
+                <Box
+                    sx={{
+                    display: 'flex',
+                    justifyContent: 'space-between',
+                    alignItems: 'flex-start'
+                    }}>
 
-                <Typography
-                    variant='h4'
-                    sx={{ fontWeight: 'bold', color: '#171b35', mt: 1, mb: 1, lineHeight: '1' }}>
-                    De la idea a las tiendas de aplicaciones
-                </Typography>
+                    <Box sx={{ width: '60%' }}>
+                        <Typography
+                            variant='overline'
+                            sx={{
+                            color: '#171b35',
+                            fontWeight: 'bold',
+                            letterSpacing: 2
+                            }}>
+                        -- PROCESO DE DESARROLLO MOVIL
+                        </Typography>
 
-                <Typography sx={{ color: '#666', fontSize: '0.9rem', mb: 3 }}>
-                    Te acompañamos en todo el proceso con una metodologia agil y transparente.
-                </Typography>
+                         <Typography
+                            variant='h4'
+                            sx={{ fontWeight: 'bold', color: '#171b35'}}>
+                            De la idea a las tiendas de aplicaciones
+                        </Typography>
+                         <Typography
+                        sx={{color: '#666', fontSize: '0.9rem'}}
+                        >Te acompañamos en todo el proceso con una metodologia agil y transparente.</Typography>
+                    </Box>
+                </Box>
 
                 <Box
                     sx={{
                         display: 'flex',
                         flexDirection: { xs: 'column', md: 'row' },
-                        mt: 6,
+                        mt: 1,
                     }}>
                         
-                    <Box sx={{ p: 3, borderRadius: 3, bgcolor: '#fff', flex: 1 }}>
-                        <Box sx={{ display: 'flex', alignItems: 'center', gap: 2, mb: 2 }}>
+                    <Box sx={{ p: 3, borderRadius: 3, bgcolor: '#fff', flex: 1, boxShadow: 1 }}>
+                        <Box sx={{ display: 'flex', alignItems: 'center', gap: 1, mb: 2}}>
                             <Box sx={{ 
                                 width: 40,
                                 height: 40, 
@@ -67,7 +86,7 @@ function ProcesoDesarroloMovil() {
                         →
                     </Box>
 
-                    <Box sx={{ p: 3, borderRadius: 3, bgcolor: '#fff', flex: 1 }}>
+                    <Box sx={{ p: 3, borderRadius: 3, bgcolor: '#fff', flex: 1, boxShadow: 1 }}>
                         <Box sx={{ display: 'flex', alignItems: 'center', gap: 2, mb: 2 }}>
                             <Box sx={{ width: 40, 
                                 height: 40, 
@@ -98,7 +117,7 @@ function ProcesoDesarroloMovil() {
                         →
                     </Box>
 
-                    <Box sx={{ p: 3, borderRadius: 3, bgcolor: '#fff', flex: 1 }}>
+                    <Box sx={{ p: 3, borderRadius: 3, bgcolor: '#fff', flex: 1, boxShadow: 1 }}>
                         <Box sx={{ display: 'flex', alignItems: 'center', gap: 2, mb: 2 }}>
                             <Box sx={{ width: 40, 
                                 height: 40, 
@@ -129,7 +148,7 @@ function ProcesoDesarroloMovil() {
                         →
                     </Box>
 
-                    <Box sx={{ p: 3, borderRadius: 3, bgcolor: '#fff', flex: 1 }}>
+                    <Box sx={{ p: 3, borderRadius: 3, bgcolor: '#fff', flex: 1, boxShadow: 1}}>
                         <Box sx={{ display: 'flex', alignItems: 'center', gap: 2, mb: 2 }}>
                             <Box sx={{ width: 40, 
                                 height: 40, 

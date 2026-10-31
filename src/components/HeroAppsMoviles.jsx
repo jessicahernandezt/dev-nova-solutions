@@ -13,7 +13,7 @@ function HeroAppsMoviles() {
                 display: 'flex',
                 alignItems: 'center',
                 backgroundColor: '#f7f7ff',
-                py: 6
+                py: 2
             }}
         >
 
@@ -22,7 +22,7 @@ function HeroAppsMoviles() {
                     sx={{
                         display: 'flex',
                         alignItems: 'center',
-                        gap: 6
+                        gap: 5
                     }}>
 
                     <Box sx={{ width: '50%' }}>
@@ -57,7 +57,8 @@ function HeroAppsMoviles() {
                             ml: 1,
                             backgroundColor:'#7c4dff',
                             textTransform: 'none',
-                            borderRadius: 2
+                            borderRadius: 2,
+                            boxShadow: 2
                         }}>
                             Crear mi app →
                         </Button>
@@ -68,7 +69,8 @@ function HeroAppsMoviles() {
                             ml: 5,
                             backgroundColor:'#fff',
                             textTransform: 'none',
-                            borderRadius: 2
+                            borderRadius: 2,
+                            boxShadow: 2
                         }}>
                             Ver capacidades
                         </Button>

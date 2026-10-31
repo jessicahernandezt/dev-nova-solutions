@@ -4,7 +4,6 @@ import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import SettingsIcon from '@mui/icons-material/Settings';
 import {
     Box,
-    Button,
     Container,
     Typography
 } from '@mui/material'
@@ -13,13 +12,13 @@ function SolucionesMoviles() {
     return (
         <Box
             sx={{
-                minHeight: '520px',
+                minHeight: '400px',
                 display: 'flex',
                 alignItems: 'center',
-                backgroundColor: '#f7f7ff',
-                py: 6
+                backgroundColor: '#fff',
+                py: 4
             }}>
-                <Container maxWidth='lg'>
+                <Container maxWidth='lg' >
                 <Box
                     sx={{
                     display: 'flex',
@@ -35,16 +34,16 @@ function SolucionesMoviles() {
                             fontWeight: 'bold',
                             letterSpacing: 2
                             }}>
-                        --¿Que podemos desarrollar?
+                        -- Que podemos desarrollar
                         </Typography>
 
                          <Typography
                             variant='h4'
-                            sx={{ fontWeight: 'bold', color: '#171b35', mt: 1, mb: 1, lineHeight:'1'}}>
+                            sx={{ fontWeight: 'bold', color: '#171b35'}}>
                             Soluciones moviles para cada necesidad
                         </Typography>
                          <Typography
-                        sx={{color: '#666', fontSize: '0.9rem', mb:3}}
+                        sx={{color: '#666', fontSize: '0.9rem'}}
                         >Diseñamos y desarrolamos aplicaciones que se adaptan a tus objetivos y al tipo de usuario de tu negocio.</Typography>
                     </Box>
                 </Box>
@@ -53,12 +52,12 @@ function SolucionesMoviles() {
                     sx={{
                         display: 'grid',
                         gridTemplateColumns: {xs: '1fr',sm: 'repeat(4, 1fr)'},
-                        gap: 3,
-                        mt: 6,
+                        gap: 4,
+                        mt: 2,
                     }}
                     >
 
-                    <Box sx={{ p: 3, borderRadius: 3, bgcolor: '#fff' }}>
+                    <Box sx={{ p: 2, borderRadius: 3, bgcolor: '#fff', boxShadow: 2 }}>
                         <Box sx={{
                             width: 56, 
                             height: 56, 
@@ -79,7 +78,7 @@ function SolucionesMoviles() {
                     </Box>
 
 
-                    <Box sx={{ p: 3, borderRadius: 3, bgcolor: '#fff' }}>
+                    <Box sx={{ p: 3, borderRadius: 3, bgcolor: '#fff', boxShadow: 2}}>
                         <Box sx={{
                             width: 56, 
                             height: 56, 
@@ -100,7 +99,7 @@ function SolucionesMoviles() {
                     </Box>
 
 
-                    <Box sx={{ p: 3, borderRadius: 3, bgcolor: '#fff' }}>
+                    <Box sx={{ p: 3, borderRadius: 3, bgcolor: '#fff', boxShadow: 2 }}>
                         <Box sx={{
                             width: 56, 
                             height: 56, 
@@ -121,7 +120,7 @@ function SolucionesMoviles() {
                     </Box>
 
 
-                    <Box sx={{ p: 3, borderRadius: 3, bgcolor: '#fff' }}>
+                    <Box sx={{ p: 3, borderRadius: 3, bgcolor: '#fff', boxShadow: 2 }}>
                         <Box sx={{
                             width: 56, 
                             height: 56, 
