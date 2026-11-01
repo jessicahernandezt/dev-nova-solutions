@@ -12,21 +12,17 @@ function FuncionalidadesAppsM() {
     return (
         <Box
             sx={{
-                minHeight: '200px',
-                display: 'flex',
-                alignItems: 'center',
-                backgroundColor: '#fff',
-                py: 2
-            }}
-        >
+                display: "flex",
+                alignItems: "center",
+                backgroundColor: "#fff",
+                py: 1,
+            }}>
 
             <Container maxWidth='lg'>
                 <Box
                     sx={{
                         display: 'flex',
-                        flexDirection: { xs: 'column', md: 'row' },
                         alignItems: 'center',
-                        gap: 5
                     }}>
 
                     <Box sx={{ width: { xs: '100%', md: '60%' } }}>
@@ -49,13 +45,12 @@ function FuncionalidadesAppsM() {
                         </Typography>
 
                         <Typography
-                        sx={{color: '#666', fontSize: '1rem', mb:25}}
+                        sx={{color: '#666', fontSize: '1rem', mb:3}}
                         >Integramos las funcionalidades que tu negocio necesita para ofrecer una experiencia completa y funcional. </Typography>
                     </Box>
 
                 <Box
                     sx={{
-                        mb: 20,
                         width: {  md: '60%' },
                         display: 'grid',
                         gridTemplateColumns: {xs: '1fr', sm: 'repeat(2, 1fr)', md: 'repeat(4, 1fr)'},

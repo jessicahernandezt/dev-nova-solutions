@@ -4,6 +4,9 @@ import ProcesoDesarrolloMovil from '../components/ProcesoDesarrolloMovil'
 import VentajasAppM from '../components/VentajasAppM'
 import TecnologiasAppsM from '../components/TecnologiasAppsM'
 import FuncionalidadesAppsM from '../components/FuncionalidadesAppsM'
+import CrecerAppsM from '../components/CrecerAppsM'
+import FooterAppsM from '../components/FooterAppsM'
+
 
 
 
@@ -16,6 +19,8 @@ function AplicacionesMoviles () {
     <VentajasAppM />
     <TecnologiasAppsM />
     <FuncionalidadesAppsM />
+    <CrecerAppsM />
+    <FooterAppsM />
   </>
   )
 }
