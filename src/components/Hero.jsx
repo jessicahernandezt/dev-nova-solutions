@@ -1,9 +1,12 @@
 import SettingsIcon from '@mui/icons-material/Settings';
+import LayersIcon from '@mui/icons-material/Layers';
+import PeopleIcon from '@mui/icons-material/People';
+
+
 
 import {
     Box,
     Button,
-    Container,
     Typography
 } from '@mui/material'
 
@@ -29,20 +32,37 @@ function Hero() {
                     <Button sx={{backgroundColor:'#7c4dff',color:'white',fontWeight:'bold'}}>Hablemos de tu proyecto</Button>
                 </Box>
 
-                <Box /*Iconos hero*/>
-                    <Box /*Tecnologias*/>
+                <Box sx={{display:'flex'}} /*Iconos hero*/>
+
+                    <Box sx={{display:'flex'}} /*Tecnologias*/>
                         <SettingsIcon></SettingsIcon>
+                        <Box>
+                            <Typography>10+</Typography>
+                            <Typography>Tecnologias principales</Typography>
+                        </Box>
                     </Box>
 
-                    <Box /*Proyectos*/>
-
+                    <Box sx={{display:'flex'}} /*Tecnologias*/>
+                        <LayersIcon></LayersIcon>
+                        <Box>
+                            <Typography>50+</Typography>
+                            <Typography>Proyectos con nuestra stack</Typography>
+                        </Box>
                     </Box>
 
-                    <Box /*Clientes*/>
-
+                    <Box sx={{display:'flex'}} /*Tecnologias*/>
+                        <PeopleIcon></PeopleIcon>
+                        <Box>
+                            <Typography>98%</Typography>
+                            <Typography>Clientes satisfechos</Typography>
+                        </Box>
                     </Box>
                 </Box>
             </Box>
+
+            <Box /*Imagen-Hero*/ component="img" src='./img_hero.png' alt='TecnologiasHero' sx={{
+                height: '400px', width: '600px'
+            }}></Box>
 
         </Box>
     )
