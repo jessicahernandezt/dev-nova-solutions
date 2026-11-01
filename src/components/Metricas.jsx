@@ -41,7 +41,7 @@ function Metricas() {
                         <Typography sx={{
                             fontWeight: 'Bolder',
                         }}>
-                            NUESTRA EXPERIENCIA
+                            EXPERIENCIA EN CIFRAS
                         </Typography>
 
                     </Box>
