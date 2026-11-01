@@ -1,5 +1,28 @@
-function AplicacionesMoviles() {
-  return <h1>Aplicaciones móviles</h1>
+import HeroAppsMoviles from '../components/HeroAppsMoviles'
+import SolucionesMoviles from '../components/SolucionesMoviles'
+import ProcesoDesarrolloMovil from '../components/ProcesoDesarrolloMovil'
+import VentajasAppM from '../components/VentajasAppM'
+import TecnologiasAppsM from '../components/TecnologiasAppsM'
+import FuncionalidadesAppsM from '../components/FuncionalidadesAppsM'
+import CrecerAppsM from '../components/CrecerAppsM'
+import FooterAppsM from '../components/FooterAppsM'
+
+
+
+
+function AplicacionesMoviles () {
+  return (
+  <>
+    <HeroAppsMoviles />
+    <SolucionesMoviles />
+    <ProcesoDesarrolloMovil />
+    <VentajasAppM />
+    <TecnologiasAppsM />
+    <FuncionalidadesAppsM />
+    <CrecerAppsM />
+    <FooterAppsM />
+  </>
+  )
 }
 
 export default AplicacionesMoviles
