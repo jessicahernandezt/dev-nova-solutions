@@ -11,11 +11,11 @@ import {
 function ProcesoDesarroloMovil() {
     return (
         <Box sx={{ 
-            minHeight: '400px',
+            minHeight: '300px',
             display: 'flex',
             alignItems: 'center',
             backgroundColor: '#f7f7ff',
-            py: 4
+            py: 2
         }}>
             <Container maxWidth='lg'>
                 <Box

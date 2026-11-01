@@ -12,11 +12,11 @@ function VentajasAppM() {
     return (
         <Box
             sx={{
-                minHeight: '400px',
+                minHeight: '300px',
                 display: 'flex',
                 alignItems: 'center',
                 backgroundColor: '#fff',
-                py: 6
+                py: 1
             }}>
                 <Container maxWidth='lg'>
                 <Box

@@ -16,11 +16,11 @@ function TecnologiasAppsM() {
   return (
     <Box
       sx={{
-        minHeight: "400px",
+        minHeight: "200px",
         display: "flex",
         alignItems: "center",
         backgroundColor: "#f7f7ff",
-        py: 4,
+        py: 2,
       }}>
 
       <Container maxWidth="lg">
@@ -30,9 +30,10 @@ function TecnologiasAppsM() {
             alignItems: "center",
           }}>
 
-          <Box sx={{ width: { xs: "100%", md: "40%" } }}>
+          <Box sx={{ width: { xs: "100%", md: "60%" } }}>
             <Box sx={{ display: "flex", alignItems: "center", gap: 2 }}>
               <Typography
+              variant='overline'
                 sx={{
                   color: "#000000",
                   fontWeight: "bold",
@@ -64,7 +65,7 @@ function TecnologiasAppsM() {
 
           <Box
             sx={{
-              width: { xs: "100%", md: "60%" },
+              width: { md: "60%" },
               display: "flex",
               flexWrap: { xs: "wrap", md: "nowrap" },
               justifyContent: "space-between",
