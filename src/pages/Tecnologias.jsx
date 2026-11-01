@@ -2,6 +2,8 @@ import Hero from '../components/Hero'
 import Categorias from '../components/Categorias'
 import TecnologiasCat from "../components/TecnologiasCat"
 import ComoUtilizamos from "../components/ComoUtilizamos"
+import Stack from "../components/Stack"
+
 
 function Tecnologias() {
   return (
@@ -10,6 +12,7 @@ function Tecnologias() {
     <Categorias />
     <TecnologiasCat />
     <ComoUtilizamos />
+    <Stack />
     </>
 
   )
