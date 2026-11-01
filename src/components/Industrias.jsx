@@ -5,7 +5,7 @@ import {
     Typography
 } from '@mui/material'
 
-function Hero() {
+function Industrias() {
     return (
 
         <Box
@@ -348,4 +348,4 @@ function Hero() {
 
     )
 }
-export default Hero
+export default Industrias
