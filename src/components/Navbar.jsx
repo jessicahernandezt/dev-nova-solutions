@@ -21,7 +21,7 @@ function Navbar(){
                             <Button sx={{color: '#1f2440'}}>Inicio</Button>
                             <Button sx={{color: '#1f2440'}}>Servicios</Button>
                             <Button sx={{color: '#1f2440'}}>Quiénes somos</Button>
-                            <Button sx={{color: '#1f2440'}}>Proyectos</Button>
+                            <Button href="./pages/Proyectos.jsx" sx={{color: '#1f2440'}}>Proyectos</Button>
                             <Button sx={{color: '#1f2440'}}>Tecnologías</Button>
                             <Button sx={{color: '#1f2440'}}>Contacto</Button>
 

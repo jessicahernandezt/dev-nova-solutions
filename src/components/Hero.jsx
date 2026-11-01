@@ -21,9 +21,9 @@ function Hero() {
                             Desarrollamos software a la medida para impulsar el crecimiento de tu negocio. Combinamos tecnologia, creatividad y experiencia para convertir tus ideas en productos reales
                         </Typography>
                         
-                        <Box sx={{display: 'flex', /*width: '100%',*/ alignItems: 'center', gap: 6, padding: 1, py: 0, backgroundColor: 'white', borderRadius: 2}}>
-                            <Button sx={{color: '#ffffff', fontWeight: 'bold', backgroundColor: '#7c4dff'}}>Solicitar cotizacíon →</Button>
-                            <Button sx={{color: '#7c4dff', fontWeight: 'bold', borderColor: '#7c4dff', border: 2}}>Conoce más</Button>
+                        <Box sx={{display: 'flex', /*width: '100%',*/ alignItems: 'center', justifyContent:'space-evenly', gap: 6, padding: 1, py: 0, backgroundColor: 'white', borderRadius: 2}}>
+                            <Button sx={{color: '#ffffff', fontWeight: 'bold', backgroundColor: '#7c4dff', width:'100%'}}>Solicitar cotizacíon →</Button>
+                            <Button sx={{color: '#7c4dff', fontWeight: 'bold', borderColor: '#7c4dff', border: 2, width:'100%'}}>Conoce más</Button>
                         </Box>
 
                         <Box sx={{display: 'flex', alignItems: 'center', gap: 2, padding: 1, py: 0, /*backgroundColor: 'white',*/ borderRadius: 2}}>

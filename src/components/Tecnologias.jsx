@@ -2,7 +2,7 @@ import {Box, Container, Typography, Card, CardContent, CardMedia} from '@mui/mat
 
 function Tecnologias() {
     return(
-        <Box sx={{minHeight: '520px', display: 'flex', alignItems: 'center', backgroundColor: '#f7f7ff', py: 1}}>
+        <Box sx={{display: 'flex', alignItems: 'center', backgroundColor: '#f7f7ff', py: 1}}>
             <Container maxWidth='lg'>
                 <Box sx={{/*display: 'flex', alignItems: 'center', gap: 3, backgroundImage: 'url("/img (8).png")', objectFit: 'contain', minHeight:'500px'*/}}>
 

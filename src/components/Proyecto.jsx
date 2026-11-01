@@ -1,6 +1,6 @@
 import {Box, Button, Container, Typography, Card, CardActions, CardContent, CardMedia} from '@mui/material'
 
-function Proyectos() {
+function Proyecto() {
     return(
         <Box sx={{minHeight: '520px', display: 'flex', alignItems: 'center', backgroundColor: '#f7f7ff', py: 1}}>
             <Container maxWidth='lg'>
@@ -112,4 +112,4 @@ function Proyectos() {
     )
 }
 
-export default Proyectos
+export default Proyecto

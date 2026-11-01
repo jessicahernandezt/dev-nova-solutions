@@ -3,7 +3,7 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
 function Contacto() {
     return(
-        <Box sx={{minHeight: '520px', display: 'flex', alignItems: 'center', justifyContent:'space-evenly', backgroundColor: '#f7f7ff', py: 1}}>
+        <Box sx={{minHeight: '400px', display: 'flex', alignItems: 'center', justifyContent:'space-evenly', backgroundColor: '#f7f7ff', py: 1}}>
             <Container maxWidth='lg'>
                 <Box sx={{display: 'flex', alignItems: 'center', gap: 3}}>
 
@@ -46,7 +46,7 @@ function Contacto() {
                                 Tipo de proyecto
                             </Typography>
                             <TextField defaultValue='Selecciona una opción' multiline maxRows={2} />
-                            <Button sx={{color: '#ffffff', fontWeight: 'bold', backgroundColor: '#7c4dff', marginTop:'10px'}}>Enviar mensaje →</Button>
+                            <Button sx={{color: '#ffffff', fontWeight: 'bold', backgroundColor: '#7c4dff', marginTop:'50px'}}>Enviar mensaje →</Button>
                         </Box>
                         <Box sx={{minWidth:'180px'}}>
                             <Typography sx={{color:'#666', letterSpacing:2, fontSize: '0.8rem', paddingBottom:'5px'}}>
@@ -56,7 +56,7 @@ function Contacto() {
                             <Typography sx={{color:'#666', letterSpacing:2, fontSize: '0.8rem', paddingBottom:'5px'}}>
                                 Mensaje
                             </Typography>
-                            <TextField defaultValue='Cuentanos sobre tu proyecto' multiline maxRows={4} />
+                            <TextField defaultValue='Cuéntanos sobre tu proyecto' multiline maxRows={4} />
                         </Box>
                     </Box>
                     
@@ -66,38 +66,38 @@ function Contacto() {
                         </Typography>
                         <Accordion>
                             <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-                            <Typography component="span">Accordion 1</Typography>
+                                ¿Cuanto tiempo tarda un proyecto?
                             </AccordionSummary>
                             <AccordionDetails>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                            malesuada lacus ex, sit amet blandit leo lobortis eget.
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                                malesuada lacus ex, sit amet blandit leo lobortis eget.
                             </AccordionDetails>
                         </Accordion>
                         <Accordion>
                             <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-                            <Typography component="span">Accordion 1</Typography>
+                                ¿Que tecnologias utilizan?
                             </AccordionSummary>
                             <AccordionDetails>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                            malesuada lacus ex, sit amet blandit leo lobortis eget.
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                                malesuada lacus ex, sit amet blandit leo lobortis eget.
                             </AccordionDetails>
                         </Accordion>
                         <Accordion>
                             <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-                            <Typography component="span">Accordion 1</Typography>
+                                ¿Ofrecen soporte despues del lanzamiento?
                             </AccordionSummary>
                             <AccordionDetails>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                            malesuada lacus ex, sit amet blandit leo lobortis eget.
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                                malesuada lacus ex, sit amet blandit leo lobortis eget.
                             </AccordionDetails>
                         </Accordion>
                         <Accordion>
                             <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-                            <Typography component="span">Accordion 1</Typography>
+                                ¿Trabajan con empresas pequeñas?
                             </AccordionSummary>
                             <AccordionDetails>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                            malesuada lacus ex, sit amet blandit leo lobortis eget.
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                                malesuada lacus ex, sit amet blandit leo lobortis eget.
                             </AccordionDetails>
                         </Accordion>
                     </Box>
