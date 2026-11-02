@@ -12,15 +12,15 @@ import {
 
 function Hero() {
     return (
-        <Box sx={{display:'flex', marginLeft:'100px'}}/*Tecnologias-Hero*/>
+        <Box sx={{display:'flex', marginLeft:'100px',backgroundColor:'#f7f7ff'}}/*Tecnologias-Hero*/>
             <Box /*Info-Hero*/>
                 <Typography sx={{fontSize: '16px'}}>
                     Nuestras tecnologias
                 </Typography>
                 <Typography sx={{fontWeight: 'bold', fontSize: '40px'}}>
                     Tecnologias que impulsan<br/>
-                    Soluciones reales
                 </Typography>
+                <Typography sx={{fontWeight: 'bold', fontSize: '40px',color:'#720b98'}}>Soluciones reales</Typography>
                 <Typography sx={{fontSize: '16px', marginLeft:'10px'}}>
                     Utilizamos tecnologias modernas, seguras y confiables para<br/>
                     desarrollar soluciones digitales de alto rendimiento, escllables<br/>
@@ -29,32 +29,32 @@ function Hero() {
 
                 <Box sx={{display: 'flex', gap: '10px', padding:'10px'}}/*Botones-Hero*/>
                     <Button sx={{backgroundColor:'#7c4dff',color:'white',fontWeight:'bold'}}>Conocer nuestros servicios</Button>
-                    <Button sx={{backgroundColor:'#7c4dff',color:'white',fontWeight:'bold'}}>Hablemos de tu proyecto</Button>
+                    <Button sx={{fontSize: "15px", fontWeight:'bold', color:'#431c53',boxShadow:'0 1px 1px rgba(0,0,0,0.7)'}}>Hablemos de tu proyecto</Button>
                 </Box>
 
                 <Box sx={{display:'flex'}} /*Iconos hero*/>
 
                     <Box sx={{display:'flex'}} /*Tecnologias*/>
-                        <SettingsIcon></SettingsIcon>
+                        <SettingsIcon sx={{color:'#431c53', height:'50px',width:'50px'}}></SettingsIcon>
                         <Box>
-                            <Typography>10+</Typography>
-                            <Typography>Tecnologias principales</Typography>
+                            <Typography sx={{color:'#720b98', fontWeight:'bold'}}>10+</Typography>
+                            <Typography sx={{fontWeight:'bold'}}>Tecnologias principales</Typography>
                         </Box>
                     </Box>
 
                     <Box sx={{display:'flex'}} /*Tecnologias*/>
-                        <LayersIcon></LayersIcon>
+                        <LayersIcon sx={{color:'#431c53', height:'50px',width:'50px'}}></LayersIcon>
                         <Box>
-                            <Typography>50+</Typography>
-                            <Typography>Proyectos con nuestra stack</Typography>
+                            <Typography sx={{color:'#720b98', fontWeight:'bold'}}>50+</Typography>
+                            <Typography sx={{fontWeight:'bold'}}>Proyectos con nuestra stack</Typography>
                         </Box>
                     </Box>
 
                     <Box sx={{display:'flex'}} /*Tecnologias*/>
-                        <PeopleIcon></PeopleIcon>
+                        <PeopleIcon sx={{color:'#431c53', height:'50px',width:'50px'}}></PeopleIcon>
                         <Box>
-                            <Typography>98%</Typography>
-                            <Typography>Clientes satisfechos</Typography>
+                            <Typography sx={{color:'#720b98', fontWeight:'bold'}}>98%</Typography>
+                            <Typography sx={{fontWeight:'bold'}}>Clientes satisfechos</Typography>
                         </Box>
                     </Box>
                 </Box>

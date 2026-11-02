@@ -3,6 +3,8 @@ import Categorias from '../components/Categorias'
 import TecnologiasCat from "../components/TecnologiasCat"
 import ComoUtilizamos from "../components/ComoUtilizamos"
 import Stack from "../components/Stack"
+import Idea from "../components/Idea"
+
 
 
 function Tecnologias() {
@@ -13,6 +15,7 @@ function Tecnologias() {
     <TecnologiasCat />
     <ComoUtilizamos />
     <Stack />
+    <Idea />
     </>
 
   )

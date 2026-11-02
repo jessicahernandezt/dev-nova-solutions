@@ -6,25 +6,25 @@ import {
 
 function TecnologiasCat() {
     return(
-        <Box sx={{marginLeft: '100px'}}/*Tecnologias principales*/>
+        <Box sx={{marginLeft: '100px', marginTop:'20px'}}/*Tecnologias principales*/>
             <Box /*Info*/>
-            <Typography>
+            <Typography sx={{color:'#4d084b', fontWeight:'bold'}}>
                 Tecnologias principales
             </Typography>
-            <Typography>
+            <Typography sx={{fontSize:'25px', color:'#4d084b',fontWeight:'bold'}}>
                 Herramientas que hacen posibles grandes ideas
             </Typography>
-            <Typography>
+            <Typography sx={{font:'15px'}}>
                 Trabajamos con un ecosistema de tecnologias modernas y en constante evolucion<br/>
                 Para crear soluciones robustas, seguras y preparadas para el futuro
             </Typography>
             </Box>
 
-            <Box  sx={{display:'grid', gridTemplateColumns:'repeat(10, 1fr)'}}/*Tarjetas-iconos*/>
+            <Box  sx={{marginTop:'20px',display:'grid', gridTemplateColumns:'repeat(10, 1fr)', gap:'10px'}}/*Tarjetas-iconos*/>
 
-                <Box /*Tarjeta*/>
+                <Box  sx={{borderRadius:'12px', backgroundColor:'#ffffff'}}/*Tarjeta*/>
                     <Box component="img" src='./React-Logo.png' alt='React' sx={{
-                        width:'50px', height: '50px'
+                        width:'50px', height: '50px', display:'flex'
                         }}></Box>
                     <Typography>React</Typography>
                 </Box>

@@ -16,22 +16,22 @@ function Categorias() {
         <Box sx={{marginLeft: '100px'}}/*Categorias-Tecnologias*/>
             
             <Box /*Info*/>
-            <Typography>Categorias de tecnologias</Typography>
-            <Typography>Un stack completo para cada necesidad</Typography>
-            <Typography>
+            <Typography sx={{fontSize: "15px", fontWeight:'bold', color:'#431c53'}}>Categorias de tecnologias</Typography>
+            <Typography sx={{fontSize:'25px', color:'#4d084b',fontWeight:'bold'}}>Un stack completo para cada necesidad</Typography>
+            <Typography sx={{font:'15px'}}>
                 Seleccionamos las mejores herramientas para cada proyecto, combinando tecnologia<br/>
                 experiencia y buenas practicas para garantiza resultados de alto nivel.
             </Typography>
             </Box>
 
-            <Box sx={{display:'grid', gridTemplateColumns:'repeat(3, 1fr)'}}/*Tarjetas*/>
+            <Box sx={{marginTop:'10px', display:'grid', gridTemplateColumns:'repeat(3, 1fr)',gap:'10px'}}/*Tarjetas*/>
 
-                <Box sx={{display:'flex'}}/*Font-End*/>
-                    <MonitorIcon></MonitorIcon>
+                <Box sx={{backgroundColor:'white',display:'flex',borderRadius:'12px',boxShadow:'0 1px 1px rgba(0,0,0,0.7)'}}/*Font-End*/>
+                    <MonitorIcon sx={{color:'#720b98', width:'60px',height:'60px'}}></MonitorIcon>
 
-                    <Box /*info-tarjeta*/>
-                    <Typography>Frontend</Typography>
-                    <Typography>
+                    <Box sx={{marginLeft:'10px'}}/*info-tarjeta*/>
+                    <Typography sx={{color:'#4d084b', fontWeight:'bold'}}>Frontend</Typography>
+                    <Typography sx={{fontSize:'15px'}}>
                         Interfaces modernas,<br/>
                         rapidas y escalables
                     </Typography>
@@ -42,12 +42,12 @@ function Categorias() {
                     </Box>
                 </Box>
 
-                <Box sx={{display:'flex'}}/*Back-End*/>
-                    <StorageIcon></StorageIcon>
+                <Box sx={{backgroundColor:'white',display:'flex',borderRadius:'12px',boxShadow:'0 1px 1px rgba(0,0,0,0.7)'}}/*Back-End*/>
+                    <StorageIcon sx={{color:'#720b98', width:'60px',height:'60px'}}></StorageIcon>
 
-                    <Box /*info-tarjeta*/>
-                    <Typography>Backend</Typography>
-                    <Typography>
+                    <Box sx={{marginLeft:'10px'}}/*info-tarjeta*/>
+                    <Typography sx={{color:'#4d084b', fontWeight:'bold'}}>Backend</Typography>
+                    <Typography sx={{fontSize:'15px'}}>
                         APIs seguras y de<br/>
                         alto rendimiento
                     </Typography>
@@ -58,12 +58,12 @@ function Categorias() {
                     </Box>
                 </Box>
 
-                <Box sx={{display:'flex'}}/*Bases-Datos*/>
-                    <JoinFullIcon></JoinFullIcon>
+                <Box sx={{backgroundColor:'white',display:'flex',borderRadius:'12px',boxShadow:'0 1px 1px rgba(0,0,0,0.7)'}}/*Bases-Datos*/>
+                    <JoinFullIcon sx={{color:'#720b98', width:'60px',height:'60px'}}></JoinFullIcon>
 
-                    <Box /*info-tarjeta*/>
-                    <Typography>Bases de datos</Typography>
-                    <Typography>
+                    <Box sx={{marginLeft:'10px'}} /*info-tarjeta*/>
+                    <Typography sx={{color:'#4d084b', fontWeight:'bold'}}>Bases de datos</Typography>
+                    <Typography sx={{fontSize:'15px'}}>
                         Almacenamiento confiable<br/>
                         y escalable.
                     </Typography>
@@ -74,12 +74,12 @@ function Categorias() {
                     </Box>
                 </Box>
 
-                <Box sx={{display:'flex'}}/*Cloud*/>
-                    <CloudIcon></CloudIcon>
+                <Box sx={{backgroundColor:'white',display:'flex',borderRadius:'12px',boxShadow:'0 1px 1px rgba(0,0,0,0.7)'}}/*Cloud*/>
+                    <CloudIcon sx={{color:'#720b98', width:'60px',height:'60px'}}></CloudIcon>
 
-                    <Box /*info-tarjeta*/>
-                    <Typography>Cloud</Typography>
-                    <Typography>
+                    <Box sx={{marginLeft:'10px'}}/*info-tarjeta*/>
+                    <Typography sx={{color:'#4d084b', fontWeight:'bold'}}>Cloud</Typography>
+                    <Typography sx={{fontSize:'15px'}}>
                         Infraestructura segura<br/>
                         y escalable.
                     </Typography>
@@ -90,12 +90,12 @@ function Categorias() {
                     </Box>
                 </Box>
 
-                <Box sx={{display:'flex'}}/*Desarrollo*/>
-                    <CodeOffIcon></CodeOffIcon>
+                <Box sx={{backgroundColor:'white',display:'flex',borderRadius:'12px',boxShadow:'0 1px 1px rgba(0,0,0,0.7)'}}/*Desarrollo*/>
+                    <CodeOffIcon sx={{color:'#720b98', width:'60px',height:'60px'}}></CodeOffIcon>
 
-                    <Box /*info-tarjeta*/>
-                    <Typography>Herramientas de desarrollo</Typography>
-                    <Typography>
+                    <Box sx={{marginLeft:'10px'}}/*info-tarjeta*/>
+                    <Typography sx={{color:'#4d084b', fontWeight:'bold'}}>Herramientas de desarrollo</Typography>
+                    <Typography sx={{fontSize:'15px'}}>
                         Productividad, control<br/>
                         y calidad del codigo
                     </Typography>
@@ -106,12 +106,12 @@ function Categorias() {
                     </Box>
                 </Box>
 
-                <Box sx={{display:'flex'}}/*Mobile*/>
-                    <PhoneAndroidIcon></PhoneAndroidIcon>
+                <Box sx={{backgroundColor:'white',display:'flex',borderRadius:'12px',boxShadow:'0 1px 1px rgba(0,0,0,0.7)'}}/*Mobile*/>
+                    <PhoneAndroidIcon sx={{color:'#720b98', width:'60px',height:'60px'}}></PhoneAndroidIcon>
 
-                    <Box /*info-tarjeta*/>
-                    <Typography>Mobile</Typography>
-                    <Typography>
+                    <Box sx={{marginLeft:'10px'}}/*info-tarjeta*/>
+                    <Typography sx={{color:'#4d084b', fontWeight:'bold'}}>Mobile</Typography>
+                    <Typography sx={{fontSize:'15px'}}>
                         Apps nativas e hibridas<br/>
                         de alto rendimiento
                     </Typography>
