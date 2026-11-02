@@ -1,4 +1,5 @@
 import { AppBar, Box, Button, Container, Toolbar, Typography } from '@mui/material'
+import { Link } from 'react-router-dom'
 
 function Navbar() {
 
@@ -53,14 +54,14 @@ function Navbar() {
                             gap: 1
                         }}
                     >
-                        <Button sx={{color: '#1f2440'}}>Inicio</Button>
-                        <Button sx={{color: '#1f2440'}}>Servicios</Button>
-                        <Button sx={{color: '#1f2440'}}>Quiénes somos</Button>
-                        <Button sx={{color: '#1f2440'}}>Proyectos</Button>
-                        <Button sx={{color: '#1f2440'}}>Tecnologías</Button>
-                        <Button sx={{color: '#1f2440'}}>Contacto</Button>
+                        <Button component={Link} to='/' sx={{color: '#1f2440'}}>Inicio</Button>
+                        <Button component={Link} to='/servicios' sx={{color: '#1f2440'}}>Servicios</Button>
+                        <Button component={Link} to='/quienes-somos' sx={{color: '#1f2440'}}>Quiénes somos</Button>
+                        <Button component={Link} to='/proyectos' sx={{color: '#1f2440'}}>Proyectos</Button>
+                        <Button component={Link} to='/tecnologias' sx={{color: '#1f2440'}}>Tecnologías</Button>
+                        <Button component={Link} to='/contacto' sx={{color: '#1f2440'}}>Contacto</Button>
 
-                        <Button variant='contained'
+                        <Button component={Link} to='/contacto' variant='contained'
                         sx={{
                             ml: 2,
                             backgroundColor:'#7c4dff',
