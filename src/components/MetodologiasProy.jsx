@@ -14,12 +14,12 @@ function MetodologiasProy() {
                 </Typography>
                 <Typography sx={{color:'#666', letterSpacing:2, fontSize: '0.9rem', paddingBottom:'20px'}}>
                     Seguimos una metodologia probada que nos permite desarrollar soluciones digitales de alta<br />
-                    calidad, manteniendo una comunicacion cercana con nuestros clientes en todo momento
+                    calidad, manteniendo una comunicacion cercana con nuestros clientes en todo momento.
                 </Typography>
 
                 <Box sx={{display: 'flex', alignItems: 'center', gap: 2, justifyContent:'space-evenly'}}>
                     
-                    <Box sx={{display: 'flex', gap: 2, backgroundColor: '#fff', padding: '5px', borderRadius: 2}}>
+                    <Box sx={{display: 'flex', gap: 2, backgroundColor: '#fff', padding: '5px', borderRadius: 2, border:'1px solid #d8d7d7'}}>
                         <Box component='img' src='/img (11).png' alt='' sx={{width:'80px', height: '80px', objectFit: 'contain', flexShrink: 0}}></Box>
                         <Box sx={{flex: 1, minWidth: 0}}>
                             <Typography sx={{color: '#666', fontSize:'13px'}}>
@@ -36,7 +36,7 @@ function MetodologiasProy() {
                     <Typography sx={{color:'#7c4dff'}}>
                         →
                     </Typography>
-                    <Box sx={{display: 'flex', gap: 2, backgroundColor: '#fff', padding: '5px', borderRadius: 2}}>
+                    <Box sx={{display: 'flex', gap: 2, backgroundColor: '#fff', padding: '5px', borderRadius: 2, border:'1px solid #d8d7d7'}}>
                         <Box component='img' src='/img (11).png' alt='' sx={{width:'80px', height: '80px', objectFit: 'contain', flexShrink: 0}}></Box>
                         <Box sx={{flex: 1, minWidth: 0}}>
                             <Typography sx={{color: '#666', fontSize:'13px'}}>
@@ -53,7 +53,7 @@ function MetodologiasProy() {
                     <Typography sx={{color:'#7c4dff'}}>
                         →
                     </Typography>
-                    <Box sx={{display: 'flex', gap: 2, backgroundColor: '#fff', padding: '5px', borderRadius: 2}}>
+                    <Box sx={{display: 'flex', gap: 2, backgroundColor: '#fff', padding: '5px', borderRadius: 2, border:'1px solid #d8d7d7'}}>
                         <Box component='img' src='/img (11).png' alt='' sx={{width:'80px', height: '80px', objectFit: 'contain', flexShrink: 0}}></Box>
                         <Box sx={{flex: 1, minWidth: 0}}>
                             <Typography sx={{color: '#666', fontSize:'13px'}}>
@@ -70,7 +70,7 @@ function MetodologiasProy() {
                     <Typography sx={{color:'#7c4dff'}}>
                         →
                     </Typography>
-                    <Box sx={{display: 'flex', gap: 2, backgroundColor: '#fff', padding: '5px', borderRadius: 2}}>
+                    <Box sx={{display: 'flex', gap: 2, backgroundColor: '#fff', padding: '5px', borderRadius: 2, border:'1px solid #d8d7d7'}}>
                         <Box component='img' src='/img (11).png' alt='' sx={{width:'80px', height: '80px', objectFit: 'contain', flexShrink: 0}}></Box>
                         <Box sx={{flex: 1, minWidth: 0}}>
                             <Typography sx={{color: '#666', fontSize:'13px'}}>

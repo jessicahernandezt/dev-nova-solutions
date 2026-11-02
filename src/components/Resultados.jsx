@@ -8,7 +8,7 @@ function Resultados() {
 
                 <Box sx={{display: 'flex', alignItems: 'center', gap: 2, justifyContent:'space-evenly'}}>
 
-                    <Box>
+                    <Box sx={{minWidth:'200px'}}>
                         <Typography sx={{color:'#171b35', fontWeight:"bold", letterSpacing:2}}>
                             <Box component='span' sx={{color:'#7c4dff', fontWeight:'bold', fontSize:'25px'}}>- </Box>NUESTROS RESULTADOS
                         </Typography>
@@ -19,13 +19,10 @@ function Resultados() {
                             Cuentanos sobre tu proyecto y descubre como podemos<br />
                             ayudarte a convertirlo en una solucion digital exitosa.
                         </Typography>
-                        <Box sx={{display: 'flex', /*width: '100%',*/ alignItems: 'center', justifyContent:'space-evenly', gap: 6, padding: 1, py: 0, backgroundColor: 'white', borderRadius: 2}}>
-                            <Button sx={{color: '#ffffff', fontWeight: 'bold', backgroundColor: '#7c4dff', width:'100%'}}>Solicita cotizacion →</Button>
-                            <Button sx={{color: '#7c4dff', fontWeight: 'bold', borderColor: '#7c4dff', border: 2, width:'100%'}}>Conoce nuestros servicios</Button>
-                        </Box>
+                        
                     </Box>
                     
-                    <Box sx={{display: 'flex', gap: 2, padding: '5px', borderRadius: 2}}>
+                    <Box sx={{display: 'flex', gap: 2, padding: '5px', borderRadius: 2, border:'1px solid #d8d7d7'}}>
                         <Box component='img' src='/img (11).png' alt='' sx={{width:'80px', height: '80px', objectFit: 'contain', flexShrink: 0}}></Box>
                         <Box sx={{flex: 1, minWidth: 0}}>
                             <Typography sx={{color:"#171b35", fontWeight:"bold", fontSize: '20px'}}>
@@ -40,7 +37,7 @@ function Resultados() {
                         </Box>
                     </Box>
                     
-                    <Box sx={{display: 'flex', gap: 2, padding: '5px', borderRadius: 2}}>
+                    <Box sx={{display: 'flex', gap: 2, padding: '5px', borderRadius: 2, border:'1px solid #d8d7d7'}}>
                         <Box component='img' src='/img (11).png' alt='' sx={{width:'80px', height: '80px', objectFit: 'contain', flexShrink: 0}}></Box>
                         <Box sx={{flex: 1, minWidth: 0}}>
                             <Typography sx={{color:"#171b35", fontWeight:"bold", fontSize: '20px'}}>
@@ -55,7 +52,7 @@ function Resultados() {
                         </Box>
                     </Box>
                     
-                    <Box sx={{display: 'flex', gap: 2, padding: '5px', borderRadius: 2}}>
+                    <Box sx={{display: 'flex', gap: 2, padding: '5px', borderRadius: 2, border:'1px solid #d8d7d7'}}>
                         <Box component='img' src='/img (11).png' alt='' sx={{width:'80px', height: '80px', objectFit: 'contain', flexShrink: 0}}></Box>
                         <Box sx={{flex: 1, minWidth: 0}}>
                             <Typography sx={{color:"#171b35", fontWeight:"bold", fontSize: '20px'}}>
@@ -70,7 +67,7 @@ function Resultados() {
                         </Box>
                     </Box>
                     
-                    <Box sx={{display: 'flex', gap: 2, padding: '5px', borderRadius: 2}}>
+                    <Box sx={{display: 'flex', gap: 2, padding: '5px', borderRadius: 2, border:'1px solid #d8d7d7'}}>
                         <Box component='img' src='/img (11).png' alt='' sx={{width:'80px', height: '80px', objectFit: 'contain', flexShrink: 0}}></Box>
                         <Box sx={{flex: 1, minWidth: 0}}>
                             <Typography sx={{color:"#171b35", fontWeight:"bold", fontSize: '20px'}}>
