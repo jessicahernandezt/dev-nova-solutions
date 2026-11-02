@@ -61,7 +61,7 @@ function Hero() {
             </Box>
 
             <Box /*Imagen-Hero*/ component="img" src='./img_hero.png' alt='TecnologiasHero' sx={{
-                height: '400px', width: '600px'
+                height: '400px', width: '800px'
             }}></Box>
 
         </Box>

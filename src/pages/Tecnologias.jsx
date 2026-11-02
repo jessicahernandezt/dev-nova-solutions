@@ -4,6 +4,7 @@ import TecnologiasCat from "../components/TecnologiasCat"
 import ComoUtilizamos from "../components/ComoUtilizamos"
 import Stack from "../components/Stack"
 import Idea from "../components/Idea"
+import Footer from "../components/Footer"
 
 
 
@@ -16,6 +17,7 @@ function Tecnologias() {
     <ComoUtilizamos />
     <Stack />
     <Idea />
+    <Footer />
     </>
 
   )

@@ -27,7 +27,7 @@ function Categorias() {
             <Box sx={{marginTop:'10px', display:'grid', gridTemplateColumns:'repeat(3, 1fr)',gap:'10px'}}/*Tarjetas*/>
 
                 <Box sx={{backgroundColor:'white',display:'flex',borderRadius:'12px',boxShadow:'0 1px 1px rgba(0,0,0,0.7)'}}/*Font-End*/>
-                    <MonitorIcon sx={{color:'#720b98', width:'60px',height:'60px'}}></MonitorIcon>
+                    <MonitorIcon sx={{color:'#720b98', width:'60px',height:'60px',borderRadius:'12px', backgroundColor:'#b39eb5'}}></MonitorIcon>
 
                     <Box sx={{marginLeft:'10px'}}/*info-tarjeta*/>
                     <Typography sx={{color:'#4d084b', fontWeight:'bold'}}>Frontend</Typography>
@@ -36,14 +36,14 @@ function Categorias() {
                         rapidas y escalables
                     </Typography>
 
-                    <Button>React</Button>
-                    <Button>Next.js</Button>
-                    <Button>Vite</Button>
+                    <Button sx={{borderRadius:'12px', backgroundColor:'#f7f7ff', color: '#4d084b'}}>React</Button>
+                    <Button sx={{borderRadius:'12px', backgroundColor:'#f7f7ff', color: '#4d084b'}}>Next.js</Button>
+                    <Button sx={{borderRadius:'12px', backgroundColor:'#f7f7ff', color: '#4d084b'}}>Vite</Button>
                     </Box>
                 </Box>
 
                 <Box sx={{backgroundColor:'white',display:'flex',borderRadius:'12px',boxShadow:'0 1px 1px rgba(0,0,0,0.7)'}}/*Back-End*/>
-                    <StorageIcon sx={{color:'#720b98', width:'60px',height:'60px'}}></StorageIcon>
+                    <StorageIcon sx={{color:'#720b98', width:'60px',height:'60px', borderRadius:'12px', backgroundColor:'#b39eb5'}}></StorageIcon>
 
                     <Box sx={{marginLeft:'10px'}}/*info-tarjeta*/>
                     <Typography sx={{color:'#4d084b', fontWeight:'bold'}}>Backend</Typography>
@@ -52,14 +52,14 @@ function Categorias() {
                         alto rendimiento
                     </Typography>
 
-                    <Button>Node js</Button>
-                    <Button>Express</Button>
-                    <Button>Python</Button>
+                    <Button sx={{borderRadius:'12px', backgroundColor:'#f7f7ff', color: '#4d084b'}}>Node js</Button>
+                    <Button sx={{borderRadius:'12px', backgroundColor:'#f7f7ff', color: '#4d084b'}}>Express</Button>
+                    <Button sx={{borderRadius:'12px', backgroundColor:'#f7f7ff', color: '#4d084b'}}>Python</Button>
                     </Box>
                 </Box>
 
                 <Box sx={{backgroundColor:'white',display:'flex',borderRadius:'12px',boxShadow:'0 1px 1px rgba(0,0,0,0.7)'}}/*Bases-Datos*/>
-                    <JoinFullIcon sx={{color:'#720b98', width:'60px',height:'60px'}}></JoinFullIcon>
+                    <JoinFullIcon sx={{color:'#720b98', width:'60px',height:'60px', borderRadius:'12px', backgroundColor:'#b39eb5'}}></JoinFullIcon>
 
                     <Box sx={{marginLeft:'10px'}} /*info-tarjeta*/>
                     <Typography sx={{color:'#4d084b', fontWeight:'bold'}}>Bases de datos</Typography>
@@ -68,14 +68,14 @@ function Categorias() {
                         y escalable.
                     </Typography>
 
-                    <Button>MongoDB</Button>
-                    <Button>PostgreSQL</Button>
-                    <Button>MySQL</Button>
+                    <Button sx={{borderRadius:'12px', backgroundColor:'#f7f7ff', color: '#4d084b'}}>MongoDB</Button>
+                    <Button sx={{borderRadius:'12px', backgroundColor:'#f7f7ff', color: '#4d084b'}}>PostgreSQL</Button>
+                    <Button sx={{borderRadius:'12px', backgroundColor:'#f7f7ff', color: '#4d084b'}}>MySQL</Button>
                     </Box>
                 </Box>
 
                 <Box sx={{backgroundColor:'white',display:'flex',borderRadius:'12px',boxShadow:'0 1px 1px rgba(0,0,0,0.7)'}}/*Cloud*/>
-                    <CloudIcon sx={{color:'#720b98', width:'60px',height:'60px'}}></CloudIcon>
+                    <CloudIcon sx={{color:'#720b98', width:'60px',height:'60px', borderRadius:'12px', backgroundColor:'#b39eb5'}}></CloudIcon>
 
                     <Box sx={{marginLeft:'10px'}}/*info-tarjeta*/>
                     <Typography sx={{color:'#4d084b', fontWeight:'bold'}}>Cloud</Typography>
@@ -84,14 +84,14 @@ function Categorias() {
                         y escalable.
                     </Typography>
 
-                    <Button>AWS</Button>
-                    <Button>Google Cloud</Button>
-                    <Button>Azure</Button>
+                    <Button sx={{borderRadius:'12px', backgroundColor:'#f7f7ff', color: '#4d084b'}}>AWS</Button>
+                    <Button sx={{borderRadius:'12px', backgroundColor:'#f7f7ff', color: '#4d084b'}}>Google Cloud</Button>
+                    <Button sx={{borderRadius:'12px', backgroundColor:'#f7f7ff', color: '#4d084b'}}>Azure</Button>
                     </Box>
                 </Box>
 
                 <Box sx={{backgroundColor:'white',display:'flex',borderRadius:'12px',boxShadow:'0 1px 1px rgba(0,0,0,0.7)'}}/*Desarrollo*/>
-                    <CodeOffIcon sx={{color:'#720b98', width:'60px',height:'60px'}}></CodeOffIcon>
+                    <CodeOffIcon sx={{color:'#720b98', width:'60px',height:'60px',borderRadius:'12px', backgroundColor:'#b39eb5'}}></CodeOffIcon>
 
                     <Box sx={{marginLeft:'10px'}}/*info-tarjeta*/>
                     <Typography sx={{color:'#4d084b', fontWeight:'bold'}}>Herramientas de desarrollo</Typography>
@@ -100,14 +100,14 @@ function Categorias() {
                         y calidad del codigo
                     </Typography>
 
-                    <Button>Git</Button>
-                    <Button>Docker</Button>
-                    <Button>CI/CD</Button>
+                    <Button sx={{borderRadius:'12px', backgroundColor:'#f7f7ff', color: '#4d084b'}}>Git</Button>
+                    <Button sx={{borderRadius:'12px', backgroundColor:'#f7f7ff', color: '#4d084b'}}>Docker</Button>
+                    <Button sx={{borderRadius:'12px', backgroundColor:'#f7f7ff', color: '#4d084b'}}>CI/CD</Button>
                     </Box>
                 </Box>
 
                 <Box sx={{backgroundColor:'white',display:'flex',borderRadius:'12px',boxShadow:'0 1px 1px rgba(0,0,0,0.7)'}}/*Mobile*/>
-                    <PhoneAndroidIcon sx={{color:'#720b98', width:'60px',height:'60px'}}></PhoneAndroidIcon>
+                    <PhoneAndroidIcon sx={{color:'#720b98', width:'60px',height:'60px',borderRadius:'12px', backgroundColor:'#b39eb5'}}></PhoneAndroidIcon>
 
                     <Box sx={{marginLeft:'10px'}}/*info-tarjeta*/>
                     <Typography sx={{color:'#4d084b', fontWeight:'bold'}}>Mobile</Typography>
@@ -115,10 +115,10 @@ function Categorias() {
                         Apps nativas e hibridas<br/>
                         de alto rendimiento
                     </Typography>
-
-                    <Button>Flutter</Button>
-                    <Button>React Native</Button>
-                    <Button>Firebase</Button>
+                    
+                    <Button sx={{borderRadius:'12px', backgroundColor:'#f7f7ff', color: '#4d084b'}}>Flutter</Button>
+                    <Button sx={{borderRadius:'12px', backgroundColor:'#f7f7ff', color: '#4d084b'}}>React Native</Button>
+                    <Button sx={{borderRadius:'12px', backgroundColor:'#f7f7ff', color: '#4d084b'}}>Firebase</Button>
                     </Box>
                 </Box>
             </Box>
