@@ -2,7 +2,7 @@ import {Box, Button, Container, Typography, Card, CardActions, CardContent, Card
 
 function ProyectosDestacados() {
     return (
-        <Box sx={{display: 'flex', alignItems: 'center', backgroundColor: '#f7f7ff', paddingBottom: 1}}>
+        <Box sx={{display: 'flex', alignItems: 'center', backgroundColor: '#fff', paddingBottom: 1}}>
 
             <Container maxWidth='lg' sx={{ }}>
 

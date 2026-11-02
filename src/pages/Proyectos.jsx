@@ -3,6 +3,7 @@ import HeroProy from "./components/HeroProy"
 import ProyDes from "./components/ProyectosDestacados"
 import Footer from "./components/Footer"
 import Metodo from "./components/MetodologiasProy"
+import Resultados from "./components/Resultados"
 
 function App(){
 
@@ -12,6 +13,7 @@ function App(){
       <HeroProy />
       <ProyDes />
       <Metodo />
+      <Resultados />
 
       <Footer />
     </>
