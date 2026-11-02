@@ -5,7 +5,7 @@ import Metricas from '../components/Metricas'
 import Diferenciadores from '../components/Diferenciadores'
 import Industrias from '../components/Industrias'
 import HistoriaDeExito from '../components/HistoriaDeExito'
-
+import CTA from '../components/CTA'
 
 
 function Home() {
@@ -17,6 +17,7 @@ function Home() {
       <Diferenciadores />
       <Industrias />
       <HistoriaDeExito />
+      <CTA />
       <Footer />
     </>
   )
