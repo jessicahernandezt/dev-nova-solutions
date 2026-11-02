@@ -6,7 +6,7 @@ function ProyectosDestacados() {
 
             <Container maxWidth='lg' sx={{ }}>
 
-                <Box sx={{/*display: 'flex', alignItems: 'center', gap: 3, backgroundImage: 'url("/img (8).png")', objectFit: 'contain', minHeight:'500px'*/}}>
+                <Box>
 
                     <Box sx={{display:'flex', justifyContent:'space-between', alignItems:'center'}}>
                         <Typography sx={{color:'#171b35', fontWeight:"bold", letterSpacing:2}}>

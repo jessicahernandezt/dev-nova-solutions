@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar"
 import HeroProy from "./components/HeroProy"
 import ProyDes from "./components/ProyectosDestacados"
 import Footer from "./components/Footer"
+import Metodo from "./components/MetodologiasProy"
 
 function App(){
 
@@ -10,6 +11,8 @@ function App(){
       <Navbar />
       <HeroProy />
       <ProyDes />
+      <Metodo />
+
       <Footer />
     </>
   )
