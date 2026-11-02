@@ -86,10 +86,11 @@ function Diferenciadores() {
                                 width: '60px',
                                 height: '60px',
                                 backgroundColor: '#7c4dff',
-                                backgroundImage: `url(public/calendario.jpg)`,
+                                backgroundImage: `url(public/escudo.jpg)`,
                                 backgroundSize: 'cover',
                                 backgroundPosition: 'center',
                                 backgroundRepeat: 'no-repeat',
+                                borderRadius: '10px',
                             }}>
 
                             </Box>
@@ -130,10 +131,11 @@ function Diferenciadores() {
                                 width: '60px',
                                 height: '60px',
                                 backgroundColor: '#7c4dff',
-                                backgroundImage: `url(public/calendario.jpg)`,
+                                backgroundImage: `url(public/foco.jpg)`,
                                 backgroundSize: 'cover',
                                 backgroundPosition: 'center',
                                 backgroundRepeat: 'no-repeat',
+                                borderRadius: '10px',
                             }}>
 
                             </Box>
@@ -174,10 +176,11 @@ function Diferenciadores() {
                                 width: '60px',
                                 height: '60px',
                                 backgroundColor: '#7c4dff',
-                                backgroundImage: `url(public/calendario.jpg)`,
+                                backgroundImage: `url(public/personas.jpg)`,
                                 backgroundSize: 'cover',
                                 backgroundPosition: 'center',
                                 backgroundRepeat: 'no-repeat',
+                                borderRadius: '10px',
                             }}>
 
                             </Box>
@@ -218,10 +221,11 @@ function Diferenciadores() {
                                 width: '60px',
                                 height: '60px',
                                 backgroundColor: '#7c4dff',
-                                backgroundImage: `url(public/calendario.jpg)`,
+                                backgroundImage: `url(public/diana.jpg)`,
                                 backgroundSize: 'cover',
                                 backgroundPosition: 'center',
                                 backgroundRepeat: 'no-repeat',
+                                borderRadius: '10px',
                             }}>
 
                             </Box>
