@@ -41,7 +41,7 @@ function QueDesarrollamos(){
                                         
                                 fontSize:"bold"
                             }}>
-                                Nuestros servicios
+                                Que desarrollamos
                                         
                                     
                             </Typography>

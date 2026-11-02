@@ -92,7 +92,7 @@ function HeroDW() {
                         <Box component="img"
                         src='/img (18).png'
                         sx={{
-                            width:'120%',
+                            width:'140%',
                             height:'70%'
                         }}
                         >
