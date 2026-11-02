@@ -4,7 +4,7 @@ import Footer from '../components/Footer'
 import Metricas from '../components/Metricas'
 import Diferenciadores from '../components/Diferenciadores'
 import Industrias from '../components/Industrias'
-
+import HistoriaDeExito from '../components/HistoriaDeExito'
 
 
 
@@ -16,6 +16,7 @@ function Home() {
       <Metricas />
       <Diferenciadores />
       <Industrias />
+      <HistoriaDeExito />
       <Footer />
     </>
   )
