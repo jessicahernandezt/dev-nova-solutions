@@ -6,7 +6,7 @@ import Metodo from "./components/MetodologiasProy"
 import Resultados from "./components/Resultados"
 import ProyFuturo from "./components/ProyectoFuturo"
 
-function App(){
+function Proyectos(){
 
   return (
     <>
@@ -21,4 +21,4 @@ function App(){
   )
 }
 
-export default App
+export default Proyectos
