@@ -1,21 +1,24 @@
 import Hero from '../components/Hero'
-import Servicios from '../components/Servicios'
-import QuienesSomos from '../components/QuienesSomos'
-import Proyectos from '../components/Proyectos'
-import Tecnologias from '../components/Tecnologias'
-import Experiencia from '../components/Experiencia'
-import Contacto from '../components/Contacto'
+import NuestraTrayectoria from '../components/NuestraTrayectoria'
+import Footer from '../components/Footer'
+import Metricas from '../components/Metricas'
+import Diferenciadores from '../components/Diferenciadores'
+import Industrias from '../components/Industrias'
+import HistoriaDeExito from '../components/HistoriaDeExito'
+import CTA from '../components/CTA'
+
 
 function Home() {
   return (
     <>
       <Hero />
-      <Servicios />
-      <QuienesSomos />
-      <Proyectos />
-      <Tecnologias />
-      <Experiencia />
-      <Contacto />
+      <NuestraTrayectoria />
+      <Metricas />
+      <Diferenciadores />
+      <Industrias />
+      <HistoriaDeExito />
+      <CTA />
+      <Footer />
     </>
   )
 }
