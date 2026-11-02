@@ -17,7 +17,7 @@ function App(){
       <Resultados />
       <ProyFuturo />
       <Footer />
-    </>
+    </> 
   )
 }
 
