@@ -6,7 +6,8 @@ import EditDocumentIcon from '@mui/icons-material/EditDocument'
 import AdminPanelSettingsIcon from '@mui/icons-material/AdminPanelSettings'
 import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt'
 import CodeOffIcon from '@mui/icons-material/CodeOff'
-import CardContent from '@mui/material/CardContent';
+import CardContent from '@mui/material/CardContent'
+import Avatar from '@mui/material/Avatar'
 import {Box, 
     Button, 
     Container,
@@ -15,7 +16,14 @@ import {Box,
 
 function Quiénes_somos() {   
     return(
-        <Box>
+        <Box sx={{
+            minHeight: '1px',
+            display: 'flex',
+            alignItems: 'center',
+            backgroundColor: '#F8F5FA',
+            py: 6
+
+        }}>
             <Container>
                 <Box sx={{display: "flex",
                     flexDirection: "row",
@@ -37,13 +45,7 @@ function Quiénes_somos() {
                                     alignItems: "center"}}>
                             Desarrollamos sofware a la medida para impulsar el crecimiento de tu negocio. Combinamos tecnologia, creatividad y experiencia para convertir tus ideas en productos visuales  
                          </Typography>
-                         <Button variant='contained' sx={{
-                                                        backgroundColor:'#7c4dff',
-                                                        color: 'white',
-                                                        gap: 1 }}>
-                            Conoce mas sobre nocotros <ArrowRightAltIcon></ArrowRightAltIcon>
-
-                         </Button>
+                         
                     
                     </Box>
                     <Box sx={{width:'33%'}}>
@@ -57,7 +59,7 @@ function Quiénes_somos() {
                                     width: '100%',
                                     gap: 1
                                 }}>
-                            <CakeIcon sx={{width: '14%', height:'14%'}}></CakeIcon>
+                            <Avatar sx={{bgcolor:"lightgray"}}><CakeIcon sx={{color:'#7c4dff'}}></CakeIcon></Avatar>
                             <Box sx={{
                                     display: 'flex',
                                     flexDirection: 'column',
@@ -75,7 +77,7 @@ function Quiénes_somos() {
                                     width: '100%',
                                     gap: 1
                                 }}>
-                            <EditDocumentIcon sx={{width: '14%', height:'14%'}}></EditDocumentIcon>
+                            <Avatar sx={{bgcolor:"lightgray"}}><EditDocumentIcon sx={{color:'#7c4dff'}}></EditDocumentIcon></Avatar>
                             <Box sx={{
                                     display: 'flex',
                                     flexDirection: 'column',
@@ -93,7 +95,7 @@ function Quiénes_somos() {
                                     width: '100%',
                                     gap: 1
                                 }}>
-                            <GroupsIcon sx={{width: '14%', height:'14%'}}></GroupsIcon>
+                            <Avatar sx={{bgcolor:"lightgray"}}><GroupsIcon sx={{color:'#7c4dff'}}></GroupsIcon></Avatar>
                             <Box sx={{
                                     display: 'flex',
                                     flexDirection: 'column',
@@ -111,7 +113,7 @@ function Quiénes_somos() {
                                     width: '100%',
                                     gap: 1
                                 }}>
-                            <AdminPanelSettingsIcon sx={{width: '14%', height:'14%'}}></AdminPanelSettingsIcon>
+                            <Avatar sx={{bgcolor:"lightgray"}}><AdminPanelSettingsIcon sx={{color:'#7c4dff'}}></AdminPanelSettingsIcon></Avatar>
                             <Box sx={{
                                     display: 'flex',
                                     flexDirection: 'column',
@@ -123,6 +125,16 @@ function Quiénes_somos() {
 
                         </Box>
                     </Box>
+                    
+                </Box>
+                <Box sx={{gap: 1}}>
+                        <Button variant='contained' sx={{
+                                                        backgroundColor:'#7c4dff',
+                                                        color: 'white',
+                                                        gap: 1 }}>
+                            Conoce mas sobre nocotros <ArrowRightAltIcon></ArrowRightAltIcon>
+
+                        </Button>
                 </Box>
             </Container>
 
