@@ -7,7 +7,7 @@ import ThumbUpIcon from '@mui/icons-material/ThumbUp';
 function ServicesCTA() {
   return (
     <Box sx={{ backgroundColor: '#F8F9FC', py: 10 }}>
-      <Container maxWidth="xl"> {/* Usamos xl para tener más espacio horizontal */}
+      <Container maxWidth="xl"> 
         <Box 
           sx={{ 
             display: 'flex', 
@@ -92,14 +92,14 @@ function ServicesCTA() {
               sx={{ 
                 position: 'absolute', 
                 bottom: 0, 
-                left: 'calc(50% - 250px)', // Lo alinea con el borde izquierdo de la imagen
+                left: 'calc(50% - 250px)', 
                 backgroundColor: '#7c4dff', 
                 color: 'white', 
                 p: 2, 
                 borderTopRightRadius: 16,
                 borderBottomLeftRadius: 12,
                 boxShadow: '0 -4px 10px rgba(0,0,0,0.1)',
-                display: { xs: 'none', sm: 'block' } // Se oculta en celular para no estorbar
+                display: { xs: 'none', sm: 'block' } 
               }}
             >
               <Typography variant="body2" sx={{ lineHeight: 1.2, fontWeight: 500 }}>Ideas</Typography>
