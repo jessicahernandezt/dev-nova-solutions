@@ -8,11 +8,18 @@ import {
 function Servicios() {
     return (
         <Box sx={{
-            width: '100%',
+            minHeight: '520px',
+            height: 'auto',
+            py: 6,
         }}>
-            <Box sx={{
-                margin: '50px 100px'
+            <Container maxWidth='lg' sx={{
+                display: 'flex',
+                justifyContent: 'space-evenly',
+                flexDirection: 'column',
+
             }}>
+            
+
                 <Typography>
                     Nuestros servicios
                 </Typography>
@@ -20,11 +27,14 @@ function Servicios() {
                 <Box sx={{
 
                     display: 'flex',
+                    alignItems: 'center',
+                    
 
                 }}>
 
                     <Box sx={{
                         width: '70%',
+                        
                     }}>
                         <h2>
                             Soluciones tecnologicas para cada necesidad
@@ -53,6 +63,7 @@ function Servicios() {
                 <Box sx={{
                     alignItems: 'center',
                     display: 'flex',
+                    
                 }}>
 
                     <Box sx={{
@@ -305,8 +316,7 @@ function Servicios() {
                 </Box>
 
 
-
-            </Box>
+            </Container>
 
         </Box>
 

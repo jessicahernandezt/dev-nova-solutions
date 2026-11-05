@@ -11,15 +11,19 @@ function QuienesSomos() {
         <Box sx={{
             marginTop: '40px',
             maxWidth: '100%',
-            display: 'flex',
+            
             backgroundColor: '#f7f7ff',
             paddingTop: '40px',
             paddingBottom: '30px',
         }}>
 
+            <Container maxWidth='lg' sx={{
+                display: 'flex',
+            }}>
+
             <Box sx={{
                 maxWidth: '40%',
-                marginLeft: '5%',
+                
                 height: 'auto',
                 paddingTop: '30px',
             }}>
@@ -156,8 +160,15 @@ function QuienesSomos() {
 
                             <Box sx={{
                                 marginBottom: '15px',
+                                
                             }}>
-                                <h3>Talento multidiciplinario</h3>
+                                <Typography sx={{
+                                    fontWeight: 'bold',
+                                    fontSize: '14px',
+                                    marginBottom: '20px',
+                                }}>
+                                    Talento multidiciplinario
+                                </Typography>
                                 <Typography sx={{
                                     color: '#888691',
                                     marginTop: '-10px',
@@ -174,7 +185,7 @@ function QuienesSomos() {
 
 
 
-
+                                </Container>
 
 
         </Box>

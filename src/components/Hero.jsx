@@ -27,7 +27,7 @@ function Hero() {
                 <Box
                     sx={{
                         width: '100%',
-                        marginLeft: '-130px',
+                        
                     }}>
 
                     <Typography
@@ -188,22 +188,19 @@ function Hero() {
 
                 <Box
                     sx={{
-                        width: '100%',
-                        display: 'flex',
-                        justifyContent: 'center',
-                        marginRight: '-100px',
+                    width: '1200px',
+                    height: '350px',
+                    backgroundColor: '#7c4dff',
+                    display: 'flex',
+                    borderRadius: '10px',
+                    backgroundImage: `url(public/img8.png)`,
+                    backgroundSize: 'cover',
+                    backgroundPosition: 'bottom',
+                    backgroundRepeat: 'no-repeat',
+                    boxShadow: '0px 10px 20px rgba(29, 29, 31, 0.3)',
+                    margin: '30px 0px',
                     }}>
-                    <Box
-                        component="img"
-                        src='public/img (8).png'
-                        alt='Hero image'
-                        sx={{
-                            marginLeft: '100px',
-                            width: '100%',
-                            objectFit: 'cover',
-
-                        }}
-                    />
+                    
 
                 </Box>
 

@@ -15,6 +15,10 @@ function Hero() {
             
         }}>
 
+            <Container maxWidth='lg' sx={{
+
+            }}>
+
             <Box sx={{
                 display: 'flex',
                 width: '97%',
@@ -48,6 +52,7 @@ function Hero() {
                 <Box>
                     <Typography sx={{
                         color: '#8c8c8c',
+                        fontSize: '14px',
                     }}>
                         Utilizamos tecnologias modernas y confiables para desarrollar solicitudes escalables, seguras y de alto rendimiento
                     </Typography>
@@ -67,6 +72,7 @@ function Hero() {
                 display: 'flex',
                 flexDirection: 'row',
                 justifyContent: 'space-around',
+                gap: '20px'
             }}>
 
                 <Box sx={{
@@ -340,6 +346,8 @@ function Hero() {
                 </Box>
 
             </Box>
+
+</Container>
 
         </Box>
 

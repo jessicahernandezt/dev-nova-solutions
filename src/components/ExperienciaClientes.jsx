@@ -9,15 +9,20 @@ function Hero() {
     return (
 
         <Box sx={{
-            width: '99%',
-            margin: '2% 1%',
+            width: '100%',
+            minHeight: '520px',
+            height: 'auto',
+            py: 6,
         }}>
+
+            <Container maxWidth='lg' sx={{
+
+            }}>
 
             <Box sx={{
                 display: 'flex',
-                justifyContent: 'space-around',
                 alignItems: 'center',
-                padding: '0% 1%',
+                gap: '100px',
 
             }}>
 
@@ -52,8 +57,10 @@ function Hero() {
 
                 <Box sx={{
                     display: 'flex',
-                    width: '50%',
+                    width: '30%',
                     justifyContent: 'space-between',
+                    
+
 
                 }}>
 
@@ -172,13 +179,14 @@ function Hero() {
                 width: 'auto',
                 display: 'flex',
                 justifyContent: 'space-evenly',
+                
             }}>
 
                 <Box sx={{
                     marginTop: '20px',
                     borderRadius: '10px',
                     padding: '10px 20px',
-                    width: '28%',
+                    width: '30%',
                     display: 'flex',
                     boxShadow: '0px 5px 5px rgba(0,0,0,0.3)',
                     marginBottom: '20px',
@@ -215,7 +223,7 @@ function Hero() {
                     marginTop: '20px',
                     borderRadius: '10px',
                     padding: '10px 20px',
-                    width: '28%',
+                    width: '30%',
                     display: 'flex',
                     boxShadow: '0px 5px 5px rgba(0,0,0,0.3)',
                     marginBottom: '20px',
@@ -253,7 +261,7 @@ function Hero() {
                     marginTop: '20px',
                     borderRadius: '10px',
                     padding: '10px 20px',
-                    width: '27%',
+                    width: '35%',
                     height: 'auto',
                     boxShadow: '0px 5px 5px rgba(0,0,0,0.3)',
                     marginBottom: '20px',
@@ -319,6 +327,7 @@ function Hero() {
 
             </Box>
 
+</Container>
 
         </Box>
 
