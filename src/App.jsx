@@ -5,7 +5,6 @@ import Quienes from "./components/Quienes"
 import Proyectos from "./components/Proyectos"
 import Tecnologias from "./components/Tecnologias"
 import Experiencia from "./components/Experiencia"
-import Contacto from "./components/Contacto"
 import Footerh from "./components/Footerh"
 
 function App(){
@@ -19,7 +18,6 @@ function App(){
       <Proyectos />
       <Tecnologias />
       <Experiencia />
-      <Contacto />
       <Footerh />
     </>
   )

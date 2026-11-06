@@ -15,7 +15,7 @@ import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 
 function Footerh() {
   return (
-    <Box sx={{ bgcolor: '#0b0f19', color: '#94a3b8', py: 6, px: '2%' }}>
+    <Box sx={{ bgcolor: '#0b0f19', color: '#94a3b8', py: 6, px: '2%', marginTop:'20px'}}>
       <Box sx={{ maxWidth: '1200px', mx: 'auto' }}>
 
         <Box sx={{
