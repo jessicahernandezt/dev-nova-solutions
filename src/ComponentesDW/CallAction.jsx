@@ -53,7 +53,7 @@ function CallAction() {
                             fontWeight: 'bold', color: '#171b35', mt: 1, mb: 2
 
                         }}>
-                            Hablemoos de tu próximo proyecto web
+                            Hablemos de tu próximo proyecto web
                         </Typography>
 
                         <Typography
