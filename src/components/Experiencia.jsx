@@ -3,7 +3,7 @@ import {Box, Button, Container, Typography } from '@mui/material'
 function Experiencia() {
     return(
 
-        <Box /*Experiencia*/>
+        <Box sx={{marginTop:'20px', marginLeft:'100px'}}/*Experiencia*/>
             <Box /*Exp-info*/>
                 <Box /*info*/>
                     <Typography>
