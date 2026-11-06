@@ -5,7 +5,7 @@ import PeopleIcon from '@mui/icons-material/People';
 
 function Quienes() {
     return(
-        <Box sx={{display: 'flex', marginTop: '50px'}}/*Quienes somos*/>
+        <Box sx={{display: 'flex', marginTop: '50px', marginLeft:'100px'}}/*Quienes somos*/>
             <Box /*Informacion y boton*/>
                 <Typography sx={{fontSize:'20px', fontWeight: 'bold'}}>
                     Quienes somos
@@ -18,62 +18,68 @@ function Quienes() {
                         </Typography>
                     </Typography>
                 </Typography>
-                <Button Variant='contained' type="button" sx={{backgroundColor:'#7c4dff',padding:'15px', color: 'white', fontWeight:'bold'}}>
+                <Button Variant='contained' type="button" sx={{marginTop:'10px',backgroundColor:'#7c4dff',padding:'15px', color: 'white', fontWeight:'bold'}}>
                     Conoce mas sobre nosotros →
                 </Button>
             </Box>
 
-            <Box component="img" src='./img_18.png' alt='Quienes_somos' sx={{width: '210px', height: '2+10px'}}>
+            <Box component="img" src='./img_18.png' alt='Quienes_somos' sx={{width: '520px', height: '350px'}}>
             </Box>
 
-            <Box /*Iconos-Quienes-Somos*/>
-                <Box sx={{display:'flex'}} /*Años de experiencia*/>
-                    <WatchLaterIcon>
+            <Box sx={{marginLeft:'20px'}}/*Iconos-Quienes-Somos*/>
+                <Box sx={{display:'flex', marginTop:'10px'}} /*Años de experiencia*/>
+                    <WatchLaterIcon sx={{color: '#720b98', height:'30px', width:'30px'}}>
                     </WatchLaterIcon>
-
-                <Typography>
-                5+
-                <Typography>
-                Años de experiencia
-                </Typography>                
-                </Typography>
+                    <Box sx={{marginLeft:'20px'}}/* info*/>
+                        <Typography sx={{fontWeight:'bold', fontSize:'20px'}}>
+                        5+
+                        <Typography sx={{fontSize:'15px'}}>
+                        Años de experiencia
+                        </Typography>                
+                        </Typography>
+                    </Box>
                 </Box>
 
-                <Box sx={{display:'flex'}} /*Proyectos completados*/>
-                    <FileCopyIcon>
+                <Box sx={{display:'flex', marginTop:'10px'}} /*Proyectos completados*/>
+                    <FileCopyIcon sx={{color: '#720b98', height:'30px', width:'30px'}}>
                     </FileCopyIcon>
-
-                <Typography>
-                50+
-                <Typography>
-                Proyectos completados
-                </Typography>                
-                </Typography>
+                    <Box sx={{marginLeft:'20px'}}>
+                        <Typography sx={{fontWeight:'bold', fontSize:'20px'}}>
+                        50+
+                        <Typography>
+                        Proyectos completados
+                        </Typography>                
+                        </Typography>
+                    </Box>
                 </Box>
 
-                <Box sx={{display:'flex'}} /*Clientes satisfechos*/>
-                    <PeopleIcon>
+                <Box sx={{display:'flex', marginTop:'10px'}} /*Clientes satisfechos*/>
+                    <PeopleIcon sx={{color: '#720b98', height:'30px', width:'30px'}}>
                     </PeopleIcon>
-
-                <Typography>
-                30+
-                <Typography>
-                Clientes satisfechos
-                </Typography>                
-                </Typography>
+                    <Box sx={{marginLeft:'20px'}}>
+                        <Typography sx={{fontWeight:'bold', fontSize:'20px'}}>
+                        30+
+                        <Typography>
+                        Clientes satisfechos
+                        </Typography>                
+                        </Typography>
+                    </Box>
                 </Box>
 
-                <Box sx={{display:'flex'}} /*Talento multidisciplinario*/>
-                    <WatchLaterIcon>
+                <Box sx={{display:'flex', marginTop:'10px'}} /*Talento multidisciplinario*/>
+                    <WatchLaterIcon sx={{color: '#720b98', height:'30px', width:'30px'}}>
                     </WatchLaterIcon>
 
-                <Typography>
-                Talento multidisciplinario
-                <Typography>
-                Desarrolladores, diseñadores<br/>
-                Y estrategias
-                </Typography>                
-                </Typography>
+                    <Box sx={{marginLeft:'20px'}}>
+                        <Typography sx={{fontWeight:'bold', fontSize:'20px'}}>
+                        Talento multidisciplinario
+                        <Typography>
+                        Desarrolladores, diseñadores<br/>
+                        Y estrategias
+                        </Typography>                
+                        </Typography>
+                    </Box>
+
                 </Box>
 
             </Box>
