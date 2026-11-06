@@ -3,6 +3,7 @@ import AdUnitsIcon from '@mui/icons-material/AdUnits'
 import TvIcon from '@mui/icons-material/Tv'
 import CodeOffIcon from '@mui/icons-material/CodeOff'
 import CardContent from '@mui/material/CardContent';
+import HorizontalRuleIcon from '@mui/icons-material/HorizontalRule'
 import {Box, 
     Button, 
     Container,
@@ -25,7 +26,7 @@ function Servicios() {
                     <Box sx={{width:"100%"}}>
                         <Box sx={{width: "50%"}}>
                             <Typography sx={{padding:'2px',fontStyle:"italic",fontWeight:"bold", }}>
-                                Nuestros servicios                                
+                                <HorizontalRuleIcon sx={{color:'#7c4dff', fontWeight:"bold"}}></HorizontalRuleIcon>Nuestros servicios                                
                         </Typography>
                         <Typography sx={{
                             color:'#7c4dff',

@@ -8,6 +8,7 @@ import BeenhereIcon from '@mui/icons-material/Beenhere'
 import LoyaltyIcon from '@mui/icons-material/Loyalty'
 import Avatar from '@mui/material/Avatar'
 import GradeIcon from '@mui/icons-material/Grade'
+import HorizontalRuleIcon from '@mui/icons-material/HorizontalRule'
 import {Box, 
     Button, 
     Container,
@@ -37,9 +38,9 @@ function Experiencia_y_clientes() {
                         <Box sx={{width:"40%"}}>
                             <Typography sx={{display: "flex",
                                     flexDirection: "row",
-                                    gap: "20px",
+                                    fontWeight:'bold',
                                     alignItems: "center",
-                                    }}>Experiencia y clientes</Typography>
+                                    }}><HorizontalRuleIcon sx={{color:'#7c4dff', fontWeight:"bold"}}></HorizontalRuleIcon>Experiencia y clientes</Typography>
                         
                             <Typography sx={{
                             color:'#7c4dff',

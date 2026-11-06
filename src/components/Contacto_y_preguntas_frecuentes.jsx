@@ -156,7 +156,8 @@ function Contacto_y_preguntas_frecuentes() {
                                     borderRadius:'3',
                                     fontSize: '11px',
                                     justifyContent: 'flex-start',
-                                    textAlign: 'left'
+                                    textAlign: 'left',
+                                    color:"black"
                                 }}>
                                     ¿Cuánto tiempo tarda un proyecto?
                                 </Button>
@@ -167,7 +168,8 @@ function Contacto_y_preguntas_frecuentes() {
                                     borderRadius:'3',
                                     fontSize: '11px',
                                     justifyContent: 'flex-start',
-                                    textAlign: 'left'
+                                    textAlign: 'left',
+                                    color:"black"
                                 }}>
                                     ¿Qué tecnologías utilizan?
                                 </Button>
@@ -178,7 +180,8 @@ function Contacto_y_preguntas_frecuentes() {
                                     borderRadius:'3',
                                     fontSize: '11px',
                                     justifyContent: 'flex-start',
-                                    textAlign: 'left'
+                                    textAlign: 'left',
+                                    color:"black"
                                 }}>
                                     ¿Ofrecen soporte después del lanzamiento?
                                 </Button>
@@ -189,14 +192,15 @@ function Contacto_y_preguntas_frecuentes() {
                                     borderRadius:'3',
                                     fontSize: '11px',
                                     justifyContent: 'flex-start',
-                                    textAlign: 'left'
+                                    textAlign: 'left',
+                                    color:"black"
                                 }}>
                                     ¿Trabajan con empresas y pymes?
                                 </Button>
                             </Box>
                         </Box>
-                        <Box sx={{width:"25%"}}>
-
+                        <Box sx={{width:"20%"}}>
+                                <Box component="img" sx={{width:"100%",height:"100%",borderRadius:"20px" }} src='img (7).png'></Box>
                         </Box>
                     </Box>
                 </Box>

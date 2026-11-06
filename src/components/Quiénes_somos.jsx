@@ -8,6 +8,7 @@ import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt'
 import CodeOffIcon from '@mui/icons-material/CodeOff'
 import CardContent from '@mui/material/CardContent'
 import Avatar from '@mui/material/Avatar'
+import HorizontalRuleIcon from '@mui/icons-material/HorizontalRule'
 import {Box, 
     Button, 
     Container,
@@ -32,8 +33,9 @@ function Quiénes_somos() {
                     <Box sx={{width:'60%'}}>
                         <Typography sx={{display: "flex",
                                     flexDirection: "row",
-                                    gap: "20px",
-                                    alignItems: "center"}}>Quiénes somos</Typography>
+                                    fontWeight:'bold',
+                                    alignItems: "center",
+                                    }}><HorizontalRuleIcon sx={{color:'#7c4dff', fontWeight:"bold"}}></HorizontalRuleIcon>Quiénes somos</Typography>
                         <Typography sx={{
                             fontWeight:'bold',
                             fontSize:'25px',}}>
@@ -42,16 +44,17 @@ function Quiénes_somos() {
                         <Typography sx={{display: "flex",
                                     flexDirection: "row",
                                     gap: "20px",
-                                    alignItems: "center"}}>
+                                    alignItems: "center",
+                                    color:'gray'}}>
                             Desarrollamos sofware a la medida para impulsar el crecimiento de tu negocio. Combinamos tecnologia, creatividad y experiencia para convertir tus ideas en productos visuales  
                          </Typography>
                          
                     
                     </Box>
                     <Box sx={{width:'33%'}}>
-                        <Typography>WENAS</Typography>
+                        <Box component="img" sx={{objectFit:'contain', width:"100%",height:"100%", borderRadius:'10px'}} src='public/home-program-equip.jpg'></Box>
                     </Box>
-                    <Box sx={{width:'33%'}}>
+                    <Box sx={{width:'33%',}}>
                         <Box sx={{  display: 'flex',
                                     flexDirection: 'row',
                                     alignItems: 'center',

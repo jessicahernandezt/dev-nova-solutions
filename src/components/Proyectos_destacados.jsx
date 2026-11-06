@@ -2,6 +2,7 @@ import { ArrowForward } from '@mui/icons-material'
 import AdUnitsIcon from '@mui/icons-material/AdUnits'
 import CardContent from '@mui/material/CardContent';
 import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt'
+import HorizontalRuleIcon from '@mui/icons-material/HorizontalRule'
 import {Box, 
     Button, 
     Container,
@@ -31,8 +32,9 @@ function Proyectos_destacados() {
                                 }}>
                         <Typography sx={{display: "flex",
                                     flexDirection: "row",
-                                    gap: "20px",
-                                    alignItems: "center"}}>Proyectos destacados</Typography>
+                                    fontWeight:'bold',
+                                    alignItems: "center",
+                                    }}><HorizontalRuleIcon sx={{color:'#7c4dff', fontWeight:"bold"}}></HorizontalRuleIcon>Proyectos destacados</Typography>
                         <Box >
                             <Button sx={{color: '#7c4dff',
                                         fontWeight: 'bold'}}>
@@ -50,7 +52,8 @@ function Proyectos_destacados() {
                         <Typography sx={{display: "flex",
                                     flexDirection: "row",
                                     gap: "20px",
-                                    alignItems: "center"}}>
+                                    alignItems: "center",
+                                    color:'gray'}}>
                             Conoce algunos de nuestros proyectos mas recientes y como ayudamos a nuestros clientes a alcanzar sus objetivos  
                          </Typography>
                          
@@ -62,7 +65,8 @@ function Proyectos_destacados() {
                         alignItems: 'center',
                         gap: 2}}>
                         <Box sx={{width:'25%'}}>
-                            <Card>
+                            <Card sx={{borderRadius:'10px'}}>
+                                <CardMedia component='img' src='public/7-Panel-de-control-KPIS-de-inventario-con-pedidos-de-ventas-y-trabajos-pendientes-de-envio.png'></CardMedia>
                                 <CardContent>
                                     <Box>
                                         <Chip label="Web" sx={{background:'#7c4dff', color:'white'}}/>
@@ -89,7 +93,8 @@ function Proyectos_destacados() {
                             </Card>
                         </Box>
                         <Box sx={{width:'25%', flexWrap: 'wrap'}}>
-                            <Card>
+                            <Card sx={{borderRadius:'10px'}}>
+                                <CardMedia component='img' src='public/images.jfif'></CardMedia>
                                 <CardContent>
                                     <Box>
                                         <Chip label="Web" sx={{background:'#7c4dff', color:'white'}}/>
@@ -116,7 +121,8 @@ function Proyectos_destacados() {
                             </Card>
                         </Box>
                         <Box sx={{width:'25%'}}>
-                            <Card>
+                            <Card sx={{borderRadius:'10px'}}>
+                                <CardMedia component='img' src='public/sistemas-de-gestion-empresarial.webp'></CardMedia>
                                 <CardContent>
                                     <Box>
                                         <Chip label="Web" sx={{background:'#7c4dff', color:'white'}}/>
@@ -143,7 +149,8 @@ function Proyectos_destacados() {
                             </Card>
                         </Box>
                         <Box sx={{width:'25%'}}>
-                            <Card>
+                            <Card sx={{borderRadius:'10px'}}>
+                                <CardMedia component='img' src='public/sistemas-de-gestion-empresarial.webp'></CardMedia>
                                 <CardContent>
                                     <Box>
                                         <Chip label="Web" sx={{background:'#7c4dff', color:'white'}}/>
