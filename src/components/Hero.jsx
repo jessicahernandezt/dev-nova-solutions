@@ -165,7 +165,7 @@ function Hero() {
                width:"10%",
                padding:"10px"
             }}>
-                <Box component="img" src='./img (8).png'></Box>
+                <Box component="img" src=''></Box>
             </Box>
             </Container>  
         </Box>
