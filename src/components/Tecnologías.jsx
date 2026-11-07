@@ -49,7 +49,7 @@ function Tecnologías() {
                     </Box>
                     <Box sx={{
                             display: 'flex',
-                            flexWrap: 'wrap'
+                            flexWrap: 'wrap',
                             }}>
                          <Box sx={{width: '10%', }}>
                                 <Card sx={{display: 'flex',

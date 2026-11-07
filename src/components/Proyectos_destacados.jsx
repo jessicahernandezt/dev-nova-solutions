@@ -62,12 +62,15 @@ function Proyectos_destacados() {
                     
                     <Box sx={{
                         display: 'flex',
-                        alignItems: 'center',
+                        alignItems: 'stretch',
                         gap: 2}}>
-                        <Box sx={{width:'25%'}}>
-                            <Card sx={{borderRadius:'10px'}}>
-                                <CardMedia component='img' src='public/7-Panel-de-control-KPIS-de-inventario-con-pedidos-de-ventas-y-trabajos-pendientes-de-envio.png'></CardMedia>
-                                <CardContent>
+                        <Box sx={{width:'25%', display: 'flex'}}>
+                            <Card sx={{borderRadius:'10px',
+                                        width: '100%',
+                                        display: 'flex',
+                                        flexDirection: 'column'}}>
+                                <CardMedia component='img' sx={{height: '160px', objectFit: 'cover'}} src='public/7-Panel-de-control-KPIS-de-inventario-con-pedidos-de-ventas-y-trabajos-pendientes-de-envio.png'></CardMedia>
+                                <CardContent sx={{display: 'flex', flexDirection: 'column', flexGrow: 1}}>
                                     <Box>
                                         <Chip label="Web" sx={{background:'#7c4dff', color:'white'}}/>
                                         <Typography sx={{display: "flex",
@@ -80,11 +83,12 @@ function Proyectos_destacados() {
                                                         flexDirection: "row",
                                                         gap: "20px",
                                                         alignItems: "center",
-                                                        fontSize: "13px",}}>Sistema completo para la administracion de procesos internos</Typography>
-                                        <Box style={{display: "flex", flexDirection: "row", gap: "7px", alignItems: "center"}}><Chip label="Web"/><Chip label="Web"/><Chip label="Web"/></Box>
+                                                        fontSize: "13px",
+                                                        color:'gray'}}>Sistema completo para la administracion de procesos internos</Typography>
+                                        <Box style={{display: "flex", flexDirection: "row", gap: "7px", alignItems: "center"}}><Chip label="React"/><Chip label="Node.js"/><Chip label="PostgreSQL"/></Box>
                                     </Box>
                                     <Box>
-                                        <Button >
+                                        <Button sx={{color:'#7c4dff'}}>
                                             <Typography sx={{fontSize: "12px"}}>Ver proyecto </Typography><ArrowRightAltIcon></ArrowRightAltIcon>
                                         </Button>
                                     </Box>
@@ -92,27 +96,31 @@ function Proyectos_destacados() {
                                 </CardContent>
                             </Card>
                         </Box>
-                        <Box sx={{width:'25%', flexWrap: 'wrap'}}>
-                            <Card sx={{borderRadius:'10px'}}>
-                                <CardMedia component='img' src='public/images.jfif'></CardMedia>
-                                <CardContent>
+                        <Box sx={{width:'25%', display: 'flex'}}>
+                            <Card sx={{borderRadius:'10px',
+                                        width: '100%',
+                                        display: 'flex',
+                                        flexDirection: 'column'}}>
+                                <CardMedia component='img' sx={{height: '160px', objectFit: 'cover'}} src='public/images.jfif'></CardMedia>
+                                <CardContent sx={{display: 'flex', flexDirection: 'column', flexGrow: 1}}>
                                     <Box>
-                                        <Chip label="Web" sx={{background:'#7c4dff', color:'white'}}/>
+                                        <Chip label="Móvil" sx={{background:'#7c4dff', color:'white'}}/>
                                         <Typography sx={{display: "flex",
                                                         flexDirection: "row",
                                                         gap: "20px",
                                                         alignItems: "center",
                                                         fontSize: "14px",
-                                                        fontWeight:"bold"}}>Plataforma de gestion empresarial</Typography>
+                                                        fontWeight:"bold"}}>App de reservas</Typography>
                                         <Typography sx={{display: "flex",
                                                         flexDirection: "row",
                                                         gap: "20px",
                                                         alignItems: "center",
-                                                        fontSize: "13px",}}>Sistema completo para la administracion de procesos internos</Typography>
-                                        <Box style={{display: "flex", flexDirection: "row", gap: "7px", alignItems: "center"}}><Chip label="Web"/><Chip label="Web"/><Chip label="Web"/></Box>
+                                                        fontSize: "13px",
+                                                        color:'gray'}}>Aplicacion móvil para reservas de servicios y control de estado</Typography>
+                                        <Box style={{display: "flex", flexDirection: "row", gap: "7px", alignItems: "center"}}><Chip label="Flutter"/><Chip label="Firebase"/><Chip label="Node.js"/></Box>
                                     </Box>
                                     <Box>
-                                        <Button >
+                                        <Button sx={{color:'#7c4dff'}}>
                                             <Typography sx={{fontSize: "12px"}}>Ver proyecto </Typography><ArrowRightAltIcon></ArrowRightAltIcon>
                                         </Button>
                                     </Box>
@@ -120,10 +128,13 @@ function Proyectos_destacados() {
                                 </CardContent>
                             </Card>
                         </Box>
-                        <Box sx={{width:'25%'}}>
-                            <Card sx={{borderRadius:'10px'}}>
-                                <CardMedia component='img' src='public/sistemas-de-gestion-empresarial.webp'></CardMedia>
-                                <CardContent>
+                        <Box sx={{width:'25%', display: 'flex'}}>
+                            <Card sx={{borderRadius:'10px',
+                                        width: '100%',
+                                        display: 'flex',
+                                        flexDirection: 'column'}}>
+                                <CardMedia component='img' sx={{height: '160px', objectFit: 'cover'}} src='public/sistemas-de-gestion-empresarial.webp'></CardMedia>
+                                <CardContent sx={{display: 'flex', flexDirection: 'column', flexGrow: 1}}>
                                     <Box>
                                         <Chip label="Web" sx={{background:'#7c4dff', color:'white'}}/>
                                         <Typography sx={{display: "flex",
@@ -131,16 +142,17 @@ function Proyectos_destacados() {
                                                         gap: "20px",
                                                         alignItems: "center",
                                                         fontSize: "14px",
-                                                        fontWeight:"bold"}}>Plataforma de gestion empresarial</Typography>
+                                                        fontWeight:"bold"}}>Sistema de inventario</Typography>
                                         <Typography sx={{display: "flex",
                                                         flexDirection: "row",
                                                         gap: "20px",
                                                         alignItems: "center",
-                                                        fontSize: "13px",}}>Sistema completo para la administracion de procesos internos</Typography>
-                                        <Box style={{display: "flex", flexDirection: "row", gap: "7px", alignItems: "center"}}><Chip label="Web"/><Chip label="Web"/><Chip label="Web"/></Box>
+                                                        fontSize: "13px",
+                                                        color:'gray'}}>Control de productos, entradas y reportes en tiempo real</Typography>
+                                        <Box style={{display: "flex", flexDirection: "row", gap: "7px", alignItems: "center"}}><Chip label="React"/><Chip label="Express"/><Chip label="MongoDB"/></Box>
                                     </Box>
                                     <Box>
-                                        <Button >
+                                        <Button sx={{color:'#7c4dff'}}>
                                             <Typography sx={{fontSize: "12px"}}>Ver proyecto </Typography><ArrowRightAltIcon></ArrowRightAltIcon>
                                         </Button>
                                     </Box>
@@ -148,27 +160,31 @@ function Proyectos_destacados() {
                                 </CardContent>
                             </Card>
                         </Box>
-                        <Box sx={{width:'25%'}}>
-                            <Card sx={{borderRadius:'10px'}}>
-                                <CardMedia component='img' src='public/sistemas-de-gestion-empresarial.webp'></CardMedia>
-                                <CardContent>
+                        <Box sx={{width:'25%', display: 'flex'}}>
+                            <Card sx={{borderRadius:'10px',
+                                        width: '100%',
+                                        display: 'flex',
+                                        flexDirection: 'column'}}>
+                                <CardMedia component='img' sx={{height: '160px', objectFit: 'cover'}} src='public/74293137-image-of-business-person-using-laptop-at-desk-and-mobile-phone.jpg'></CardMedia>
+                                <CardContent sx={{display: 'flex', flexDirection: 'column', flexGrow: 1}}>
                                     <Box>
-                                        <Chip label="Web" sx={{background:'#7c4dff', color:'white'}}/>
+                                        <Chip label="E-commerce" sx={{background:'#7c4dff', color:'white'}}/>
                                         <Typography sx={{display: "flex",
                                                         flexDirection: "row",
                                                         gap: "20px",
                                                         alignItems: "center",
                                                         fontSize: "14px",
-                                                        fontWeight:"bold"}}>Plataforma de gestion empresarial</Typography>
+                                                        fontWeight:"bold"}}>Tienda en linea</Typography>
                                         <Typography sx={{display: "flex",
                                                         flexDirection: "row",
                                                         gap: "20px",
                                                         alignItems: "center",
-                                                        fontSize: "13px",}}>Sistema completo para la administracion de procesos internos</Typography>
-                                        <Box style={{display: "flex", flexDirection: "row", gap: "7px", alignItems: "center"}}><Chip label="Web"/><Chip label="Web"/><Chip label="Web"/></Box>
+                                                        fontSize: "13px",
+                                                        color:'gray'}}>Plataforma de comercio electronico con pago en linea</Typography>
+                                        <Box style={{display: "flex", flexDirection: "row", gap: "7px", alignItems: "center"}}><Chip label="Node.js"/><Chip label="Stripe"/><Chip label="AWS"/></Box>
                                     </Box>
                                     <Box>
-                                        <Button >
+                                        <Button sx={{color:'#7c4dff'}}>
                                             <Typography sx={{fontSize: "12px"}}>Ver proyecto </Typography><ArrowRightAltIcon></ArrowRightAltIcon>
                                         </Button>
                                     </Box>

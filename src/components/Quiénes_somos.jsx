@@ -76,9 +76,9 @@ function Quiénes_somos() {
                         <Box sx={{  display: 'flex',
                                     flexDirection: 'row',
                                     alignItems: 'center',
-                                    
+                                    gap: 1,
                                     width: '100%',
-                                    gap: 1
+                                    
                                 }}>
                             <Avatar sx={{bgcolor:"lightgray"}}><EditDocumentIcon sx={{color:'#7c4dff'}}></EditDocumentIcon></Avatar>
                             <Box sx={{
