@@ -18,13 +18,13 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Layout />}>
-          {/* Página de Inicio */}
+          
           <Route index element={<Home />} />
           
-          {/* Página individual de Jaime Lugo */}
+          
           <Route path="servicios" element={<ServicesPage />} />
           
-          {/* Demás páginas del proyecto */}
+          
           <Route path="quienes-somos" element={<QuienesSomos />} />
           <Route path="proyectos" element={<Proyectos />} />
           <Route path="tecnologias" element={<Tecnologias />} />
