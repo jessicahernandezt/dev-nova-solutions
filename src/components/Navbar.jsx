@@ -44,7 +44,7 @@ function Navbar() {
                         </Typography>
                     </Box>
 
-                    {/*Navegacion*/}
+                    
 
                     <Box
                         sx={{
