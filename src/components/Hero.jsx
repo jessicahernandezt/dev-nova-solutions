@@ -1,55 +1,101 @@
-import {
-    Box,
-    Button,
+import { ArrowForward } from '@mui/icons-material'
+import {Box, 
+    Button, 
     Container,
-    Typography
-} from '@mui/material'
+    
+    Typography} from '@mui/material'
+
 
 function Hero() {
-    return (
+    return(
         <Box
-            sx={{
-                minHeight: '520px',
-                display: 'flex',
-                alignItems: 'center',
-                backgroundColor: '#f7f7ff',
-                py: 6
-            }}
+        sx={{
+            minHeight: '520px',
+            display: 'flex',
+            alignItems: 'center',
+            backgroundColor: '#F8F5FA',
+            py: 6
+
+        }}
         >
 
-            <Container maxWidth='lg'>
-                <Box
+        <Container maxWidth='lg'  >
+            <Box
+            sx={{
+                display: 'flex',
+                alignItems: 'center',
+                gap: 6
+            }}>
+                <Box sx={{ width: '50%',display:'flow', alignContent:'flex-start'}}>
+                    <Typography
                     sx={{
-                        display: 'flex',
-                        alignItems: 'center',
-                        gap: 6
+                        color: '#7c4dff',
+                        fontWeight: 'bold',
+                        letterSpacing: 2
                     }}>
 
-                    <Box sx={{ width: '50%' }}>
+                        Nuestros clientes
+
+                    </Typography>
+                    <Typography sx={{
+                        fontWeight: 'bold',
+                        justifyContent: 'left',
+                        fontSize: '40px'
+                    }}>
+                        La confianza de nuestros clientes impulsa </Typography>
                         <Typography
-                            variant='overline'
-                            sx={{
-                                color: '#7c4dff',
-                                fontWeight: 'bold',
-                                letterSpacing: 2
-                            }}>
+                        sx={{
+                            color:'#7c4dff',
+                            fontWeight:'bold',
+                            fontSize:'40px'
+                        }}>nuestro crecimiento</Typography>
+                
+                    <Typography sx={{py:1, color:'gray'}}>
+                    En dev nova solutions, cada proyecto es una relacion a largo plazo. nos enorgullece ser aliado tecnologico de empresas que confian en nuestro talento, compromiso y capacidad para generar resultados reales  
 
-                            IDEAS · TECNOLOGIA · RESULTADOS
+                    </Typography>
+                    <Box 
+                    sx={{
+                        display: 'flex',
+                        gap: 2
+                    }}>
+                        <Button variant='contained' 
+                    sx={{
+                        backgroundColor:'#7c4dff',
+                        color: 'white',
+                        gap: 1
 
-                        </Typography>
+                    }}>
+                        Conoce sus historias<ArrowForward sx={{
+                            width:'20px',
+                            height:'20px',
 
-                        <Typography
-                            variant='h2'
-                            sx={{ fontWeight: 'bold', color: '#171b35', mt: 1, mb: 2 }}
-                        >Transformamos ideas en soluciones digitales</Typography>
+                        }}></ArrowForward>
+                    </Button>
+                    <Button variant='outlined' sx={{
+                        color: '#202020',
+                        borderColor:'#494949'
 
-                        <Typography
-                        sx={{color: '#666', fontSize: '1.1rem', mb:3}}
-                        >Desarrollamos software a la medida para impulsar el crecimiento de tu negocio. Combinamos tecnología, creatividad y experiencia para convertir tus ideas en productos reales</Typography>
+                    }}>
+                        Hablemos de tu proyecto
+
+                    </Button>
+                    </Box>
+                    
+
+                </Box>
+                <Box sx={{width:"50%",height:"50%", }}>
+                    <Box component="img" sx={{width:"130%",height:"130%",borderRadius:"20px" }}
+                    src="public/images.jfif">
+
                     </Box>
                 </Box>
+                
+            </Box>
+            
 
-            </Container>
+
+        </Container>
         </Box>
     )
 }
