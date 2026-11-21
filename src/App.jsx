@@ -1,27 +1,23 @@
 import Navbar from "./components/Navbar"
-import Hero from "./components/Hero"
-import Servicios from "./components/Nuestros-servicios"
-import Nosotros from "./components/Quienes-somos"
-import Proyecto from "./components/Proyecto"
-import Tecnologias from "./components/Tecnologias"
-import Experiencia from "./components/Experiencia"
-import Contacto from "./components/Contacto"
+import HeroProy from "./components/HeroProy"
+import ProyDes from "./components/ProyectosDestacados"
 import Footer from "./components/Footer"
+import Metodo from "./components/MetodologiasProy"
+import Resultados from "./components/Resultados"
+import ProyFuturo from "./components/ProyectoFuturo"
 
 function App(){
 
   return (
     <>
       <Navbar />
-      <Hero />
-      <Servicios />
-      <Nosotros />
-      <Proyecto />
-      <Tecnologias />
-      <Experiencia />
-      <Contacto />
+      <HeroProy />
+      <ProyDes />
+      <Metodo />
+      <Resultados />
+      <ProyFuturo />
       <Footer />
-    </>
+    </> 
   )
 }
 
